@@ -1,0 +1,17 @@
+[13:47:06.941] Database Responce
+[13:47:17.502] Export Reliability report to excel sucessfull
+[13:47:17.632] Send mail suscess :
+[13:47:17.644] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[13:47:26.850] Database Responce
+[13:47:37.554] Export Reliability report to excel sucessfull
+[13:47:37.656] Send mail suscess :
+[13:47:37.667] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[13:47:46.851] Database Responce
+[13:47:57.268] Export Reliability report to excel sucessfull
+[13:47:57.354] Send mail suscess :
+[13:47:57.365] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[14:01:17.758] Export Reliability report to excel sucessfull
+[14:01:17.880] Send mail suscess :

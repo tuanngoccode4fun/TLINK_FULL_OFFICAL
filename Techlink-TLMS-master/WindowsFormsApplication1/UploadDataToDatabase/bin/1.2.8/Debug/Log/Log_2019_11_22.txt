@@ -1,0 +1,15 @@
+[15:40:02.727] Export Reliability report to excel sucessfull
+[15:40:04.205] Send mail suscess :
+[15:40:22.089] Export Reliability report to excel sucessfull
+[15:54:56.942] ExportToTemplate error
+[15:57:58.145] Database Responce
+[15:58:29.774] Database Responce
+[15:59:06.834] Database Responce
+[15:59:58.052] Database Responce
+[16:03:47.727] Export Excel File Complete ! 
+[16:22:15.938] DeleteFilesExcel : Fail 
+[16:23:15.453] Export Excel File Complete ! 
+[16:31:02.916] DeleteFilesExcel : Fail 
+[16:31:15.901] Export Excel File Complete ! 
+[16:34:40.504] DeleteFilesExcel : Fail 
+[16:34:52.497] Export Excel File Complete ! 

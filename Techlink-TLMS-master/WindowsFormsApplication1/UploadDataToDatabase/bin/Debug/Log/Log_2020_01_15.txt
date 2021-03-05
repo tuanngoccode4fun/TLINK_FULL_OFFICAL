@@ -1,0 +1,24 @@
+[14:24:04.149] Database Responce
+[14:24:14.078] Database Responce
+[14:24:34.086] Database Responce
+[14:29:07.508] Database Responce
+[14:29:49.371] Export Reliability report to excel sucessfull
+[14:29:49.493] Send mail suscess :
+[14:29:49.504] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[14:37:30.731] Database Responce
+[14:38:30.896] Export Reliability report to excel sucessfull
+[14:38:31.010] Send mail suscess :
+[14:38:31.021] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[14:46:59.566] Database Responce
+[14:47:36.299] Export Reliability report to excel sucessfull
+[14:47:36.767] Send mail suscess :
+[14:47:36.786] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[15:40:18.103] Export MQC report to excel sucessfull
+[15:44:05.761] Export MQC report to excel sucessfull
+[15:47:39.494] DeleteFilesExcel : Fail 
+[15:47:48.012] Export MQC report to excel sucessfull
+[15:57:50.071] Export MQC report to excel sucessfull
+[16:27:19.211] Export MQC report to excel sucessfull

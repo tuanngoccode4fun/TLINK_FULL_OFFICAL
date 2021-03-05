@@ -1,0 +1,137 @@
+   private List<ShippingItems> ListItemShowShipping(DataTable dta)
+        {
+            List<ShippingItems> ListshippingItems = new List<ShippingItems>();
+            List<ShippingItems> ListshippingResult = new List<ShippingItems>();
+            Dictionary<string, double> keyValuePairs = new Dictionary<string, double>();
+
+
+            for (int i = 0; i < dta.Rows.Count; i++)
+            {
+                ShippingItems Items = new ShippingItems();
+                object item0 = dta.Rows[i][0];//Create_date
+                object item11 = dta.Rows[i][10];//client request date
+                object item16 = dta.Rows[i][11];
+                object item19 = dta.Rows[i][17];
+                object item20 = dta.Rows[i][18];
+
+                Items.CreateTime = DateTime.Parse(dta.Rows[i][0].ToString());
+                Items.OrderCode = (string)dta.Rows[i][1] + "-" + (string)dta.Rows[i][2];
+                Items.Clients = (string)dta.Rows[i][4];
+                Items.Clients_OrderCode = (string)dta.Rows[i][5];
+                Items.Product = (string)dta.Rows[i][6];
+                Items.Quantity = double.Parse(dta.Rows[i][12].ToString());
+                Items.Stock_Quantity = item20.ToString() == "" ? 0 : Math.Round(double.Parse(item20.ToString()), 2);
+                Items.ClientsRequestDate = (item11.ToString()=="")? DateTime.MinValue:  DateTime.Parse(item11.ToString().Insert(4, "-").Insert(7, "-"));
+                Items.DeliveryDate = (item16.ToString().Count() != 8) ? DateTime.MinValue : DateTime.Parse(item16.ToString().Insert(4, "-").Insert(7, "-"));
+                Items.ShippingPercents = item19.ToString() == "" ? 0 : Math.Round(double.Parse(item19.ToString()), 2);
+                ListshippingItems.Add(Items);
+
+
+
+            }
+            var groupedListItems = ListshippingItems
+     .GroupBy(u => u.OrderCode)
+     .Select(grp => grp.ToList())
+     .ToList();
+
+            foreach (List<ShippingItems> shippingItems in groupedListItems)
+            {
+                foreach (var item in shippingItems)
+                {
+                    if (item.ShippingPercents < 100)
+                    {
+                        if ( item.Stock_Quantity < item.Quantity && DateTime.Now.Date >= item.ClientsRequestDate)
+                        {
+                            item.Status = "Back log";
+                        }
+                      
+                        else if (item.ShippingPercents < 100 && DateTime.Now.Date >= item.ClientsRequestDate/* && item.Stock_Quantity >= item.Quantity*/)
+                        {
+                            item.Status = "Late";
+                        }
+                        else
+                        {
+                            item.Status = "Open Order";
+                        }
+                        ListshippingResult.Add(item);
+                    }
+                //    var average = shippingItems.Average(a => a.ShippingPercents);
+                //var MaxDelivery = shippingItems.Max(a => a.DeliveryDate);
+                //shippingItems[0].ShippingPercents = average;
+                //shippingItems[0].DeliveryDate = MaxDelivery;
+                //if (average < 100)
+                //{
+                //    if (shippingItems[0].ShippingPercents < 100 && shippingItems[0].Stock_Quantity < shippingItems[0].Quantity)
+                //    {
+                //        shippingItems[0].Status = "Back log";
+                //    }
+                //    else if (shippingItems[0].ShippingPercents < 100 && shippingItems[0].Stock_Quantity < shippingItems[0].Quantity
+                //         && shippingItems[0].ClientsRequestDate.AddDays(4) > DateTime.Now.Date)
+                //    {
+                //        shippingItems[0].Status = "Late";
+                //    }
+                //    else
+                //    {
+                //        shippingItems[0].Status = "Normal";
+                //    }
+                
+                //if (shippingItems[0].DeliveryDate > shippingItems[0].ClientsRequestDate && shippingItems[0].ShippingPercents < 100)
+                //    shippingItems[0].Status = "Later";
+                //else if (shippingItems[0].DeliveryDate < shippingItems[0].ClientsRequestDate && shippingItems[0].ShippingPercents >= 100)
+                //    shippingItems[0].Status = "Early";
+                //else if (shippingItems[0].DeliveryDate == shippingItems[0].ClientsRequestDate && shippingItems[0].ShippingPercents >= 100)
+                //    shippingItems[0].Status = "On-Time";
+                //else if (DateTime.Now < shippingItems[0].ClientsRequestDate && shippingItems[0].ShippingPercents < 100)
+                //    shippingItems[0].Status = "not complete";
+                //else if (DateTime.Now > shippingItems[0].ClientsRequestDate && shippingItems[0].ShippingPercents < 100)
+                //    shippingItems[0].Status = "not complete - Later";
+                //else shippingItems[0].Status = "Undefined";
+
+          
+                    }
+
+
+            }
+
+            var ListItems = ListshippingResult
+.GroupBy(u => u.Status)
+.Select(grp => grp.ToList())
+.ToList();
+
+            var ListItems2 = ListshippingResult
+ .OrderBy(o => o.ClientsRequestDate)
+.GroupBy(u => u.ClientsRequestDate.Month)
+.Select(grp => grp.ToList())
+.ToList();
+
+            List<StatusSumary> ShippingSummary2 = new List<StatusSumary>();
+
+            foreach (var item in ListItems2)
+            {
+                var ListItems3 = item
+.GroupBy(u => u.Status)
+.Select(grp => grp.ToList())
+.ToList();
+                foreach (var item2 in ListItems3)
+                {
+                    StatusSumary st = new StatusSumary();
+                    st.Status = item2[0].Status;
+                    st.Quantity = item2.Count;
+                    st.ClientsRequestDate = item2[0].ClientsRequestDate.ToString("MMM");
+                    ShippingSummary2.Add(st);
+                }
+            }
+            var ListItems4 = ShippingSummary2
+.GroupBy(u => u.Status)
+.Select(grp => grp.ToList())
+.ToList();
+            ShippingSummary = new List<StatusSumary>();
+            foreach (var item in ListItems)
+            {
+                StatusSumary st = new StatusSumary();
+                st.Status = item[0].Status;
+                st.Quantity = item.Count;
+                ShippingSummary.Add(st);
+            }
+            return ListshippingResult;
+        }

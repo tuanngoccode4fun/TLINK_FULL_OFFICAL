@@ -1,0 +1,19 @@
+[10:48:19.458] check error
+[11:50:11.351] Have files 2019-12-19
+[11:53:16.296] Have files 2019-12-19
+[11:54:32.782] Have files 2019-12-19
+[13:13:00.592] Have files 2019-12-19
+[13:13:03.638] ExportReportProduction()
+[13:15:13.470] Have files 2019-12-19
+[13:15:15.747] ExportToTemplateMQCDefectTop16 : An error happened in the process.
+[13:15:15.765] ExportReportProduction()
+[13:16:01.078] Have files 2019-12-19
+[13:16:03.772] ExportToTemplateMQCDefectTop16 : An error happened in the process.
+[13:16:03.792] ExportReportProduction()
+[13:17:00.383] Have files 2019-12-19
+[13:19:29.663] Have files 2019-12-19
+[13:19:47.119] ExportReportProduction()
+[13:23:51.534] Have files 2019-12-19
+[13:23:54.861] ExportReportProduction()
+[13:38:23.444] Have files 2019-12-19
+[13:38:26.679] ExportReportProduction()

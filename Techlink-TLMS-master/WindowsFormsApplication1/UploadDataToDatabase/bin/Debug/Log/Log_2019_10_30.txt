@@ -1,0 +1,21 @@
+[14:22:32.092] GetDefectRateReport(DateTime from, DateTime to, string Dept, string codeProcess)
+[14:22:42.208] ExportReportProductionDaiLy()
+[15:45:03.055] DeleteFilesExcel : Fail 
+[15:48:16.795] DeleteFilesExcel : Fail 
+[15:50:34.003] DeleteFilesExcel : Fail 
+[15:54:45.392] DeleteFilesExcel : Fail 
+[16:09:16.172] DeleteFilesExcel : Fail 
+[16:09:17.918] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)
+[16:10:13.782] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)
+[16:10:31.393] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)
+[16:25:15.987] DeleteFilesExcel : Fail 
+[16:28:33.404] DeleteFilesExcel : Fail 
+[16:31:01.815] DeleteFilesExcel : Fail 
+[16:33:24.286] DeleteFilesExcel : Fail 
+[16:40:21.237] DeleteFilesExcel : Fail 
+[16:40:30.938] Export MQC report to excel sucessfull
+[16:40:31.000] Send mail fail :
+[16:42:53.221] Export MQC report to excel sucessfull
+[16:42:53.769] Send mail suscess :
+[16:44:30.361] Export MQC report to excel sucessfull
+[16:44:30.943] Send mail suscess :

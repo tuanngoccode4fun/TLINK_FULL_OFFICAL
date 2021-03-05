@@ -1,0 +1,12 @@
+[08:54:12.436] ExportReportProductionDaiLy()
+[08:55:06.166] ExportReportProductionDaiLy()
+[11:01:55.759] Export MQC report to excel sucessfull
+[11:01:56.386] Send mail suscess :
+[11:01:59.291] Export MQC report to excel sucessfull
+[11:02:05.725] Send mail suscess :
+[11:24:41.172] Export MQC report to excel sucessfull
+[11:24:50.790] Send mail suscess :
+[11:28:31.775] Export MQC report to excel sucessfull
+[11:28:33.903] Send mail suscess :
+[11:41:22.644] Export MQC report to excel sucessfull
+[11:41:23.786] Send mail suscess :

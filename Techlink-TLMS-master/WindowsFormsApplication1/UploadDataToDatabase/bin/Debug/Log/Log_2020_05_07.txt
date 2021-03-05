@@ -1,0 +1,6 @@
+[14:47:49.842] Database Responce
+[14:50:31.995] Database Responce
+[14:52:18.402] Export Reliability report to excel sucessfull
+[15:14:26.082] Export Reliability report to excel sucessfull
+[15:16:52.996] DeleteFilesExcel : Fail 
+[15:17:10.176] Export Reliability report to excel sucessfull

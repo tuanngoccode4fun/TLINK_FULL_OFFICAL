@@ -1,0 +1,114 @@
+[14:43:31.168] Send mail complete
+[14:43:39.421] Send mail complete
+[14:43:48.297] Send mail complete
+[14:43:58.298] Send mail complete
+[14:47:12.491] Incorrect syntax near '10/01/2019 14:47:12'.
+[14:48:27.303] Send mail complete
+[14:48:31.915] Send mail complete
+[14:48:36.912] Send mail complete
+[14:48:41.924] Send mail complete
+[14:48:46.925] Send mail complete
+[14:48:51.920] Send mail complete
+[14:48:56.912] Send mail complete
+[14:49:01.914] Send mail complete
+[14:49:06.913] Send mail complete
+[14:49:11.927] Send mail complete
+[14:49:16.926] Send mail complete
+[14:49:21.938] Send mail complete
+[14:49:26.919] Send mail complete
+[14:49:31.929] Send mail complete
+[14:51:16.528] Send mail complete
+[14:51:21.790] Send mail complete
+[14:51:31.789] Send mail complete
+[14:51:41.794] Send mail complete
+[10:12:20.838]  GetDataToExport 
+[10:12:20.842] Export Excel File fail ! 
+[10:13:32.594]  GetDataToExport 
+[10:15:21.618]  GetDataToExport 
+[10:16:16.925]  GetDataToExport 
+[10:17:07.669]  GetDataToExport 
+[10:23:45.156] Export Excel File Complete ! 
+[10:34:46.138] Export Excel File Complete ! 
+[10:38:04.478] Export Excel File Complete ! 
+[10:42:19.034] Export Excel File Complete ! 
+[11:15:26.380] Export Excel File Complete ! 
+[11:22:54.450] Export Excel File Complete ! 
+[11:25:11.366] Export Excel File Complete ! 
+[11:33:03.977] Export Excel File Complete ! 
+[11:39:04.916] Export Excel File Complete ! 
+[11:47:08.348] Export Excel File Complete ! 
+[12:56:42.455] Export Excel File Complete ! 
+[13:01:24.839] Export Excel File Complete ! 
+[13:09:16.963] Export Excel File Complete ! 
+[13:23:58.129] Export Excel File Complete ! 
+[13:34:12.116] Export Excel File Complete ! 
+[13:41:01.171] Export Excel File Complete ! 
+[13:44:15.505] Export Excel File Complete ! 
+[13:48:39.964] Export Excel File Complete ! 
+[13:50:12.526] Export Excel File Complete ! 
+[13:52:17.917] Export Excel File Complete ! 
+[13:59:22.935] Export Excel File Complete ! 
+[14:01:06.922] Export Excel File Complete ! 
+[14:04:24.656] Export Excel File Complete ! 
+[14:06:22.759] Export Excel File Complete ! 
+[14:07:32.535] Export Excel File Complete ! 
+[14:32:56.444] Export Excel File Complete ! 
+[15:01:21.373] Export Excel File Complete ! 
+[15:08:45.225] Export Excel File Complete ! 
+[15:36:29.321] Export Excel File Complete ! 
+[15:52:12.532] Incorrect syntax near 'stylesheet'.
+[16:01:14.319] Send mail complete
+[16:01:15.311] Send mail complete
+[16:05:27.991] Send mail complete
+[16:05:30.990] Send mail complete
+[16:05:33.983] Send mail complete
+[16:05:36.989] Send mail complete
+[16:05:39.985] Send mail complete
+[16:05:42.983] Send mail complete
+[16:05:45.984] Send mail complete
+[16:05:48.990] Send mail complete
+[16:05:51.989] Send mail complete
+[16:05:54.984] Send mail complete
+[16:05:57.986] Send mail complete
+[16:06:00.990] Send mail complete
+[16:06:03.994] Send mail complete
+[16:06:06.988] Send mail complete
+[16:06:09.986] Send mail complete
+[16:06:12.986] Send mail complete
+[16:06:15.987] Send mail complete
+[16:06:18.986] Send mail complete
+[16:06:21.986] Send mail complete
+[16:06:24.988] Send mail complete
+[16:06:27.985] Send mail complete
+[16:06:30.987] Send mail complete
+[16:06:33.994] Send mail complete
+[16:06:36.984] Send mail complete
+[16:06:39.985] Send mail complete
+[16:06:42.984] Send mail complete
+[16:10:28.295] Send mail complete
+[16:13:31.572] Send mail complete
+[16:13:32.632] Send mail complete
+[16:13:37.627] Send mail complete
+[16:13:42.625] Send mail complete
+[16:13:47.630] Send mail complete
+[16:13:52.632] Send mail complete
+[16:13:57.628] Send mail complete
+[16:14:02.633] Send mail complete
+[16:14:07.628] Send mail complete
+[16:14:12.625] Send mail complete
+[16:14:17.627] Send mail complete
+[16:14:22.629] Send mail complete
+[16:14:27.630] Send mail complete
+[16:14:32.631] Send mail complete
+[16:14:37.624] Send mail complete
+[16:14:42.627] Send mail complete
+[16:14:47.632] Send mail complete
+[16:14:52.631] Send mail complete
+[16:14:57.625] Send mail complete
+[16:15:02.627] Send mail complete
+[16:15:07.625] Send mail complete
+[16:15:12.630] Send mail complete
+[16:15:17.629] Send mail complete
+[16:15:22.624] Send mail complete
+[16:15:27.626] Send mail complete
+[17:08:36.503] Export Excel File Complete ! 

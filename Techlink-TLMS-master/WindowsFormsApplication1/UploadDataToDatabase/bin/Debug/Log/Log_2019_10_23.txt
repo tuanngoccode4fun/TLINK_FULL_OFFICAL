@@ -1,0 +1,6 @@
+[16:14:07.258] DeleteFilesExcel : Fail 
+[16:17:14.496] DeleteFilesExcel : Fail 
+[16:30:07.477] DeleteFilesExcel : Fail 
+[16:30:42.727] DeleteFilesExcel : Fail 
+[16:52:48.536] DeleteFilesExcel : Fail 
+[16:52:51.395] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)

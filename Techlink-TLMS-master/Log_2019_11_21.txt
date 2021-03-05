@@ -1,0 +1,6 @@
+[08:15:11.336] Export MQC report to excel sucessfull
+[08:15:11.430] Send mail suscess :
+[08:40:14.605] Have files 2019-11-21
+[09:01:22.686] ExportToTemplate error
+[09:01:22.686] Export excel sucessfull
+[09:01:22.858] Send mail suscess :

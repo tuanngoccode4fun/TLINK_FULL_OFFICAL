@@ -1,0 +1,29 @@
+[08:24:08.643] Upload  data just Finished  ! 
+[08:25:35.109] Upload  data just Finished  ! 
+[08:27:10.349] Upload  data just Finished  ! 
+[08:42:11.628] Upload  data just Finished  ! 
+[08:42:26.451] Upload  data just Finished  ! 
+[08:42:35.759] Upload  data just Finished  ! 
+[08:42:46.261] Upload  data just Finished  ! 
+[08:42:56.426] Upload  data just Finished  ! 
+[08:43:07.182] Upload  data just Finished  ! 
+[08:55:51.419] Upload  data just Finished  ! 
+[08:56:00.722] Upload  data just Finished  ! 
+[08:56:11.241] Upload  data just Finished  ! 
+[09:11:58.875] Upload  data just Finished  ! 
+[09:12:09.275] Upload  data just Finished  ! 
+[09:12:19.120] Upload  data just Finished  ! 
+[09:21:02.496] Upload  data just Finished  ! 
+[09:52:51.153] Upload  data just Finished  ! 
+[09:53:00.596] Upload  data just Finished  ! 
+[09:53:11.022] Upload  data just Finished  ! 
+[09:54:48.615] Upload  data just Finished  ! 
+[09:59:37.768] Upload  data just Finished  ! 
+[09:59:57.827] Upload  data just Finished  ! 
+[15:01:18.997] Invalid column name 'reportname'.
+Invalid column name 'reporttype'.
+Invalid column name 'hours'.
+Invalid column name 'day'.
+Invalid column name 'date'.
+Invalid column name 'month'.
+Invalid column name 'inputdate'.

@@ -1,0 +1,24 @@
+[13:02:19.746] Export excel sucessfull
+[13:02:27.897] Send mail suscess :
+[13:09:46.191] Export excel sucessfull
+[13:10:06.123] Send mail suscess :
+[13:20:54.851] Export excel sucessfull
+[13:21:03.087] Send mail suscess :
+[13:32:21.980] Export excel sucessfull
+[13:32:33.227] Send mail suscess :
+[13:32:33.230] Send mail BackLogReport OK
+[13:40:54.421] Export excel sucessfull
+[13:41:02.551] Send mail suscess :
+[13:41:02.555] Send mail BackLogReport OK
+[13:46:08.830] Export Reliability report to excel sucessfull
+[13:46:10.569] Send mail suscess :
+[13:52:06.029] Export Reliability report to excel sucessfull
+[13:52:07.730] Send mail suscess :
+[13:56:33.229] Export Reliability report to excel sucessfull
+[13:56:34.851] Send mail suscess :
+[14:01:13.907] Export Reliability report to excel sucessfull
+[14:01:15.502] Send mail suscess :
+[14:14:52.859] DeleteFilesExcel : Fail 
+[14:25:16.951] DeleteFilesExcel : Fail 
+[14:26:11.819] DeleteFilesExcel : Fail 
+[14:26:14.032] Export MQC report to excel fail

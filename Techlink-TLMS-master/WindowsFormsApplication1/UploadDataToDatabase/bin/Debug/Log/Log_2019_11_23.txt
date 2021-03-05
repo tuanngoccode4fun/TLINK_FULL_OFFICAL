@@ -1,0 +1,49 @@
+[08:10:55.083] Export Excel File Complete ! 
+[09:06:17.406] Export excel sucessfull
+[09:08:05.459] ExportToTemplate error
+[09:10:22.602] ExportToTemplate error
+[09:10:22.607] Send mail BackLogReport fail 
+[09:15:04.952] Export excel sucessfull
+[09:15:16.250] Send mail suscess :
+[09:15:16.254] Send mail BackLogReport OK
+[09:33:13.852] Export excel sucessfull
+[09:33:21.619] Send mail suscess :
+[09:33:21.624] Send mail BackLogReport OK
+[09:36:42.324] Database Responce
+[09:36:46.033] Export excel sucessfull
+[09:36:54.199] Send mail suscess :
+[09:36:54.221] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[09:38:32.269] Database Responce
+[09:38:35.844] Export excel sucessfull
+[09:38:44.046] Send mail suscess :
+[09:38:44.091] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[09:38:52.279] Database Responce
+[09:38:55.949] Export excel sucessfull
+[09:39:03.954] Send mail suscess :
+[09:39:03.968] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[09:43:50.829] Have files 2019-11-23
+[09:47:40.836] Have files 2019-11-23
+[09:48:02.275] Database Responce
+[09:48:05.598] Export excel sucessfull
+[09:48:13.696] Send mail suscess :
+[09:48:13.712] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[09:48:22.280] Database Responce
+[09:48:25.356] Export excel sucessfull
+[09:48:33.422] Send mail suscess :
+[09:48:33.436] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[09:48:42.272] Database Responce
+[09:48:46.128] Export excel sucessfull
+[09:48:54.162] Send mail suscess :
+[09:48:54.177] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[09:59:58.965] Database Responce
+[10:00:02.171] Export excel sucessfull
+[10:00:13.316] Send mail suscess :
+[10:00:13.337] The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+[10:23:52.355] Export Excel File Complete ! 

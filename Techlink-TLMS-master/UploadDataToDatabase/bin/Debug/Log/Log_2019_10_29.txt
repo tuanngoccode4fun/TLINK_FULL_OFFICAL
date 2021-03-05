@@ -1,0 +1,25 @@
+[08:35:49.327] ExportReportProduction()
+[08:45:35.718] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)
+[09:05:25.369] DeleteFilesExcel : Fail 
+[09:05:31.765] Export MQC report to excel sucessfull
+[09:05:31.840] Send mail fail :
+[09:07:33.595] DeleteFilesExcel : Fail 
+[09:07:41.716] Export MQC report to excel sucessfull
+[09:07:41.828] Send mail suscess :
+[09:10:47.859] Export MQC report to excel sucessfull
+[09:12:55.968] Export MQC report to excel sucessfull
+[09:15:23.206] Export MQC report to excel sucessfull
+[09:15:33.001] Send mail suscess :
+[09:18:33.831] Export MQC report to excel sucessfull
+[09:18:54.087] Send mail suscess :
+[09:23:02.008] Export MQC report to excel sucessfull
+[09:23:02.671] Send mail suscess :
+[09:43:13.027] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)
+[09:43:22.119] Export MQC report to excel sucessfull
+[09:43:22.843] Send mail suscess :
+[09:48:12.525] Export MQC report to excel sucessfull
+[09:48:13.206] Send mail suscess :
+[10:07:16.998] Export MQC report to excel sucessfull
+[10:07:17.628] Send mail suscess :
+[10:50:54.213] DeleteFilesExcel : Fail 
+[11:02:21.575] DeleteFilesExcel : Fail 

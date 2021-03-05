@@ -1,0 +1,6 @@
+[14:23:52.603] Export Reliability report to excel sucessfull
+[14:23:54.086] Send mail suscess :
+[14:27:02.762] Export Reliability report to excel sucessfull
+[14:27:04.318] Send mail suscess :
+[14:45:02.767] Export Reliability report to excel sucessfull
+[14:45:04.258] Send mail suscess :

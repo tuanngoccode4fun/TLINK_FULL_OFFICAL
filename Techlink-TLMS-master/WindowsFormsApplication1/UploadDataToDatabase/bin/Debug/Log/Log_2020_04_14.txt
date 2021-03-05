@@ -1,0 +1,73 @@
+[10:54:03.339] Database Responce: SQLERPTarget
+[10:54:03.362] Database Responce: SQLERPTarget
+[10:54:03.391] Database Responce: SQLERPTarget
+[10:54:03.408] Database Responce: SQLERPTarget
+[10:54:03.425] Database Responce: SQLERPTarget
+[10:54:03.454] Database Responce: SQLERPTarget
+[10:54:03.470] Database Responce: SQLERPTarget
+[10:54:03.485] Database Responce: SQLERPTarget
+[10:54:03.500] Database Responce: SQLERPTarget
+[10:54:03.516] Database Responce: SQLERPTarget
+[10:54:03.534] Database Responce: SQLERPTarget
+[10:54:03.548] Database Responce: SQLERPTarget
+[10:54:03.563] Database Responce: SQLERPTarget
+[10:54:03.577] Database Responce: SQLERPTarget
+[10:54:03.594] Database Responce: SQLERPTarget
+[10:54:03.618] Database Responce: SQLERPTarget
+[10:54:44.153] Database Responce: SQLERPTarget
+[10:54:44.173] Database Responce: SQLERPTarget
+[10:54:44.195] Database Responce: SQLERPTarget
+[10:54:44.220] Database Responce: SQLERPTarget
+[10:54:44.238] Database Responce: SQLERPTarget
+[10:54:44.256] Database Responce: SQLERPTarget
+[10:54:44.281] Database Responce: SQLERPTarget
+[10:54:44.297] Database Responce: SQLERPTarget
+[10:54:44.313] Database Responce: SQLERPTarget
+[10:54:44.331] Database Responce: SQLERPTarget
+[10:54:44.347] Database Responce: SQLERPTarget
+[10:54:44.364] Database Responce: SQLERPTarget
+[10:54:44.379] Database Responce: SQLERPTarget
+[10:54:44.393] Database Responce: SQLERPTarget
+[10:54:44.408] Database Responce: SQLERPTarget
+[10:54:44.423] Database Responce: SQLERPTarget
+[10:56:07.275] DeleteFilesExcel : Fail 
+[10:57:13.397] Database Responce: SQLERPTarget
+[11:01:16.197] Database Responce: SQLERPTarget
+[11:02:15.672] DeleteFilesExcel : Fail 
+[11:04:54.229] DeleteFilesExcel : Fail 
+[11:30:40.128] bat dau gui mail
+[11:30:59.650] Export MQC report to excel sucessfull
+[11:30:59.684] gui mail xong
+[11:30:59.690] Send mail BackLogReport fail 
+[11:31:43.887] bat dau gui mail
+[11:31:57.680] Export MQC report to excel sucessfull
+[11:31:57.768] Send mail suscess :
+[11:31:57.773] gui mail xong
+[11:31:57.778] Send mail BackLogReport OK
+[11:34:15.592] bat dau gui mail
+[11:34:20.412] Export MQC report to excel sucessfull
+[11:34:20.524] Send mail suscess :
+[11:34:20.530] gui mail xong
+[11:34:20.535] Send mail BackLogReport OK
+[11:45:18.953] Export MQC report to excel sucessfull
+[11:45:19.724] Send mail suscess :
+[11:45:19.728] gui mail xong
+[11:45:19.732] Send mail BackLogReport OK
+[11:45:30.882] Export MQC report to excel sucessfull
+[11:45:30.934] Send mail suscess :
+[11:45:30.942] gui mail xong
+[11:45:30.951] Send mail BackLogReport OK
+[11:45:38.045] Export MQC report to excel sucessfull
+[11:45:38.108] Send mail suscess :
+[11:45:38.122] gui mail xong
+[11:45:38.152] Send mail BackLogReport OK
+[11:45:47.458] Export MQC report to excel sucessfull
+[11:45:47.520] Send mail suscess :
+[11:45:47.531] gui mail xong
+[11:45:47.538] Send mail BackLogReport OK
+[11:45:57.667] Export MQC report to excel sucessfull
+[11:45:57.715] Send mail suscess :
+[11:45:57.727] gui mail xong
+[11:45:57.746] Send mail BackLogReport OK
+[11:49:05.742] Export MQC report to excel sucessfull
+[11:49:06.888] Send mail suscess :
