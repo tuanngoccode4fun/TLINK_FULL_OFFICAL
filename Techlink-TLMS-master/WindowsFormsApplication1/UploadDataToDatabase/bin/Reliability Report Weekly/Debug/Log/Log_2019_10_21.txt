@@ -1,6 +1,0 @@
-[14:16:06.833] Export excel sucessfull
-[14:16:19.592] Send mail suscess :
-[14:18:21.522] Export excel sucessfull
-[14:18:35.105] Send mail suscess :
-[14:26:35.620] Export excel sucessfull
-[14:26:44.042] Send mail suscess :

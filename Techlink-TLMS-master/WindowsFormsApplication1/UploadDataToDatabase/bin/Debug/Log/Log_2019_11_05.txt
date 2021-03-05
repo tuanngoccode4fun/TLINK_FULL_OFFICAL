@@ -1,2 +1,0 @@
-[08:38:48.209]  GetDataToExport 
-[12:01:25.450] DeleteFilesExcel : Fail 

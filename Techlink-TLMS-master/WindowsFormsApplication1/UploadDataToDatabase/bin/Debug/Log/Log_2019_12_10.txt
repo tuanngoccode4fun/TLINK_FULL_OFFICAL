@@ -1,7 +1,0 @@
-[09:25:12.742] bat dau gui mail
-[09:25:17.616] C:\ERP_Temp\BackLogReport-20191210 092517.xlsx
-[09:25:17.798] Xuat file OK
-[09:25:17.803] Export excel sucessfull
-[09:25:18.320] Send mail suscess :
-[09:25:18.323] gui mail xong
-[09:25:18.326] Send mail BackLogReport OK

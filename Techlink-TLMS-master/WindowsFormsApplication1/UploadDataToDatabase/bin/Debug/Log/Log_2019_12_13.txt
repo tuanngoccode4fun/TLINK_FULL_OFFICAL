@@ -1,4 +1,0 @@
-[11:18:19.489] Export Reliability report to excel sucessfull
-[11:18:19.812] Send mail suscess :
-[16:54:58.951] String or binary data would be truncated.
-The statement has been terminated.

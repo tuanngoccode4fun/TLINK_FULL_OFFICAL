@@ -1,5 +1,0 @@
-[13:29:08.541] Export Reliability report to excel sucessfull
-[13:34:16.913] Export Reliability report to excel sucessfull
-[13:40:18.197] Export Reliability report to excel sucessfull
-[13:45:54.952] Export Reliability report to excel sucessfull
-[13:49:10.223] Export Reliability report to excel sucessfull

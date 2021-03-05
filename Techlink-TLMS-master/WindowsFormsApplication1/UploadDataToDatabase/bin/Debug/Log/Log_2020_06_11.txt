@@ -1,4 +1,0 @@
-[10:10:47.797] Export Reliability report to excel sucessfull
-[10:15:47.776] DeleteFilesExcel : Fail 
-[10:16:25.261] Export Reliability report to excel sucessfull
-[10:19:50.725] Export Reliability report to excel sucessfull
