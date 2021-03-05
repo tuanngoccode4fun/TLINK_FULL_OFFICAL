@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApplication1.Database.SFC;
 
 namespace WindowsFormsApplication1.NewQRcode
 {
@@ -174,7 +175,7 @@ namespace WindowsFormsApplication1.NewQRcode
                                 if (demandQuantity - (notConfirmQuantity + sum32Int) < 0)
                                 {
                                     ttReturn = QueryResult.NG;
-                                    UI_mesage.ClassMessageBoxUI.Show("Please check quality over demandQuality at stage manage11ment", false);
+                                    UI_mesage.ClassMessageBoxUI.Show("Please check quality over demandQuality at stage management", false);
                                 }
                             }
                         }
@@ -191,6 +192,14 @@ namespace WindowsFormsApplication1.NewQRcode
                             }
                         }
                     }
+                    if (SFCTA.IsSFCTA_TA010_NULL_ZERO(PO) != false)
+                    {
+                        ttReturn = QueryResult.Exception;
+                        SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Please check TA010 value of SFCTA is null or ZERO");
+                        break;
+
+                    }
+                    
                 }
             }
             catch (Exception ex)

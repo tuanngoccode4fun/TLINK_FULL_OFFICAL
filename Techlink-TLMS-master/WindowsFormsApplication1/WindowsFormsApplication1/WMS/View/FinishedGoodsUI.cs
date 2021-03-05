@@ -1465,6 +1465,8 @@ namespace WindowsFormsApplication1.WMS.View
                     dtgv_import.DataSource = null;
                     ListImportFG = new List<Import_FinishGood_WareHouse>();
                     ClassMessageBoxUI.Show("Import all complete!", true);
+                    SystemLog.Output(SystemLog.MSG_TYPE.Nor, "DocNO", "--------------"+ERPDoc+"------------");
+                    SystemLog.Output(SystemLog.MSG_TYPE.Nor, "FunctionImportWarehouse", "--------------Import all complete!------------");
                     txt_QRImport.Focus(); 
                 }
             }

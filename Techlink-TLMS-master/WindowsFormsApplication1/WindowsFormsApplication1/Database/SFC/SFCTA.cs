@@ -206,6 +206,20 @@ namespace WindowsFormsApplication1.Database.SFC
             }
             return true;
         }
+        public static bool IsSFCTA_TA010_NULL_ZERO(string productCode)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("select ISNULL(TA010,0) as TA10 from SFCTA where 1=1 and TA003 = '0020'");
+            stringBuilder.Append(" and TA001 ='" + productCode.Split('-')[0] + "' ");
+            stringBuilder.Append(" and TA002 ='" + productCode.Split('-')[1] + "' ");
+            SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+            string status = sqlTLVN2.sqlExecuteScalarString(stringBuilder.ToString());
+            if ( Convert.ToDouble( status.Trim()) >0)
+            {
+                return true;
+            }
+            return false;
+        }
         public static    bool IscheckQantityAndWeight(string productCode, double Quantity, double Weight)
         {
             try

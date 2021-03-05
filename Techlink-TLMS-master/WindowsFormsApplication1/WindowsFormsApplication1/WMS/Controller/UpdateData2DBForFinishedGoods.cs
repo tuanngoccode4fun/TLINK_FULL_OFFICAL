@@ -191,8 +191,11 @@ namespace WindowsFormsApplication1.WMS.Controller
 				ERPDataUpdate eRPDataUpdate = new ERPDataUpdate();
 				string TB002 = eRPDataUpdate.getTB002(Class.valiballecommon.GetStorage().DocNo);// Done update query from Mr.An guidelines.
 				sql_CheckCondition.QueryResult CheckNoConfirmTotal = sql_CheckCondition.CheckConditionAllItemQRCodeInsert(dtERPPQC);
-				
-					for (int i = 0; i < dtERPPQC.Rows.Count; i++)
+				if (CheckNoConfirmTotal == sql_CheckCondition.QueryResult.Exception)
+				{
+					return sql_CheckCondition.QueryResult.Exception;
+				}
+				for (int i = 0; i < dtERPPQC.Rows.Count; i++)
 				{
 					string productOrder = dtERPPQC.Rows[i]["ProductOrder"].ToString();
 					if (!Database.SFC.SFCTA.IsExistSFCTA(productOrder))
