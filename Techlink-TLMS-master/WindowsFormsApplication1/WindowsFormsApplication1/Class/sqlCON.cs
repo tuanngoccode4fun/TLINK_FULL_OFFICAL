@@ -22,7 +22,10 @@ namespace WindowsFormsApplication1
             {
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 conn.Open();
-                outstring = cmd.ExecuteScalar().ToString();
+                if (cmd.ExecuteScalar() != null)
+                    outstring = cmd.ExecuteScalar().ToString();
+                else
+                    outstring = "";
                 conn.Close();
                 return outstring;
             }

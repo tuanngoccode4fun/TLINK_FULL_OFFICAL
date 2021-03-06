@@ -15,9 +15,9 @@ namespace WindowsFormsApplication1.Database
             try
             {
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.Append(@" select MC001, MC002, NL002, NL003,NL004 from CMSMC
-inner join CMSNL on NL001 = MC001
-order by MC001 ");
+                stringBuilder.Append(@" select MC001, MC002, ISNULL(NL002,'') as NL002, ISNULL(NL003,'') as NL003 ,ISNULL(NL004,'') as NL004 from CMSMC
+                left join CMSNL on NL001 = MC001
+                order by MC001");
                 SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
                 DataTable dt = new DataTable();
                 sqlTLVN2.sqlDataAdapterFillDatatable(stringBuilder.ToString(), ref dt);

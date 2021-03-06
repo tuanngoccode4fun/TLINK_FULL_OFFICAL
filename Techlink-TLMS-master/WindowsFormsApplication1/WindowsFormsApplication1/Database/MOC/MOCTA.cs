@@ -62,7 +62,21 @@ where  (MB031 = '' or CAST(MB031 as datetime) >= GETDATE()) ");
             }
             return false;
         }
-
+        public static bool IsMOCTA_TA013_CONFIRM_Y(string productCode)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("select TA013 as TA013 from MOCTA where 1=1");
+            stringBuilder.Append(" and TA001 ='" + productCode.Split('-')[0] + "' ");
+            stringBuilder.Append(" and TA002 ='" + productCode.Split('-')[1] + "' ");
+            SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+            string status = sqlTLVN2.sqlExecuteScalarString(stringBuilder.ToString());
+            if (status.Trim() == "") return false;
+            if (status.Trim() == "Y")
+            {
+                return true;
+            }
+            return false;
+        }
         public static bool IscheckQantityAndWeight(string productCode, double Quantity, double Weight)
         {
             try

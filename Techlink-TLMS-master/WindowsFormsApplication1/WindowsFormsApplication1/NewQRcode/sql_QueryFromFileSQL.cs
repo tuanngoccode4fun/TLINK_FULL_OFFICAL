@@ -23,15 +23,18 @@ namespace WindowsFormsApplication1.NewQRcode
             try
             {
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.Append("select QR from QR_INPUT_TABLE where 1=1 and ");
-                stringBuilder.Append("QR = '" + QR_Code.Trim() + "'");
-                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                stringBuilder.Append("select Status from t_QRImport where 1=1 and ");
+                stringBuilder.Append("IDQRCODE = '" + QR_Code.Trim() + "'");
+                sqlCON sqlTLVN2 = new sqlCON();
                 string status = sqlTLVN2.sqlExecuteScalarString(stringBuilder.ToString());
-                if (status != "" && status != null)
+                if (status=="True")
                 {
+
+                    SystemLog.Output(SystemLog.MSG_TYPE.War, "IsExistQR", "This QR have already insert complete.");
                     return true;
                 }
                 return false;
+
             }
             catch (Exception ex)
             {
@@ -44,9 +47,11 @@ namespace WindowsFormsApplication1.NewQRcode
             try
             {
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.Append("insert into QR_INPUT_TABLE (QR) values('");
-                stringBuilder.Append( QR_Code.Trim() + "')");
-                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                stringBuilder.Append("insert into t_QRImport (IDQRCODE,Status,Update_Date) values('");
+                stringBuilder.Append( QR_Code.Trim() + "',");
+                stringBuilder.Append("'" + 1 + "',");
+                stringBuilder.Append("'" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "')");
+                sqlCON sqlTLVN2 = new sqlCON();
                 sqlTLVN2.sqlExecuteNonQuery(stringBuilder.ToString(),false);
             }
             catch (Exception ex)
@@ -73,9 +78,10 @@ namespace WindowsFormsApplication1.NewQRcode
                                             .Replace("@STT_VALUE", (i + 1).ToString("0000"))
                                             .Replace("@Confirm_VALUE", ReturnYN(IsCheckQuantity_Weight));
                 SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
-                bool status = sqlTLVN2.sqlExecuteNonQuery(script.ToString(),false);
-                if (status)
+                string  status = sqlTLVN2.sqlExecuteScalarString(script.ToString());
+                if (status== "End script with sucessful")
                 {
+                    InsertQRcode(ERPPQC["TransactionID"].ToString());
                     return sql_CheckCondition.QueryResult.OK;
                 }
                 else

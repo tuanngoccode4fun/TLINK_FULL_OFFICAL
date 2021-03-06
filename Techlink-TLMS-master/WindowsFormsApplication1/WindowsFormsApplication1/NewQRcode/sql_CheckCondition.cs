@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsFormsApplication1.Database.MOC;
 using WindowsFormsApplication1.Database.SFC;
 
 namespace WindowsFormsApplication1.NewQRcode
@@ -160,7 +161,15 @@ namespace WindowsFormsApplication1.NewQRcode
                         double SLDongGoi = Database.INV.INVMD.ConvertToWeightKg(product, sum32Int);
                         sql_CheckCondition.QueryResult statusStage = sql_CheckCondition.Is_stageManagement(product);/// check condition have stage management.
                         demandQuantity = GetQuantityDemandPlan(PO);
-                        bool statusWeight= GetWeightDemandPlan(PO, SLDongGoi);
+                        bool statusWeight;
+                        if (Is_stageManagement(product) == QueryResult.OK)
+                        {
+                            statusWeight = GetWeightDemandPlan(PO, SLDongGoi);
+                        }
+                        else 
+                        {
+                            statusWeight = GetWeightDemandPlan_NoStageManagement(PO, SLDongGoi);
+                        }
                         if (!statusWeight)
                         {
                             ttReturn = QueryResult.NG;
@@ -192,14 +201,21 @@ namespace WindowsFormsApplication1.NewQRcode
                             }
                         }
                     }
-                    if (SFCTA.IsSFCTA_TA010_NULL_ZERO(PO) != false)
+                    if (Is_stageManagement(product)==QueryResult.OK &&SFCTA.IsSFCTA_TA010_NULL_ZERO(PO) == false)
                     {
                         ttReturn = QueryResult.Exception;
                         SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Please check TA010 value of SFCTA is null or ZERO");
                         break;
 
                     }
-                    
+                    if (Is_stageManagement(product) == QueryResult.NG && MOCTA.IsMOCTA_TA013_CONFIRM_Y(PO) == false)
+                    {
+                        ttReturn = QueryResult.Exception;
+                        SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Please check IsMOCTA_TA013_CONFIRM_Y");
+                        break;
+
+                    }
+
                 }
             }
             catch (Exception ex)
@@ -344,6 +360,42 @@ namespace WindowsFormsApplication1.NewQRcode
                     double TA040 = double.Parse(dt.Rows[0]["TA040"].ToString());
 
                     if ( TA039 + TA040 + SLDongGoi>TA038)
+                        return false;
+                    else return true;
+
+                }
+            }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetQuantityDemandPlan", ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+        }
+        public static bool GetWeightDemandPlan_NoStageManagement(string PO, Double SLDongGoi)
+        {
+            try
+            {
+                conn.Open();
+                string P = PO.Split('-')[0].Trim();
+                string O = PO.Split('-')[1].Trim();
+                string m_query_temp = @"select ISNULL(TA045,0) as TA045, ISNULL(TA046,0) as TA046,ISNULL(TA047,0) as TA047 
+from MOCTA  where TA001 = @P and TA002 = @O"; // 
+                string m_query_MOCTA = m_query_temp.Replace("@P", "'" + P + "'").Replace("@O", "'" + O + "'");
+                DataTable dt = new DataTable();
+                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                sqlTLVN2.sqlDataAdapterFillDatatable(m_query_MOCTA.ToString(), ref dt);
+                if (dt.Rows.Count == 1)
+                {
+
+                    double TA038 = double.Parse(dt.Rows[0]["TA045"].ToString());
+                    double TA039 = double.Parse(dt.Rows[0]["TA046"].ToString());
+                    double TA040 = double.Parse(dt.Rows[0]["TA047"].ToString());
+
+                    if (TA039 + TA040 + SLDongGoi > TA038)
                         return false;
                     else return true;
 

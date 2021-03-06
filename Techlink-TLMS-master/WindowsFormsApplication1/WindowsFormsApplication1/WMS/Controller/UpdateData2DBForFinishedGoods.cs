@@ -198,12 +198,13 @@ namespace WindowsFormsApplication1.WMS.Controller
 				for (int i = 0; i < dtERPPQC.Rows.Count; i++)
 				{
 					string productOrder = dtERPPQC.Rows[i]["ProductOrder"].ToString();
-					if (!Database.SFC.SFCTA.IsExistSFCTA(productOrder))
+					string product = dtERPPQC.Rows[i]["Product"].ToString().Trim();
+					if (!Database.SFC.SFCTA.IsExistSFCTA(productOrder) && sql_CheckCondition.Is_stageManagement(product) == sql_CheckCondition.QueryResult.OK)
 					{
 						MessageBox.Show("Please check not exist this product in SFCTA: "+ productOrder, "Warning", MessageBoxButtons.OK);/// Consider 
 						break;
 					}
-					string product = dtERPPQC.Rows[i]["Product"].ToString().Trim();
+					
 					double Quantity = double.Parse(dtERPPQC.Rows[i]["Quantity"].ToString());
 					double SLDongGoi = Database.INV.INVMD.ConvertToWeightKg(product, Quantity);// convert quality to Kg
 					string WareHouse = dtERPPQC.Rows[i]["Warehouse"].ToString();
@@ -327,7 +328,10 @@ namespace WindowsFormsApplication1.WMS.Controller
 			}
 			return ttReturn;
 		}
-		public bool UpdateDataDBForFinishedGoodsNotConfirm(DataTable dtERPPQC, string Location, out string ERPDoc, out string SFTDoc)
+
+
+
+        public bool UpdateDataDBForFinishedGoodsNotConfirm(DataTable dtERPPQC, string Location, out string ERPDoc, out string SFTDoc)
 		{
 			try
 			{

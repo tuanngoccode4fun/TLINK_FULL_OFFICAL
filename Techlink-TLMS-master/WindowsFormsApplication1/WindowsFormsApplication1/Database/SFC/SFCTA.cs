@@ -214,6 +214,7 @@ namespace WindowsFormsApplication1.Database.SFC
             stringBuilder.Append(" and TA002 ='" + productCode.Split('-')[1] + "' ");
             SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
             string status = sqlTLVN2.sqlExecuteScalarString(stringBuilder.ToString());
+            if (status.Trim() == "") return false;
             if ( Convert.ToDouble( status.Trim()) >0)
             {
                 return true;

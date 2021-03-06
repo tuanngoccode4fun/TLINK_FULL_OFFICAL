@@ -154,6 +154,7 @@ namespace WindowsFormsApplication1.WMS.View
                 if (status_IsInput)
                 {
                     ClassMessageBoxUI.Show("Please scan your location for add new item!", false);
+                    txt_QRImport.Focus();
                     return;
                 }
                 Import_FinishGood_WareHouse valueTem = GetImportFG.ConvertQR2DataTable(texInput, cmboxWareHouse.Text.Trim(), dtgv_import);
@@ -174,7 +175,7 @@ namespace WindowsFormsApplication1.WMS.View
                         txt_QRImport.Focus();
                         return;
                     }
-                    if (!sql_QueryFromFileSQL.IsExistQR(valueTem.TransactionID))
+                    if (sql_QueryFromFileSQL.IsExistQR(valueTem.TransactionID)) 
                     {
                         //sql_QueryFromFileSQL.InsertQRcode(valueTem.TransactionID);
                         txt_QRImport.Text = null;
@@ -193,7 +194,8 @@ namespace WindowsFormsApplication1.WMS.View
                         ListImportFG.Add(valueGet);
                         SystemLog.Output(SystemLog.MSG_TYPE.Nor, "[ReceiveQR Success] " , valueGet.TransactionID);
                         txt_QRImport.Text = null;
-                        txt_QRImport.Focus();
+                        txt_QRLocationImport.Text = "";
+                        //txt_QRImport.Focus();
                     }
                     else
                     {
@@ -203,6 +205,11 @@ namespace WindowsFormsApplication1.WMS.View
                         return;
                     }
                     status_IsInput = true;
+                    if (sql_CheckCondition.Is_LocationManagement(valueTem.Warehouse) == sql_CheckCondition.QueryResult.NG)
+                    {
+                        status_IsInput = false;
+                    }
+
                 }
                 dtgv_import.DataSource = null;
                 dtgv_import.DataSource = ListImportFG;
@@ -210,7 +217,7 @@ namespace WindowsFormsApplication1.WMS.View
             }
             catch (Exception ex)
             {
-               ClassMessageBoxUI.Show(ex.Message, false);
+               //ClassMessageBoxUI.Show(ex.Message, false);
                SystemLog.Output(SystemLog.MSG_TYPE.Err, "[ReceiveQR] :" , ex.Message);
             }
 
@@ -267,7 +274,9 @@ namespace WindowsFormsApplication1.WMS.View
             var listwarehouse2 = ListWarehouse.Select(d => d.MC001_Wh).Distinct().ToList();
             cmboxWareHouse.DataSource = null;
             cmboxWareHouse.DataSource = listwarehouse2.ToList();
-            var wh = Class.valiballecommon.GetStorage().Warehouse.Trim();
+            string wh = "";
+            if (Class.valiballecommon.GetStorage().Warehouse != null)
+             wh = Class.valiballecommon.GetStorage().Warehouse.Trim();
             cmboxWareHouse.SelectedIndex = listwarehouse2.ToList().FindIndex(x => x.Trim() == wh.Trim());
             /////////
             Update_list_location(wh);
@@ -336,7 +345,7 @@ namespace WindowsFormsApplication1.WMS.View
                     {
                         dataQRInfor = ListToDatatable.ConvertListToDataTable((List<Import_FinishGood_WareHouse>)dtgv_import.DataSource);
                         FunctionImportWarehouse();
-                        txt_QRImport.Focus();
+                        //txt_QRImport.Focus();
                     }
                     else
                     {
@@ -1430,7 +1439,8 @@ namespace WindowsFormsApplication1.WMS.View
                 }
 
             }
-            if (txt_QRLocationImport.Text == "")
+            //string aaa = cmboxWareHouse.SelectedValue.ToString();
+            if (txt_QRLocationImport.Text == "" && sql_CheckCondition.Is_LocationManagement(cmboxWareHouse.SelectedValue.ToString().Trim()) == sql_CheckCondition.QueryResult.OK)
             {
                 ClassMessageBoxUI.Show("You must select location !", false);
                 return false;
@@ -1471,7 +1481,7 @@ namespace WindowsFormsApplication1.WMS.View
                     txt_ERPDocCreate.Text = Class.valiballecommon.GetStorage().DocNo + "-" + ERPDoc;
                     //txt_SFTDoc.Text = Class.valiballecommon.GetStorage().DocNo+"-" + SFTDoc;
                     lb_Status.Text = "Importing Finished Goods success :" + Class.valiballecommon.GetStorage().DocNo + "-" + ERPDoc;
-                    SIUD_Mes.Insert(dataQRInfor);
+                    //SIUD_Mes.Insert(dataQRInfor);
                     txt_QRLocationImport.Text = null;
                     cb_locationImport.SelectedIndex = -1;
                     dtgv_import.DataSource = null;
@@ -1669,7 +1679,7 @@ namespace WindowsFormsApplication1.WMS.View
         }
 
         private void cmboxWareHouse_DropDownClosed(object sender, EventArgs e)
-        {
+        {if(cmboxWareHouse.SelectedItem != null)
             Update_list_location(cmboxWareHouse.SelectedItem.ToString().Trim());
         }
 
