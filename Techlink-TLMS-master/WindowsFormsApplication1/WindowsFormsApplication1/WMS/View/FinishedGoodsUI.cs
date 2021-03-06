@@ -163,6 +163,7 @@ namespace WindowsFormsApplication1.WMS.View
                     {
                         ClassMessageBoxUI.Show(string.Format("It's different item WareHouse between your warehouse {0} and {1}", cmboxWareHouse.SelectedItem.ToString().Trim(), valueTem.Warehouse), false);
                         txt_QRImport.Text = null;
+                        txt_QRImport.Focus();
                         return;
                     }
                     /// check all data same warehouse or not
@@ -170,8 +171,17 @@ namespace WindowsFormsApplication1.WMS.View
                     {
                         ClassMessageBoxUI.Show(string.Format("It's different item WareHouse between {0} and {1}", ListImportFG[0].Warehouse, valueTem.Warehouse), false);
                         txt_QRImport.Text = null;
+                        txt_QRImport.Focus();
                         return;
                     }
+                    if (!sql_QueryFromFileSQL.IsExistQR(valueTem.TransactionID))
+                    {
+                        //sql_QueryFromFileSQL.InsertQRcode(valueTem.TransactionID);
+                        txt_QRImport.Text = null;
+                        txt_QRImport.Focus();
+                        return;
+                    }
+
                     ///// check data input duplicate or not
                     if (!IdentifyQR.IsDuplicate(ListImportFG, valueTem))
                     {
@@ -183,11 +193,13 @@ namespace WindowsFormsApplication1.WMS.View
                         ListImportFG.Add(valueGet);
                         SystemLog.Output(SystemLog.MSG_TYPE.Nor, "[ReceiveQR Success] " , valueGet.TransactionID);
                         txt_QRImport.Text = null;
+                        txt_QRImport.Focus();
                     }
                     else
                     {
                         ClassMessageBoxUI.Show("QR code have already added in your list!", false);
                         txt_QRImport.Text = null;
+                        txt_QRImport.Focus();
                         return;
                     }
                     status_IsInput = true;

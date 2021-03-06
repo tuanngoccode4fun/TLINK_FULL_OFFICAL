@@ -539,3 +539,4 @@ IF @COMMIT =0
  ROLLBACK TRAN
 ELSE IF @COMMIT = 1
 COMMIT TRAN
+select 'End script with sucessful'

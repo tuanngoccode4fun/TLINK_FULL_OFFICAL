@@ -18,6 +18,43 @@ namespace WindowsFormsApplication1.NewQRcode
             if (value) return "Y";
             else return "N";
         }
+        public static bool IsExistQR(string QR_Code)
+        {
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append("select QR from QR_INPUT_TABLE where 1=1 and ");
+                stringBuilder.Append("QR = '" + QR_Code.Trim() + "'");
+                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                string status = sqlTLVN2.sqlExecuteScalarString(stringBuilder.ToString());
+                if (status != "" && status != null)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "IsExistQR", ex.Message);
+                return false;
+            }
+        }
+        public static void InsertQRcode(string QR_Code)
+        {
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append("insert into QR_INPUT_TABLE (QR) values('");
+                stringBuilder.Append( QR_Code.Trim() + "')");
+                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                sqlTLVN2.sqlExecuteNonQuery(stringBuilder.ToString(),false);
+            }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "InsertQRcode", ex.Message);
+            }
+
+        }
         static sql_CheckCondition.QueryResult InsertFunction(DataRow ERPPQC, int i, string TF002, bool IsCheckQuantity_Weight, string nameFile)
         {
             try
