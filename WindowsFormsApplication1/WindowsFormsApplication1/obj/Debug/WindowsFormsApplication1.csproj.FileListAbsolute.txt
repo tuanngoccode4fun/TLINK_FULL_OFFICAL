@@ -1,0 +1,525 @@
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CommonForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CommonFormMetro.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReportShow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReport.DiplayChartDatagrid.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReport.DisplayDetail.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERP_KPI.ERPPKI_Data.ERPPlanForm.DailyTagetForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReport.ProductionMonitoring.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ShippingReport.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.BOMDeclarasionWin.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.BOMDeclarWin.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.BuyerInput.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.DeliveryOrderExport.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.InputExcel.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.InputProduct.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.InputWeight.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.SelectBuyerWin.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.ShipmentInformation.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.ShipmentTypeSelectWin.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.TypingItems.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.AddERPConfigMail.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPConfigMail.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPMaterialShow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPShowMain.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPShowOrder.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPShowShipping.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERP_KPI_Report.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.Order_PDC.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ProductionChart.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.EmployeeUpdate.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.HRManagementMain.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.HRAttendaceReport.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.HumanResourceDept.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.TimeWorking.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.WindowAbsenceList.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LoginFr.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainFr.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainLayout.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.HRManagement.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.ProductionUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.SystemUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.UserSettingUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.LineUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MaterialManagement.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCChart.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCReview.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCShowForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCShowLine.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCShowLot.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.NGPanel.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.ProductionMain.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.RWPanel.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.SummaryWindow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.TargetProduction.TargetProdution.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.NewQRcode.UI_mesage.MessageBoxUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.OVEN.OVENShow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.OVEN.OvenTemp.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.PlanningConfigure.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.PlanningMain.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.SettingDataPlanning.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.View.ProductionPLan.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.View.SemiFinishedGoodsForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.View.StockInWarehouseShow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PQM.ConnectData.Adruino.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PQM.ConnectData.ConnectData.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PrintQRCode.PrintQRCode.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Report.Backlog.BacklogReportReview.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Report.Reliability.ReliabilityReport.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.Change_Password.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.DeptForm.AddDept.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.DeptForm.DeptForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.IPPLC.AddIPPLC.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.IPPLC.IPPLC.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.Language.SettingLanguage.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.Line_ModelForm.ModelLine.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ModelForm.AddModelForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ModelForm.ModelForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.LineForm.AddLineForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.LineForm.LineForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.PermissionForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ProcessForm.AddProcessForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ProcessForm.ProcessForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.RegisterUserForm.AddRegisterUser.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.RegisterUsesForm.RegisterUserForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ToolForm.CalenderDate.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserControlFol.ProductInfoGeneral.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Warehouse.CheckMaterial.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Warehouse.QtyStationController.QtyStationCotroller.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Warehouse.WarehouseAlarm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.ConfirmForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.GenerateQRCode.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.INOUTManagement.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.PickingLocation.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.PrintQRCode.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ClientOrderUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ExportSummary.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.FinishedGoodsUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ImportSummary.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.PrintQRCodeLabel.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ProductionMaterial.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.TransferMaterialUI.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\01_no stage_no lot_manage location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\02_no stage_manage lot_no location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\03_no stage_manage lot_manage location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\04_manage stage_no lot_no location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\05_manage stage_no lot_manage location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\06_manage stage_manage lot_no location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\07_manage stage_manage lot_ manage location.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\not_stageManagement_LotManagement.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\not_stageManagement_NoLotManagement.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\StageManagement_LotManagement.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\StageManagement_NotLotManagement.sql
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\AttendanceDaily.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\AbsenceForm_v1.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\BackLogForm3.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\BackLogOverview.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\CustomsBOM.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ExportFGsForm.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ExportFGsForm.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Declaration_Form.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ERP_HQ_BOM.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Form5Common.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\FormTDP.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Form5Common2.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BXLLAPI_x64.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\FORM_MQC_DAILY.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Backlog.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\HR management_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\loader.gif
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Month.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC-PQC_Template.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC_Daily.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Production.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\productionPlan_form_ver1.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\productionPlan_TiengViet.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ProductionPLan_HouseHold_Form.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Reliability.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Reliability1.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ShippingForm.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\systemConfigure_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\TechLink.ico
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Template_MQC.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Week.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\pic.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\picture_Search.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Search-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\excel-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\logo3.jpg
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\close-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\expand-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\home2-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Home-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Clock-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\SHORTAGE_MATERIAL_Status.PNG
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Normal_Status.PNG
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\High_Defect_Status.PNG
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\chart-search-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\blue-plus-icon.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Properties\Resources.resx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Properties\Resources.Designer.cs
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BXLLAPI_x64.lib
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Customs_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\finishedGoods.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\finishedGoods_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Form_Location.PNG
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\in_warehouse.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\confirm.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\confirm_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Login.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\log-in.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\LoginSuccess.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\login_24.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\authorization.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\check_material_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\materialAlarm_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\filter_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Add_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\delete_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Excel_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Add_32_2.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\language_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Analysis_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Analysis_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Manpower.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\out_warehouse.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\printer.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Password.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\password_24.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Planning.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ProductionPlan.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\oven.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\oven_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\search.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\qr-code_16.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\qr-code.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\remove_16.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\setting_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\refresh.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Tech-link.bmp
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\warehouse_arrangement.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\transfer.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\transfer_32.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\warehouse.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\warehouse_64.png
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.exe.config
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.exe.manifest
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.application
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.exe
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Framework.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MetroFramework.Design.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MetroFramework.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NumberConverterToText.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Spire.Barcode.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\XanderUI.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Google.Protobuf.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Zstandard.Net.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Renci.SshNet.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Buffers.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Memory.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.TrustInfo.xml
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.exe.manifest
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.application
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.exe
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.pdb
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\01_no stage_no lot_manage location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\02_no stage_manage lot_no location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\03_no stage_manage lot_manage location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\04_manage stage_no lot_no location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\05_manage stage_no lot_manage location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\06_manage stage_manage lot_no location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\07_manage stage_manage lot_ manage location.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\not_stageManagement_LotManagement.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\not_stageManagement_NoLotManagement.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\StageManagement_LotManagement.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\StageManagement_NotLotManagement.sql
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\AttendanceDaily.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\AbsenceForm_v1.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\BackLogForm3.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\BackLogOverview.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\CustomsBOM.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ExportFGsForm.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ExportFGsForm.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Declaration_Form.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ERP_HQ_BOM.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Form5Common.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\FormTDP.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Form5Common2.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BXLLAPI_x64.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\FORM_MQC_DAILY.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Backlog.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\HR management_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\loader.gif
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Month.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC-PQC_Template.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC_Daily.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Production.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\productionPlan_form_ver1.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\productionPlan_TiengViet.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ProductionPLan_HouseHold_Form.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Reliability.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Reliability1.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ShippingForm.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\systemConfigure_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\TechLink.ico
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Template_MQC.xlsx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Week.xls
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\pic.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\picture_Search.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Search-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\excel-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\logo3.jpg
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\close-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\expand-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\home2-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Home-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Clock-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\SHORTAGE_MATERIAL_Status.PNG
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Normal_Status.PNG
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\High_Defect_Status.PNG
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\chart-search-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\blue-plus-icon.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Properties\Resources.resx
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Properties\Resources.Designer.cs
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BXLLAPI_x64.lib
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Customs_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\finishedGoods.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\finishedGoods_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Form_Location.PNG
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\in_warehouse.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\confirm.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\confirm_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Login.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\log-in.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\LoginSuccess.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\login_24.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\authorization.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\check_material_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\materialAlarm_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\filter_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Add_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\delete_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Excel_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Add_32_2.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\language_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Analysis_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Analysis_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Manpower.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\out_warehouse.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\printer.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Password.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\password_24.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Planning.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\MQC_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\ProductionPlan.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\oven.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\oven_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\search.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\qr-code_16.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\qr-code.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\remove_16.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\setting_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\refresh.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\Tech-link.bmp
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\warehouse_arrangement.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\transfer.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\transfer_32.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\warehouse.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\warehouse_64.png
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.exe.config
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.exe.manifest
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.application
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.exe
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Techlink.pdb
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.WinForms.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MetroFramework.Design.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MetroFramework.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MetroFramework.Fonts.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.CSharp.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.DataSetExtensions.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Data.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Deployment.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Design.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.DirectoryServices.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Drawing.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Messaging.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Net.Http.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Runtime.Serialization.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Security.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Windows.Forms.DataVisualization.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Windows.Forms.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Xaml.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Xml.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Xml.Linq.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsBase.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsIntegration.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Google.Protobuf.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Zstandard.Net.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\BouncyCastle.Crypto.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Ubiety.Dns.Core.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Renci.SshNet.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Buffers.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\K4os.Compression.LZ4.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\K4os.Hash.xxHash.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Memory.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.pdb
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.WinForms.pdb
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.WinForms.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.pdb
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CommonForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CommonFormMetro.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReportShow.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReport.DiplayChartDatagrid.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReport.DisplayDetail.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERP_KPI.ERPPKI_Data.ERPPlanForm.DailyTagetForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReport.ProductionMonitoring.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ShippingReport.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.BOMDeclarasionWin.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.BOMDeclarWin.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.BuyerInput.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.DeliveryOrderExport.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.InputExcel.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.InputProduct.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.InputWeight.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.SelectBuyerWin.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.ShipmentInformation.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.View.ShipmentTypeSelectWin.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CustomsDeclarasion.TypingItems.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.AddERPConfigMail.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPConfigMail.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPMaterialShow.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPShowMain.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPShowOrder.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERPShowShipping.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ERP_KPI_Report.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.Order_PDC.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ERPShowOrder.ProductionChart.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.EmployeeUpdate.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.HRManagementMain.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.HRAttendaceReport.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.HumanResourceDept.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.TimeWorking.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.HRProject.InOutData.View.WindowAbsenceList.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LoginFr.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainFr.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainLayout.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.HRManagement.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.ProductionUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.SystemUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.mainUI.UserSettingUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.LineUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MaterialManagement.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCChart.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCReview.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCShowForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCShowLine.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.MQCShowLot.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.NGPanel.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.ProductionMain.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.RWPanel.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.SummaryWindow.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MQC.TargetProduction.TargetProdution.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.NewQRcode.UI_mesage.MessageBoxUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.OVEN.OVENShow.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.OVEN.OvenTemp.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.PlanningConfigure.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.PlanningMain.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.SettingDataPlanning.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.View.ProductionPLan.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.View.SemiFinishedGoodsForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Planning.View.StockInWarehouseShow.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PQM.ConnectData.Adruino.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PQM.ConnectData.ConnectData.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PrintQRCode.PrintQRCode.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Report.Backlog.BacklogReportReview.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Report.Reliability.ReliabilityReport.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.Change_Password.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.DeptForm.AddDept.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.DeptForm.DeptForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.IPPLC.AddIPPLC.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.IPPLC.IPPLC.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.Language.SettingLanguage.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.Line_ModelForm.ModelLine.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ModelForm.AddModelForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ModelForm.ModelForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.LineForm.AddLineForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.LineForm.LineForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.PermissionForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ProcessForm.AddProcessForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.ProcessForm.ProcessForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.RegisterUserForm.AddRegisterUser.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingForm.RegisterUsesForm.RegisterUserForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ToolForm.CalenderDate.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.UserControlFol.ProductInfoGeneral.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Warehouse.CheckMaterial.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Warehouse.QtyStationController.QtyStationCotroller.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Warehouse.WarehouseAlarm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.ConfirmForm.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.GenerateQRCode.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.INOUTManagement.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.PickingLocation.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.PrintQRCode.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ClientOrderUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ExportSummary.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.FinishedGoodsUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ImportSummary.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.PrintQRCodeLabel.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.ProductionMaterial.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.WMS.View.TransferMaterialUI.resources
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.TrustInfo.xml
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.exe.manifest
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.application
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.exe
+D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.pdb

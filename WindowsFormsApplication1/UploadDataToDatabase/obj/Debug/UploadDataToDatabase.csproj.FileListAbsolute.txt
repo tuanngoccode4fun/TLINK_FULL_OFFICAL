@@ -1,0 +1,13 @@
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.HR_Audit.HR_Audit.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
