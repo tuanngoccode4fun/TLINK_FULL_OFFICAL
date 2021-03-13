@@ -30,22 +30,36 @@ namespace WindowsFormsApplication1.NewQRcode
                     return QueryResult.NG;
                 }
                 conn.Open();
-                string m_query_INVMB = @"select distinct MB010 from INVMB where MB001 = '" + MB001_product.Trim() + "'"; // 
-                using (SqlCommand command = new SqlCommand(m_query_INVMB, conn))
-                using (SqlDataReader reader = command.ExecuteReader())
+                string m_query_INVMB = @"select distinct MB011 from INVMB where MB001 = '" + MB001_product.Trim() + "'"; // 
+                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                string GetString = sqlTLVN2.sqlExecuteScalarString(m_query_INVMB);
+                if(GetString != "" || GetString != string.Empty)
                 {
-                    // Kiểm tra có kết quả trả về
-                    if (reader.HasRows)
-                    {
+                    if( GetString != "A-02")
                         return QueryResult.OK;
-                    }
-                    else
-                    {
-                        return QueryResult.NG;
-                    }
                 }
-
+                else
+                {
+                    return QueryResult.NG;
+                }
+                return QueryResult.Exception;
             }
+                //using (SqlCommand command = new SqlCommand(m_query_INVMB, conn))
+                //using (SqlDataReader reader = command.ExecuteReader())
+                //{
+                //    // Kiểm tra có kết quả trả về
+                //    if (reader.HasRows)
+                //    {
+
+                //        return QueryResult.OK;
+                //    }
+                //    else
+                //    {
+                //        return QueryResult.NG;
+                //    }
+                //}
+
+            
             catch (Exception ex)
             {
                 SystemLog.Output(SystemLog.MSG_TYPE.Err, "Is_stageManagement", ex.Message);
@@ -55,6 +69,7 @@ namespace WindowsFormsApplication1.NewQRcode
             {
                 conn.Close();
             }
+
         }
         /// <summary>
         ///  INVMB -MB022 : gia tri là "Y" hoac "T" => quan ly so lot
@@ -382,7 +397,7 @@ namespace WindowsFormsApplication1.NewQRcode
                 conn.Open();
                 string P = PO.Split('-')[0].Trim();
                 string O = PO.Split('-')[1].Trim();
-                string m_query_temp = @"select ISNULL(TA045,0) as TA045, ISNULL(TA046,0) as TA046,ISNULL(TA047,0) as TA047 
+                string m_query_temp = @"select TA007, ISNULL(TA045,0) as TA045, ISNULL(TA046,0) as TA046,ISNULL(TA047,0) as TA047 
 from MOCTA  where TA001 = @P and TA002 = @O"; // 
                 string m_query_MOCTA = m_query_temp.Replace("@P", "'" + P + "'").Replace("@O", "'" + O + "'");
                 DataTable dt = new DataTable();
@@ -390,13 +405,16 @@ from MOCTA  where TA001 = @P and TA002 = @O"; //
                 sqlTLVN2.sqlDataAdapterFillDatatable(m_query_MOCTA.ToString(), ref dt);
                 if (dt.Rows.Count == 1)
                 {
+                    if (dt.Rows[0]["TA007"].ToString().ToUpper() != "KG")
+                    {
+                        double TA038 = double.Parse(dt.Rows[0]["TA045"].ToString());
+                        double TA039 = double.Parse(dt.Rows[0]["TA046"].ToString());
+                        double TA040 = double.Parse(dt.Rows[0]["TA047"].ToString());
 
-                    double TA038 = double.Parse(dt.Rows[0]["TA045"].ToString());
-                    double TA039 = double.Parse(dt.Rows[0]["TA046"].ToString());
-                    double TA040 = double.Parse(dt.Rows[0]["TA047"].ToString());
-
-                    if (TA039 + TA040 + SLDongGoi > TA038)
-                        return false;
+                        if (TA039 + TA040 + SLDongGoi > TA038)
+                            return false;
+                        else return true;
+                    }
                     else return true;
 
                 }
