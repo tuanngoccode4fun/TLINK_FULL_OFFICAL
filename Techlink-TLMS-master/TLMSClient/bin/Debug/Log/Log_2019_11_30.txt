@@ -1,2 +1,0 @@
-[08:40:31.515] program TLMS Client closing
-[10:44:28.073] program TLMS Client closing

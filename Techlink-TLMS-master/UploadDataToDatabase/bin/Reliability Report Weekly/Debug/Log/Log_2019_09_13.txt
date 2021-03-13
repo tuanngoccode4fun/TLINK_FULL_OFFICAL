@@ -1,4 +1,0 @@
-[13:25:46.742] Incorrect syntax near 'd'.
-Unclosed quotation mark after the character string ',GETDATE())'.
-[13:28:17.164] Incorrect syntax near 'll'.
-Unclosed quotation mark after the character string ',GETDATE())'.

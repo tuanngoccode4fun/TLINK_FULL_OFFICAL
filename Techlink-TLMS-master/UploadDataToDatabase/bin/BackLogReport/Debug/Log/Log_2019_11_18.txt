@@ -1,2 +1,0 @@
-[08:45:45.732] Export excel sucessfull
-[08:46:00.037] Send mail suscess :
