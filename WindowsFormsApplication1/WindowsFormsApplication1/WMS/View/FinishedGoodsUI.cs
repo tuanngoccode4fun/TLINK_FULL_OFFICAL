@@ -1791,11 +1791,11 @@ namespace WindowsFormsApplication1.WMS.View
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (sql_QueryFromFileSQL.SelectQRCodeBaseStatus(TXT_SEARCH.Text.ToString().Trim(), false).Count > 0)
-            {
-              sql_QueryFromFileSQL. UpdateQRcodeByQR(TXT_SEARCH.Text.ToString().Trim());
-                GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
-            }
+           // if (sql_QueryFromFileSQL.SelectQRCodeBaseStatus(TXT_SEARCH.Text.ToString().Trim(), false).Count > 0)
+           // {
+           //   sql_QueryFromFileSQL. UpdateQRcodeByQR(TXT_SEARCH.Text.ToString().Trim());
+           //     GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
+           // }
         }
     }
 }

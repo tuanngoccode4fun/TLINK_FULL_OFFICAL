@@ -80,7 +80,7 @@ namespace WindowsFormsApplication1.NewQRcode
             try
             {
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.Append("update t_QRImport set Status ='1'");
+                stringBuilder.Append("update t_QRImport set Status ='1' ");
                 stringBuilder.Append(" WHERE IDQRCODE = '" + QRcode.Trim()+"'");
                 sqlCON sqlTLVN2 = new sqlCON();
                 sqlTLVN2.sqlExecuteNonQuery(stringBuilder.ToString(), false);
