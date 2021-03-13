@@ -1731,5 +1731,62 @@ namespace WindowsFormsApplication1.WMS.View
         {
 
         }
+
+        private void tableLayoutPanel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BT_SEARCH_Click(object sender, EventArgs e)
+        {
+            GRIDVIEW_DATABASE.DataSource= sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
+        }
+
+        private void dtgv_import_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void GRIDVIEW_DATABASE_MouseClick(object sender, MouseEventArgs e)
+        {
+            string allID = null;
+            if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
+            {
+                foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
+                { allID = allID + " [" + row.Cells[0].Value.ToString() + "] "; }
+            }
+            if (e.Button == MouseButtons.Right)
+            {
+                ContextMenu m = new ContextMenu();
+                //m.MenuItems.Add(new MenuItem("Cut"));
+                //m.MenuItems.Add(new MenuItem("Copy"));
+                MenuItem Enable = new MenuItem("Enable "+ allID);
+                Enable.Click += Enable_Click; ;
+                m.MenuItems.Add(Enable);
+                m.Show(GRIDVIEW_DATABASE, new Point(e.X, e.Y));
+
+            }
+        }
+
+        private void Enable_Click(object sender, EventArgs e)
+        {
+            if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
+            {
+                if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
+                {
+                    foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
+                    {
+                        sql_QueryFromFileSQL.UpdateQRcode(row.Cells[0].Value.ToString());
+
+                    }
+                }
+            }
+            GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
+        }
+
+        private void GRIDVIEW_DATABASE_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           //
+        }
     }
 }

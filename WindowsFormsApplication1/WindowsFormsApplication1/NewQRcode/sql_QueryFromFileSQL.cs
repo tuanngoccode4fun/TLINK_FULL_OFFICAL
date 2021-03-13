@@ -60,6 +60,49 @@ namespace WindowsFormsApplication1.NewQRcode
             }
 
         }
+        public static void UpdateQRcode(string ID)
+        {
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append("update t_QRImport set Status ='0'");
+                stringBuilder.Append("WHERE Id ="+ ID.Trim());
+                sqlCON sqlTLVN2 = new sqlCON();
+                sqlTLVN2.sqlExecuteNonQuery(stringBuilder.ToString(), false);
+            }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "UpdateQRcode", ex.Message);
+            }
+        }
+        public static List<QRImportClass> SelectQRCode(string QR_CODE)
+        {
+            List<QRImportClass> _listReturn = new List<QRImportClass>();
+            try
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append("select * from t_QRImport where IDQRCODE = '");
+                stringBuilder.Append(QR_CODE.Trim() + "'");
+                sqlCON sqlTLVN2 = new sqlCON();
+                DataTable dataTable = new DataTable();
+                
+                sqlTLVN2.sqlDataAdapterFillDatatable(stringBuilder.ToString(), ref dataTable);
+                _listReturn = (from DataRow dr in dataTable.Rows
+                                select new QRImportClass()
+                                {
+                                    ID = (dr["Id"] != null) ? dr["Id"].ToString().Trim() : "",
+                                    QRCODE = (dr["IDQRCODE"] != null) ? dr["IDQRCODE"].ToString().Trim() : "",
+                                    STATUS = (dr["Status"].ToString() != null) ? dr["Status"].ToString().Trim() : "",
+                                    DATE = (dr["Update_Date"].ToString() != null) ?dr["Update_Date"].ToString().Trim() : ""
+                                }).ToList();
+                
+            }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "InsertQRcode", ex.Message);
+            }
+            return _listReturn;
+        }
         static sql_CheckCondition.QueryResult InsertFunction(DataRow ERPPQC, int i, string TF002, bool IsCheckQuantity_Weight, string nameFile)
         {
             try

@@ -117,6 +117,15 @@
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.dtgv_QRimportData = new System.Windows.Forms.DataGridView();
             this.dtgvExportFGs = new System.Windows.Forms.DataGridView();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.TXT_SEARCH = new System.Windows.Forms.TextBox();
+            this.BT_SEARCH = new System.Windows.Forms.Button();
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+            this.GRIDVIEW_DATABASE = new System.Windows.Forms.DataGridView();
             this.lbl_Header = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
@@ -146,6 +155,12 @@
             this.tableLayoutPanel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_QRimportData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvExportFGs)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GRIDVIEW_DATABASE)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -157,6 +172,7 @@
             this.tabPage_FinishedGood.Controls.Add(this.tabPage1_Import);
             this.tabPage_FinishedGood.Controls.Add(this.tabPage_Export);
             this.tabPage_FinishedGood.Controls.Add(this.tabPage2);
+            this.tabPage_FinishedGood.Controls.Add(this.tabPage1);
             this.tabPage_FinishedGood.Location = new System.Drawing.Point(6, 104);
             this.tabPage_FinishedGood.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage_FinishedGood.Name = "tabPage_FinishedGood";
@@ -547,6 +563,7 @@
             this.dtgv_import.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgv_import.Size = new System.Drawing.Size(845, 255);
             this.dtgv_import.TabIndex = 3;
+            this.dtgv_import.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_import_CellContentClick);
             // 
             // tableLayoutPanel7
             // 
@@ -1368,6 +1385,140 @@
             this.dtgvExportFGs.TabIndex = 0;
             this.dtgvExportFGs.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dtgvExportFGs_DataBindingComplete);
             // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.tableLayoutPanel8);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1160, 512);
+            this.tabPage1.TabIndex = 4;
+            this.tabPage1.Text = "QR DATABASE";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel8.ColumnCount = 1;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel12, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel13, 0, 1);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 5);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 2;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 68F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1154, 502);
+            this.tableLayoutPanel8.TabIndex = 2;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel12.ColumnCount = 1;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.Controls.Add(this.groupBox6, 0, 0);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(2, 2);
+            this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(1150, 64);
+            this.tableLayoutPanel12.TabIndex = 1;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox6.Controls.Add(this.label18);
+            this.groupBox6.Controls.Add(this.TXT_SEARCH);
+            this.groupBox6.Controls.Add(this.BT_SEARCH);
+            this.groupBox6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.Location = new System.Drawing.Point(2, 2);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Size = new System.Drawing.Size(1146, 60);
+            this.groupBox6.TabIndex = 1;
+            this.groupBox6.TabStop = false;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(34, 30);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(76, 17);
+            this.label18.TabIndex = 14;
+            this.label18.Tag = " ";
+            this.label18.Text = "QR Import";
+            // 
+            // TXT_SEARCH
+            // 
+            this.TXT_SEARCH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TXT_SEARCH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_SEARCH.Location = new System.Drawing.Point(135, 22);
+            this.TXT_SEARCH.Name = "TXT_SEARCH";
+            this.TXT_SEARCH.Size = new System.Drawing.Size(809, 26);
+            this.TXT_SEARCH.TabIndex = 13;
+            // 
+            // BT_SEARCH
+            // 
+            this.BT_SEARCH.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BT_SEARCH.BackColor = System.Drawing.Color.White;
+            this.BT_SEARCH.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.BT_SEARCH.Image = global::WindowsFormsApplication1.Properties.Resources.ProductionPlan;
+            this.BT_SEARCH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BT_SEARCH.Location = new System.Drawing.Point(990, 15);
+            this.BT_SEARCH.Margin = new System.Windows.Forms.Padding(2);
+            this.BT_SEARCH.Name = "BT_SEARCH";
+            this.BT_SEARCH.Size = new System.Drawing.Size(152, 41);
+            this.BT_SEARCH.TabIndex = 12;
+            this.BT_SEARCH.Text = "SEARCH";
+            this.BT_SEARCH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BT_SEARCH.UseVisualStyleBackColor = false;
+            this.BT_SEARCH.Click += new System.EventHandler(this.BT_SEARCH_Click);
+            // 
+            // tableLayoutPanel13
+            // 
+            this.tableLayoutPanel13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel13.ColumnCount = 1;
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Controls.Add(this.GRIDVIEW_DATABASE, 0, 0);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(2, 70);
+            this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(2);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 1;
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(1150, 430);
+            this.tableLayoutPanel13.TabIndex = 2;
+            // 
+            // GRIDVIEW_DATABASE
+            // 
+            this.GRIDVIEW_DATABASE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.GRIDVIEW_DATABASE.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.GRIDVIEW_DATABASE.BackgroundColor = System.Drawing.Color.LightSteelBlue;
+            this.GRIDVIEW_DATABASE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GRIDVIEW_DATABASE.Location = new System.Drawing.Point(2, 2);
+            this.GRIDVIEW_DATABASE.Margin = new System.Windows.Forms.Padding(2);
+            this.GRIDVIEW_DATABASE.Name = "GRIDVIEW_DATABASE";
+            this.GRIDVIEW_DATABASE.ReadOnly = true;
+            this.GRIDVIEW_DATABASE.RowHeadersWidth = 51;
+            this.GRIDVIEW_DATABASE.RowTemplate.Height = 24;
+            this.GRIDVIEW_DATABASE.Size = new System.Drawing.Size(1146, 426);
+            this.GRIDVIEW_DATABASE.TabIndex = 0;
+            this.GRIDVIEW_DATABASE.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRIDVIEW_DATABASE_CellContentClick);
+            this.GRIDVIEW_DATABASE.MouseClick += new System.Windows.Forms.MouseEventHandler(this.GRIDVIEW_DATABASE_MouseClick);
+            // 
             // lbl_Header
             // 
             this.lbl_Header.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1455,6 +1606,13 @@
             this.tableLayoutPanel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_QRimportData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvExportFGs)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.tableLayoutPanel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.GRIDVIEW_DATABASE)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -1555,5 +1713,14 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.RichTextBox richTextLog;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Button BT_SEARCH;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
+        private System.Windows.Forms.DataGridView GRIDVIEW_DATABASE;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox TXT_SEARCH;
     }
 }

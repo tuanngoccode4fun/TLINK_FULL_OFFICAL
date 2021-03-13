@@ -18,11 +18,11 @@ namespace WindowsFormsApplication1
             string database = "ERPSOFT";
             string username = "ERPUSER";
             string password = "12345";
-            return DBSQLServerUtils.GetDBConnection(datasource, database, username, password);
+           // return DBSQLServerUtils.GetDBConnection(datasource, database, username, password);
             // return dbsqlserverutils.getdbconnection(datasource, database, username, password);
             //////test local sql 
-           //string connecString = string.Format("Data Source=ADMIN;Initial Catalog={0};Integrated Security=True", database);
-           //return new SqlConnection(connecString);
+           string connecString = string.Format("Data Source=ADMIN;Initial Catalog={0};Integrated Security=True", database);
+           return new SqlConnection(connecString);
         }
         public static SqlConnection GetERPDBConnection()
         {
@@ -41,10 +41,10 @@ namespace WindowsFormsApplication1
             string database = (Class.valiballecommon.GetStorage().DBERP != null) ? Class.valiballecommon.GetStorage().DBERP : "TLVN2";
             string username = "soft";
             string password = "techlink@!@#";
-            return DBSQLServerUtils.GetTLVN2Connection(datasource, database, username, password);
+           // return DBSQLServerUtils.GetTLVN2Connection(datasource, database, username, password);
             //////////////////////test local sql
-            //string connecString =  string.Format("Data Source=ADMIN;Initial Catalog={0};Integrated Security=True", database);           
-            //return new SqlConnection(connecString);
+            string connecString =  string.Format("Data Source=ADMIN;Initial Catalog={0};Integrated Security=True", database);           
+            return new SqlConnection(connecString);
 
            
         }

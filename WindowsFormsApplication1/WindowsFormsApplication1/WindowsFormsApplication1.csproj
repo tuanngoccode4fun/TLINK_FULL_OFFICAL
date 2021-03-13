@@ -656,6 +656,7 @@
     <Compile Include="NewQRcode\GetListDocNo.cs" />
     <Compile Include="NewQRcode\IdentifyQR.cs" />
     <Compile Include="NewQRcode\ListToDatatable.cs" />
+    <Compile Include="NewQRcode\QRImportClass.cs" />
     <Compile Include="NewQRcode\sql_CheckCondition.cs" />
     <Compile Include="NewQRcode\sql_QueryFromFileSQL.cs" />
     <Compile Include="NewQRcode\UI mesage\ClassMessageBoxUI.cs" />
