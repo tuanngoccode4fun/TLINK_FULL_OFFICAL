@@ -83,7 +83,7 @@ where  (MB031 = '' or CAST(MB031 as datetime) >= GETDATE()) ");
             {
                 DataTable dt = new DataTable();
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.Append(@"select ISNULL(TA015,0) as TA015,ISNULL(TA017,0) as TA017,ISNULL(TA018,0) as TA018,ISNULL(TA045,0) as TA045,ISNULL(TA046,0) as TA046,ISNULL(TA047,0) as TA047
+                stringBuilder.Append(@"select TA007, ISNULL(TA015,0) as TA015,ISNULL(TA017,0) as TA017,ISNULL(TA018,0) as TA018,ISNULL(TA045,0) as TA045,ISNULL(TA046,0) as TA046,ISNULL(TA047,0) as TA047
 from MOCTA where 1 =1 ");
                 stringBuilder.Append(" and TA001 ='" + productCode.Split('-')[0] + "' ");
                 stringBuilder.Append(" and TA002 ='" + productCode.Split('-')[1] + "' ");
@@ -97,12 +97,19 @@ from MOCTA where 1 =1 ");
                     double TA045 = double.Parse(dt.Rows[0]["TA045"].ToString());
                     double TA046 = double.Parse(dt.Rows[0]["TA046"].ToString());
                     double TA047 = double.Parse(dt.Rows[0]["TA047"].ToString());
+                    if (dt.Rows[0]["TA007"].ToString().ToUpper() != "KG")
+                    {
 
-                    if (TA015 < TA017 + TA018 + Quantity)
-                        return false;
-                    else if (TA045 < TA046 + TA047 + Weight)
-                        return false;
-                    else return true;
+                        if (TA015 < TA017 + TA018 + Quantity)
+                            return false;
+                        else if (TA045 < TA046 + TA047 + Weight)
+                            return false;
+                        else return true;
+                    }
+                    else
+                    {
+                        return true;
+                    }
 
                 }
 
