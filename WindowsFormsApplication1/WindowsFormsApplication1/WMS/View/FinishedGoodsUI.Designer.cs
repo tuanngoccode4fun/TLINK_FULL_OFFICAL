@@ -129,6 +129,7 @@
             this.lbl_Header = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.tabPage_FinishedGood.SuspendLayout();
             this.tabPage1_Import.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -1435,6 +1436,7 @@
             this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox6.Controls.Add(this.button2);
             this.groupBox6.Controls.Add(this.label18);
             this.groupBox6.Controls.Add(this.TXT_SEARCH);
             this.groupBox6.Controls.Add(this.BT_SEARCH);
@@ -1556,6 +1558,16 @@
             this.label11.TabIndex = 9;
             this.label11.Text = "Version: 120.21";
             this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(957, 20);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FinishedGoodsUI
             // 
@@ -1722,5 +1734,6 @@
         private System.Windows.Forms.DataGridView GRIDVIEW_DATABASE;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox TXT_SEARCH;
+        private System.Windows.Forms.Button button2;
     }
 }

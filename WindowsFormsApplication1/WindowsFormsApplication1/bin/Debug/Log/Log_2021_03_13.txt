@@ -31,3 +31,21 @@
 15:49:00.231 ------------Start-----------   : FinishedGoodsUI
 16:07:17.833 ------------Start-----------   : FinishedGoodsUI
 16:42:22.943 ------------Start-----------   : FinishedGoodsUI
+17:16:21.815 ------------Start-----------   : FinishedGoodsUI
+17:16:55.732 Database Responce : Invalid column name 'False'.
+17:16:57.926 Database Responce : Invalid column name 'False'.
+17:16:58.545 Database Responce : Invalid column name 'False'.
+17:16:58.727 Database Responce : Invalid column name 'False'.
+17:16:58.897 Database Responce : Invalid column name 'False'.
+17:16:59.066 Database Responce : Invalid column name 'False'.
+17:16:59.296 Database Responce : Invalid column name 'False'.
+17:17:48.371 Database Responce : Invalid column name 'False'.
+17:21:30.556 ------------Start-----------   : FinishedGoodsUI
+17:43:59.958 ------------Start-----------   : FinishedGoodsUI
+17:47:14.090 ------------Start-----------   : FinishedGoodsUI
+17:47:35.650 Database Responce : Incorrect syntax near 'B51121010025'.
+17:48:52.041 Database Responce : Incorrect syntax near 'B51121010025'.
+17:51:22.271 Database Responce : Incorrect syntax near 'B51121010025'.
+17:51:32.832 Database Responce : Incorrect syntax near 'B51121010025'.
+17:51:39.522 Database Responce : Incorrect syntax near 'B51121010025'.
+17:53:08.390 ------------Start-----------   : FinishedGoodsUI
