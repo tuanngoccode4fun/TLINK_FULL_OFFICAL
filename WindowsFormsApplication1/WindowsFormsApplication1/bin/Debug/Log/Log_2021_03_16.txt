@@ -1,3 +1,5 @@
 21:18:23.577 ------------Start-----------   : FinishedGoodsUI
 21:18:58.467 IsExistQR : This QR have already insert complete.
 21:19:25.896 [ReceiveQR Success]  : s;B51121010025;JMH1439413S01;JMH1439413S01;31;10/11/2020;;20201110;;JO2020110745;*e
+21:59:15.411 ------------Start-----------   : FinishedGoodsUI
+22:00:26.219 [ReceiveQR Success]  : s;B51121010025;JMH1439413S01;JMH1439413S01;31;10/11/2020;;20201110;;JO2020110745;*e

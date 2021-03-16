@@ -307,11 +307,6 @@ namespace WindowsFormsApplication1.WMS.View
 
 
 
-
-        private void dtgv_import_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
         private void DeleteAllValuesUI()
         {
             //  txt_productImport.Text = "";
@@ -1754,18 +1749,19 @@ namespace WindowsFormsApplication1.WMS.View
             {
                 foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
                 { allID = allID + " [" + row.Cells[0].Value.ToString() + "] "; }
-            }
-            if (e.Button == MouseButtons.Right)
-            {
-                ContextMenu m = new ContextMenu();
-                //m.MenuItems.Add(new MenuItem("Cut"));
-                //m.MenuItems.Add(new MenuItem("Copy"));
-                MenuItem Enable = new MenuItem("Enable "+ allID);
-                Enable.Click += Enable_Click; ;
-                m.MenuItems.Add(Enable);
-                m.Show(GRIDVIEW_DATABASE, new Point(e.X, e.Y));
+                if (e.Button == MouseButtons.Right)
+                {
+                    ContextMenu m = new ContextMenu();
+                    //m.MenuItems.Add(new MenuItem("Cut"));
+                    //m.MenuItems.Add(new MenuItem("Copy"));
+                    MenuItem Enable = new MenuItem("Enable " + allID);
+                    Enable.Click += Enable_Click; ;
+                    m.MenuItems.Add(Enable);
+                    m.Show(GRIDVIEW_DATABASE, new Point(e.X, e.Y));
 
+                }
             }
+ 
         }
 
         private void Enable_Click(object sender, EventArgs e)
@@ -1784,18 +1780,5 @@ namespace WindowsFormsApplication1.WMS.View
             GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
         }
 
-        private void GRIDVIEW_DATABASE_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           //
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-           // if (sql_QueryFromFileSQL.SelectQRCodeBaseStatus(TXT_SEARCH.Text.ToString().Trim(), false).Count > 0)
-           // {
-           //   sql_QueryFromFileSQL. UpdateQRcodeByQR(TXT_SEARCH.Text.ToString().Trim());
-           //     GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
-           // }
-        }
     }
 }
