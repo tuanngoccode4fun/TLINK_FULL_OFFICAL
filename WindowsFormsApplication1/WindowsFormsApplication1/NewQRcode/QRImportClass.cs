@@ -13,4 +13,10 @@ namespace WindowsFormsApplication1.NewQRcode
         public string STATUS { get; set; }
         public string DATE { get; set; }
     }
+    public class DocNoClass
+    {
+        public string PO { get; set; }
+        public string DocNo { get; set; }
+    
+    }
 }

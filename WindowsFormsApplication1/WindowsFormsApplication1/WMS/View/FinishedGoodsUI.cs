@@ -42,6 +42,7 @@ namespace WindowsFormsApplication1.WMS.View
         Timer timerGetQR_Min;
         int m_maxLine = 200;
         EventBroker.EventObserver m_observerLog = null;
+        List<DocNoClass> listDocNoStageManagement = new List<DocNoClass>();
         public FinishedGoodsUI()
         {
             InitializeComponent();
@@ -205,9 +206,18 @@ namespace WindowsFormsApplication1.WMS.View
                         return;
                     }
                     status_IsInput = true;
-                    if (sql_CheckCondition.Is_LocationManagement(valueTem.Warehouse) == sql_CheckCondition.QueryResult.NG)
+                    if (sql_CheckCondition.Is_LocationManagement(valueTem.Warehouse) == sql_CheckCondition.QueryResult.NG)// CHECK ITEM NO LOCATION MANAGEMENT
                     {
                         status_IsInput = false;
+                    }
+                    if (sql_CheckCondition.Is_stageManagement(valueTem.Product) == sql_CheckCondition.QueryResult.NG)//
+                    {
+                        cmboxDocNo.SelectedItem = ReturnDocNoStageManagement(valueTem.ProductOrder.Substring(0, 4));
+                        Class.valiballecommon.GetStorage().DocNo = cmboxDocNo.SelectedItem.ToString();
+                        // Properties.Settings.Default.Save();
+                        SaveObject.Save_data(LoginFr.PathSaveConfig, Class.valiballecommon.GetStorage());
+                        lb_indicate.Text = GetListDocNo.GetDescribeDocNo(Class.valiballecommon.GetStorage().DocNo.Trim());
+
                     }
 
                 }
@@ -249,7 +259,27 @@ namespace WindowsFormsApplication1.WMS.View
 
             }
         }
-
+        private void Initilize_MappingPOandDocNo()
+        {
+            listDocNoStageManagement.Add(new DocNoClass { PO = "A512", DocNo = "A581" });//0
+            listDocNoStageManagement.Add(new DocNoClass { PO = "B512", DocNo = "B582" });//1
+            listDocNoStageManagement.Add(new DocNoClass { PO = "D511", DocNo = "D581" });//2
+            listDocNoStageManagement.Add(new DocNoClass { PO = "P511", DocNo = "P581" });//3
+            listDocNoStageManagement.Add(new DocNoClass { PO = "P512", DocNo = "P581" });//4
+            listDocNoStageManagement.Add(new DocNoClass { PO = "W511", DocNo = "W581" });//5
+            listDocNoStageManagement.Add(new DocNoClass { PO = "Y511", DocNo = "Y581" });//6
+            listDocNoStageManagement.Add(new DocNoClass { PO = "Y512", DocNo = "Y582" });//7
+            listDocNoStageManagement.Add(new DocNoClass { PO = "Y513", DocNo = "Y583" });//8
+            listDocNoStageManagement.Add(new DocNoClass { PO = "Y514", DocNo = "Y584" });//9
+            listDocNoStageManagement.Add(new DocNoClass { PO = "Y515", DocNo = "Y585" });//10
+            listDocNoStageManagement.Add(new DocNoClass { PO = "Y516", DocNo = "Y586" });//11
+            listDocNoStageManagement.Add(new DocNoClass { PO = "C511", DocNo = "C581" });//12
+            listDocNoStageManagement.Add(new DocNoClass { PO = "A511", DocNo = "A581" });//13
+        }
+        private string ReturnDocNoStageManagement(string subPO)
+        {
+            return listDocNoStageManagement.First(p => p.PO.Trim() == subPO.Trim()).DocNo;
+        }
         private void Update_list_location(string nameWarehouse)
         {
             listLocation = ListWarehouse.Where(d => d.MC001_Wh.Trim() == nameWarehouse)
@@ -264,6 +294,7 @@ namespace WindowsFormsApplication1.WMS.View
                 lbl_WarehouseImport.Text = "Warehouse: " + WarehouseName[0];
             txt_QRImport.Focus();
         }
+        
         private void FinishedGoodsUI_Load(object sender, EventArgs e)
         {
 
@@ -280,6 +311,7 @@ namespace WindowsFormsApplication1.WMS.View
             cmboxWareHouse.SelectedIndex = listwarehouse2.ToList().FindIndex(x => x.Trim() == wh.Trim());
             /////////
             Update_list_location(wh);
+            Initilize_MappingPOandDocNo();
             /// Tuanngoc Add
             listDocNo = new List<string>();
             listDocNo = GetListDocNo.GetListForCombox();
