@@ -50,6 +50,7 @@
             this.cb_locationImport = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.bt_show_log = new System.Windows.Forms.Button();
             this.cmboxWareHouse = new System.Windows.Forms.ComboBox();
             this.btn_importSummary = new System.Windows.Forms.Button();
             this.btn_ClearFgsImport = new System.Windows.Forms.Button();
@@ -334,7 +335,7 @@
             this.lb_Status.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_Status.Name = "lb_Status";
             this.lb_Status.Size = new System.Drawing.Size(0, 17);
-            this.lb_Status.TabIndex = 27;
+            this.lb_Status.TabIndex = 0;
             // 
             // label1
             // 
@@ -435,6 +436,7 @@
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.bt_show_log);
             this.groupBox2.Controls.Add(this.cmboxWareHouse);
             this.groupBox2.Controls.Add(this.btn_importSummary);
             this.groupBox2.Controls.Add(this.btn_ClearFgsImport);
@@ -448,6 +450,25 @@
             this.groupBox2.Size = new System.Drawing.Size(1148, 53);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
+            // 
+            // bt_show_log
+            // 
+            this.bt_show_log.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_show_log.BackColor = System.Drawing.Color.White;
+            this.bt_show_log.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_show_log.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.bt_show_log.Image = global::WindowsFormsApplication1.Properties.Resources.logs__2_;
+            this.bt_show_log.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bt_show_log.Location = new System.Drawing.Point(676, 12);
+            this.bt_show_log.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_show_log.Name = "bt_show_log";
+            this.bt_show_log.Size = new System.Drawing.Size(113, 36);
+            this.bt_show_log.TabIndex = 32;
+            this.bt_show_log.Text = "Show Log";
+            this.bt_show_log.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.bt_show_log.UseVisualStyleBackColor = false;
+            this.bt_show_log.Click += new System.EventHandler(this.bt_show_log_Click);
             // 
             // cmboxWareHouse
             // 
@@ -534,8 +555,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.14235F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.85765F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent,99.9F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.1F));
             this.tableLayoutPanel6.Controls.Add(this.dtgv_import, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel7, 1, 0);
             this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 250);
@@ -1722,5 +1743,6 @@
         private System.Windows.Forms.DataGridView GRIDVIEW_DATABASE;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox TXT_SEARCH;
+        private System.Windows.Forms.Button bt_show_log;
     }
 }

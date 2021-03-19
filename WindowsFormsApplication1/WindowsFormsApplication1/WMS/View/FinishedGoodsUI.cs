@@ -43,6 +43,7 @@ namespace WindowsFormsApplication1.WMS.View
         int m_maxLine = 200;
         EventBroker.EventObserver m_observerLog = null;
         List<DocNoClass> listDocNoStageManagement = new List<DocNoClass>();
+        bool showLog = false;
         public FinishedGoodsUI()
         {
             InitializeComponent();
@@ -1818,5 +1819,21 @@ namespace WindowsFormsApplication1.WMS.View
             GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
         }
 
+        private void bt_show_log_Click(object sender, EventArgs e)
+        {
+            this.tableLayoutPanel6.ColumnStyles.Clear();         
+            if (!showLog)
+            {
+                this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.14235F));
+                this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.85765F));
+                showLog = true;
+            }
+            else
+            {
+                this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 99.9F));
+                this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.1F));
+                showLog = false;
+            }
+        }
     }
 }

@@ -1480,6 +1480,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Resources\logs.png" />
+    <None Include="Resources\logs1.png" />
+    <None Include="Resources\logs %281%29.png" />
+    <None Include="Resources\logs %282%29.png" />
     <Content Include="Resources\Month.xls">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -34,3 +34,9 @@
 05:09:56.551 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
 05:09:56.659 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
 05:29:30.813 ------------Start-----------   : FinishedGoodsUI
+06:10:11.237 ------------Start-----------   : FinishedGoodsUI
+06:22:00.194 ------------Start-----------   : FinishedGoodsUI
+06:25:17.653 ------------Start-----------   : FinishedGoodsUI
+06:26:57.479 ------------Start-----------   : FinishedGoodsUI
+06:28:15.110 ------------Start-----------   : FinishedGoodsUI
+06:29:50.786 ------------Start-----------   : FinishedGoodsUI
