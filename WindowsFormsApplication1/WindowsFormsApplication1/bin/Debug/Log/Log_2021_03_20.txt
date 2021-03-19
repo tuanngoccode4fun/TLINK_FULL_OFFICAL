@@ -1,0 +1,36 @@
+05:00:04.013 ------------Start-----------   : FinishedGoodsUI
+05:04:23.713 [ReceiveQR Success]  : s;B51221010025;AD-CAB-C1003-GREEN;JMH1439413S01;31;10/11/2020;;20201110;;JO2020110745;*e
+05:08:26.374 [ReceiveQR Success]  : s;B51221010025;AD-CAB-C1003-GREEN;JMH1439413S01;31;10/11/2020;;20201110;;JO2020110745;*e
+05:09:03.853 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:45.877 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:49.220 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:50.861 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:51.849 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:52.177 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:52.392 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:52.507 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:52.721 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:52.943 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:53.054 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:53.274 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:53.382 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:53.488 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:53.605 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:54.361 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:54.470 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:54.694 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:54.800 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:54.909 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:55.025 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:55.245 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:55.346 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:55.575 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:55.673 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:55.790 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:56.008 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:56.111 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:56.221 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:56.443 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:56.551 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:09:56.659 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+05:29:30.813 ------------Start-----------   : FinishedGoodsUI

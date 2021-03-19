@@ -186,17 +186,24 @@ namespace WindowsFormsApplication1.NewQRcode
                         if (Is_stageManagement(product) == QueryResult.OK)
                         {
                             statusWeight = GetWeightDemandPlan(PO, SLDongGoi);
+                            if (!statusWeight)
+                            {
+                                ttReturn = QueryResult.NG;
+                                UI_mesage.ClassMessageBoxUI.Show("Please check weight validation failed.", false);                               
+                            }
                         }
                         else 
                         {
                             statusWeight = GetWeightDemandPlan_NoStageManagement(PO, SLDongGoi);
+                            if (!statusWeight)
+                            {
+                                ttReturn = QueryResult.Exception;
+                                SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Mã không quản lý công đoạn bị lỗi nhập vượt trọng lượng.");/// Không tạo phiếu và bị lỗi nhập vượt trọng lượng
+                                UI_mesage.ClassMessageBoxUI.Show("Please check weight validation failed.", false);
+                                break;
+                            }
                         }
-                        if (!statusWeight)
-                        {
-                            ttReturn = QueryResult.NG;
-                            UI_mesage.ClassMessageBoxUI.Show("Please check weight validation failed.", false);
 
-                        }
                         if (statusStage == QueryResult.OK)
                         {
                             notConfirmQuantity = GetQuantityNotConfirmHaveStageManagment(PO);
@@ -216,8 +223,10 @@ namespace WindowsFormsApplication1.NewQRcode
                             {
                                 if (demandQuantity - (notConfirmQuantity + sum32Int) < 0)
                                 {
-                                    ttReturn = QueryResult.NG;
+                                    ttReturn = QueryResult.Exception;
+                                    SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Mã không quản lý công đoạn bị lỗi nhập vượt số lượng");// Lỗi không quả l
                                     UI_mesage.ClassMessageBoxUI.Show("Please check  quality over demandQuality at No stage Management", false);
+                                    break;
                                 }
                             }
                         }
