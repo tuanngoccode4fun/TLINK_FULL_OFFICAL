@@ -183,7 +183,13 @@ namespace WindowsFormsApplication1.WMS.View
                         txt_QRImport.Focus();
                         return;
                     }
-
+                    if (sql_CheckCondition.Is_stageManagement(valueTem.Product) == sql_CheckCondition.QueryResult.Exception_A_02)//Exception of have stage management
+                    {
+                        SystemLog.Output(SystemLog.MSG_TYPE.Err, "ReceiveQR", "Có công đoạn nhưng không tạo được phiếu có giá trị A-02");
+                        txt_QRImport.Text = null;
+                        txt_QRImport.Focus();
+                        return;
+                    }
                     ///// check data input duplicate or not
                     if (!IdentifyQR.IsDuplicate(ListImportFG, valueTem))
                     {
@@ -219,7 +225,7 @@ namespace WindowsFormsApplication1.WMS.View
                         lb_indicate.Text = GetListDocNo.GetDescribeDocNo(Class.valiballecommon.GetStorage().DocNo.Trim());
 
                     }
-
+       
                 }
                 dtgv_import.DataSource = null;
                 dtgv_import.DataSource = ListImportFG;

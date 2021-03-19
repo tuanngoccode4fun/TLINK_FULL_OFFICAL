@@ -12,7 +12,7 @@ namespace WindowsFormsApplication1.NewQRcode
 {
     public class sql_CheckCondition
     {
-        public enum QueryResult { OK, NG, Exception };
+        public enum QueryResult { OK, NG, Exception_A_02,Exception };
         static SqlConnection conn = DBUtils.GetTLVN2DBConnection(); //get from user database
         static List<string> ListSpec = new List<string>() { "AD-", "AT-", "ED-", "ET-", "CD-", "CT-" };
         /// <summary>
@@ -35,8 +35,14 @@ namespace WindowsFormsApplication1.NewQRcode
                 string GetString = sqlTLVN2.sqlExecuteScalarString(m_query_INVMB);
                 if(GetString != "" || GetString != string.Empty)
                 {
-                    if( GetString != "A-02")
+                    if (GetString != "A-02")
+                    {
                         return QueryResult.OK;
+                    }
+                    else
+                    {
+                        return QueryResult.Exception_A_02;
+                    }
                 }
                 else
                 {
