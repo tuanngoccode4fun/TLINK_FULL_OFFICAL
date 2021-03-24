@@ -1788,7 +1788,7 @@ namespace WindowsFormsApplication1.WMS.View
             {
                 foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
                 { allID = allID + " [" + row.Cells[0].Value.ToString() + "] "; }
-                if (e.Button == MouseButtons.Right)
+                if (e.Button == MouseButtons.Left)
                 {
                     ContextMenu m = new ContextMenu();
                     //m.MenuItems.Add(new MenuItem("Cut"));
@@ -1796,7 +1796,7 @@ namespace WindowsFormsApplication1.WMS.View
                     MenuItem Enable = new MenuItem("Enable " + allID);
                     Enable.Click += Enable_Click; ;
                     m.MenuItems.Add(Enable);
-                    m.Show(GRIDVIEW_DATABASE, new Point(e.X, e.Y));
+                    m.Show(GRIDVIEW_DATABASE, new Point(e.X+10, e.Y));
 
                 }
             }
@@ -1807,13 +1807,10 @@ namespace WindowsFormsApplication1.WMS.View
         {
             if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
             {
-                if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
+                foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
                 {
-                    foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
-                    {
-                        sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
+                    sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
 
-                    }
                 }
             }
             GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
