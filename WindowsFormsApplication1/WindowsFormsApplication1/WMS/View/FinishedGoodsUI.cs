@@ -1821,6 +1821,7 @@ namespace WindowsFormsApplication1.WMS.View
 
         private void bt_show_log_Click(object sender, EventArgs e)
         {
+            this.tableLayoutPanel6.Hide();
             this.tableLayoutPanel6.ColumnStyles.Clear();         
             if (!showLog)
             {
@@ -1834,6 +1835,7 @@ namespace WindowsFormsApplication1.WMS.View
                 this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.1F));
                 showLog = false;
             }
+            this.tableLayoutPanel6.Show();
         }
     }
 }
