@@ -25,10 +25,6 @@ namespace WindowsFormsApplication1.NewQRcode
             try
             {
                 string temp = MB001_product.Trim().Substring(0, 3);
-                if (ListSpec.Contains(temp))
-                {
-                    return QueryResult.NG;
-                }
                 conn.Open();
                 string m_query_INVMB = @"select distinct MB011 from INVMB where MB001 = '" + MB001_product.Trim() + "'"; // 
                 SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
@@ -37,7 +33,14 @@ namespace WindowsFormsApplication1.NewQRcode
                 {
                     if (GetString != "A-02")
                     {
-                        return QueryResult.OK;
+                        if (ListSpec.Contains(temp))// No managmentSTAGE
+                        {
+                            return QueryResult.NG;
+                        }
+                        else
+                        {
+                            return QueryResult.OK;
+                        }
                     }
                     else
                     {
@@ -48,7 +51,6 @@ namespace WindowsFormsApplication1.NewQRcode
                 {
                     return QueryResult.NG;
                 }
-                return QueryResult.Exception;
             }
                 //using (SqlCommand command = new SqlCommand(m_query_INVMB, conn))
                 //using (SqlDataReader reader = command.ExecuteReader())
