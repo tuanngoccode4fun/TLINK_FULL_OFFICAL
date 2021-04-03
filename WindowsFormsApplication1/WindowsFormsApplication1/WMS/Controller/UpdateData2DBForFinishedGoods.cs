@@ -216,7 +216,7 @@ namespace WindowsFormsApplication1.WMS.Controller
 					{
 						ischeckSFCTA = Database.SFC.SFCTA.IscheckQantityAndWeight(productOrder, Quantity, SLDongGoi);// chi cho quan ly cong doan
 					}
-					var ischeckMOCTA = Database.MOC.MOCTA.IscheckQantityAndWeight(productOrder, Quantity, SLDongGoi);//
+					var ischeckMOCTA = Database.MOC.MOCTA.IscheckQantityAndWeight(product,productOrder, Quantity, SLDongGoi);//we have check more 
 					
 					sql_CheckCondition.QueryResult statusLot = sql_CheckCondition.Is_lotManagement(product);
 					/// stage OK

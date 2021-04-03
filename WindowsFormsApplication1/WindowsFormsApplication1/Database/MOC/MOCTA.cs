@@ -77,7 +77,7 @@ where  (MB031 = '' or CAST(MB031 as datetime) >= GETDATE()) ");
             }
             return false;
         }
-        public static bool IscheckQantityAndWeight(string productCode, double Quantity, double Weight)
+        public static bool IscheckQantityAndWeight(string product,string productCode, double Quantity, double Weight)
         {
             try
             {
@@ -101,7 +101,17 @@ from MOCTA where 1 =1 ");
                     if (TA015 < TA017 + TA018 + Quantity)
                         return false;
                     else if (TA045 < TA046 + TA047 + Weight)
-                        return false;
+                    {
+                        string value = INV.INVMB.IsWeightValue(product);
+                        if (value == "KG" || value == "kg")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
                     else return true;
 
                 }

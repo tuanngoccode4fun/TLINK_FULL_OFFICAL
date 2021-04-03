@@ -20,6 +20,17 @@ namespace WindowsFormsApplication1.Database.INV
             else
                 return int.Parse(strresult);
         }
+		public static string IsWeightValue(string product)
+
+		{
+			string querry = "select MB004 from INVMB where MB001 = '" + product + "' ";
+			SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+			var strresult = sqlTLVN2.sqlExecuteScalarString(querry);
+			if (strresult == String.Empty && strresult == "")
+				return " ";
+			else
+				return strresult;
+		}
 		public static int ExpireDayInspectbyProduct(string product)
 
 		{
