@@ -1,0 +1,8 @@
+13:34:48.345  sqlDataAdapterFillDatatable(string sql, ref DataTable dt) : Cannot open database "TLTEST" requested by the login. The login failed.
+Login failed for user 'soft'.
+13:35:04.944  sqlDataAdapterFillDatatable(string sql, ref DataTable dt) : Cannot open database "TLTEST" requested by the login. The login failed.
+Login failed for user 'soft'.
+13:37:00.545  sqlDataAdapterFillDatatable(string sql, ref DataTable dt) : Cannot open database "TLTEST" requested by the login. The login failed.
+Login failed for user 'soft'.
+13:39:48.226  sqlDataAdapterFillDatatable(string sql, ref DataTable dt) : Cannot open database "TLTEST" requested by the login. The login failed.
+Login failed for user 'soft'.
