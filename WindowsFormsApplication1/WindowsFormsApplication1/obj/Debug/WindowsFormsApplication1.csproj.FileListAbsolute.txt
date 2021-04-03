@@ -523,14 +523,6 @@ D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\Windows
 D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
 D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.exe
 D:\07_YEAR_2020\01_PROJECT_OUTSOURE\01_Database\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.pdb
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\00_no stage_no lot_no location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\01_no stage_no lot_manage location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\02_no stage_manage lot_no location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\03_no stage_manage lot_manage location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\04_manage stage_no lot_no location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\05_manage stage_no lot_manage location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\06_manage stage_manage lot_no location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_CHECK\07_manage stage_manage lot_ manage location.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\01_no stage_no lot_manage location.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\02_no stage_manage lot_no location.sql
@@ -539,10 +531,6 @@ C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsA
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\05_manage stage_no lot_manage location.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\06_manage stage_manage lot_no location.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\07_manage stage_manage lot_ manage location.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\not_stageManagement_LotManagement.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\not_stageManagement_NoLotManagement.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\StageManagement_LotManagement.sql
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\StageManagement_NotLotManagement.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\AttendanceDaily.xlsx
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\AbsenceForm_v1.xlsx
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Resources\BackLogForm3.xlsx
@@ -801,3 +789,15 @@ C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsA
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.exe
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Techlink.pdb
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\00_no stage_no lot_no location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\01_no stage_no lot_manage location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\02_no stage_manage lot_no location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\03_no stage_manage lot_manage location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\04_manage stage_no lot_no location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\05_manage stage_no lot_manage location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\06_manage stage_manage lot_no location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\07_manage stage_manage lot_ manage location.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\not_stageManagement_LotManagement.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\not_stageManagement_NoLotManagement.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\StageManagement_LotManagement.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\StageManagement_NotLotManagement.sql

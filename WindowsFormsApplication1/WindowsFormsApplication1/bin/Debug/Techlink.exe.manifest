@@ -302,7 +302,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WUjhaEXP0XZyvfrnBjD7DXZodac3Epkl/4vkDL2mB98=</dsig:DigestValue>
+        <dsig:DigestValue>jxIJtDsPpwfmaXLuvVfjMm2VGGLofhLwqXEnUBeoz2E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -390,7 +390,79 @@
       <dsig:DigestValue>yfE1c2U9Lqqh0u06VdRZ0RUs1IjqkhO/t6rHa04kxZ8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql" size="8390">
+  <file name="NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql" size="405">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nqoOtjDGY8dB8ttJST3ZOPCtFXtLkS/MfRMpC1AsFS8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\01_no stage_no lot_manage location.sql" size="335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TLuHq3oJXKPKAzkOUP1JWw2kN1ktMjxwjqnSCcR7/Oo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\02_no stage_manage lot_no location.sql" size="335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hcW0VW7ZkAuv1LsSEsgXJ2QH0rrGn3/spc4KyKeFZoA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\03_no stage_manage lot_manage location.sql" size="341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gxk2GuG0BqaGz3VZ+Ct9r1H/jnIWPe7/kOEMN78WIEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\04_manage stage_no lot_no location.sql" size="337">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JlDPP94KOT7MvoRkqGUBmXB7m9tBpcqsUvTa71Cijug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\05_manage stage_no lot_manage location.sql" size="341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h9iFjDmN4c7T0SnfgulO5U0xXoEQiwuj/TYmc+7Nal0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\06_manage stage_manage lot_no location.sql" size="339">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Hw0Nl/SAw+YDyBiZ0clmE0tARuVG7JRkaSMKq5BhzM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\07_manage stage_manage lot_ manage location.sql" size="343">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4SBPiMECaiHogfwIUse3nuVdaBR/kmdoTKG/I80UVfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL_backup\00_no stage_no lot_no location.sql" size="8390">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -399,7 +471,7 @@
       <dsig:DigestValue>Qj6lpbodSBSxeNGlRjNc1d/mpUSfV9H0s4KbAWMCTf0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\01_no stage_no lot_manage location.sql" size="10624">
+  <file name="NewQRcode\FileQuerySQL_backup\01_no stage_no lot_manage location.sql" size="10624">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -408,7 +480,7 @@
       <dsig:DigestValue>G8KMP1HxCptlHr++m4xOrQPSDeZ8O9CUkDsMM6vaJA8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\02_no stage_manage lot_no location.sql" size="13468">
+  <file name="NewQRcode\FileQuerySQL_backup\02_no stage_manage lot_no location.sql" size="13468">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -417,7 +489,7 @@
       <dsig:DigestValue>wyEYENRgHvvhn3a8LT4CKxVGgjWJefRWo0zwdlzyTe4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\03_no stage_manage lot_manage location.sql" size="12539">
+  <file name="NewQRcode\FileQuerySQL_backup\03_no stage_manage lot_manage location.sql" size="12539">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -426,7 +498,7 @@
       <dsig:DigestValue>VdkfQHK8anc/teIK9Shlo0PrqPZ5CfdLuJbNPzUUmL4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\04_manage stage_no lot_no location.sql" size="13299">
+  <file name="NewQRcode\FileQuerySQL_backup\04_manage stage_no lot_no location.sql" size="13299">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -435,7 +507,7 @@
       <dsig:DigestValue>TPYgxc06CO1CjFQTXlVZ9CdVz5BghYH7WQp0FT/AEn0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\05_manage stage_no lot_manage location.sql" size="15551">
+  <file name="NewQRcode\FileQuerySQL_backup\05_manage stage_no lot_manage location.sql" size="15551">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -444,7 +516,7 @@
       <dsig:DigestValue>pc3tyV/2htLyBfSezpNwdfd60cbLF+hFkALCk3YK0dM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\06_manage stage_manage lot_no location.sql" size="18526">
+  <file name="NewQRcode\FileQuerySQL_backup\06_manage stage_manage lot_no location.sql" size="18526">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -453,7 +525,7 @@
       <dsig:DigestValue>XozY3DiBGT9No3mv0OtOryRcfgqzWxrDERgDGWp/lwE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\07_manage stage_manage lot_ manage location.sql" size="18475">
+  <file name="NewQRcode\FileQuerySQL_backup\07_manage stage_manage lot_ manage location.sql" size="18475">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -462,7 +534,7 @@
       <dsig:DigestValue>O/8fJAdDhVOI289uc91x9KvYH1uZV8irbLxS2hAaZgY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\not_stageManagement_LotManagement.sql" size="13575">
+  <file name="NewQRcode\FileQuerySQL_backup\not_stageManagement_LotManagement.sql" size="13575">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -471,7 +543,7 @@
       <dsig:DigestValue>KvoxLVqTxPqL4feHSe1L7xB3m6RPtpYjELTcq6NF8lg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\not_stageManagement_NoLotManagement.sql" size="13592">
+  <file name="NewQRcode\FileQuerySQL_backup\not_stageManagement_NoLotManagement.sql" size="13592">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -480,7 +552,7 @@
       <dsig:DigestValue>8CNQTEi/YyzuFlAaYPB22daJ4/b0ZlNnfG4GhufDtH8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\StageManagement_LotManagement.sql" size="18232">
+  <file name="NewQRcode\FileQuerySQL_backup\StageManagement_LotManagement.sql" size="18232">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -489,85 +561,13 @@
       <dsig:DigestValue>nJ4a1jWYC0WypOUwA1eBjYDRHdKrB81AVNKdsnBy7YA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NewQRcode\FileQuerySQL\StageManagement_NotLotManagement.sql" size="18299">
+  <file name="NewQRcode\FileQuerySQL_backup\StageManagement_NotLotManagement.sql" size="18299">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>SVdFx9SelLS2ZMQ5TYMYvfOQ2ObLUBa14fD9lZ2X9B4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\00_no stage_no lot_no location.sql" size="407">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>/Ms2/wbjmmLnLRxIRHmtNpSoI8GYC5AUfb/hwi4MbKk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\01_no stage_no lot_manage location.sql" size="339">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8rhctue2wtmk+4hm708r3TzOP1Yqok4zDqr2pHsyFBE=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\02_no stage_manage lot_no location.sql" size="339">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>h5jReCpTjHm7U0I2lOOZb5D5b5MxzkpfguaPHGsNGWE=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\03_no stage_manage lot_manage location.sql" size="343">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>HMvOsYtbdYEvHFSOJu6T5f8TdjfE6nHWDSryROXUaM4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\04_manage stage_no lot_no location.sql" size="339">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>oVCbVleI4WJW2BptMnqZYn0mDuDYBpzdwFZK1xkCdW4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\05_manage stage_no lot_manage location.sql" size="343">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>a8kEq/caH+qwEeOFgfgaVAaMP1YlpE661QuEzbT/3FY=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\06_manage stage_manage lot_no location.sql" size="343">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>98U+9Yn3R94CFZn4/9twHLio5Vtnw3BqpZ6X0MF1qcc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NewQRcode\FileQuerySQL_CHECK\07_manage stage_manage lot_ manage location.sql" size="347">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>eOf2vGhcVMRt64y1Bu1+S7qATDNG+mFzZfYRwAr3I48=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Planning\SQLQuery1.sql" size="1027">

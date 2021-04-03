@@ -181,7 +181,7 @@ namespace WindowsFormsApplication1.NewQRcode
                         int temp = Convert.ToInt32(dtERPPQC.Rows[i]["Quantity"]);
                         string sumText = dtERPPQC.AsEnumerable().Where(row => row.Field<string>("ProductOrder") == PO).Sum(row => row.Field<UInt32>("Quantity")).ToString();
                         UInt32 sum32Int = Convert.ToUInt32(sumText);// convert success 
-                        double SLDongGoi = Database.INV.INVMD.ConvertToWeightKg(product, sum32Int);
+                        double SLDongGoi = Math.Round( Database.INV.INVMD.ConvertToWeightKg(product, sum32Int),3);
                         sql_CheckCondition.QueryResult statusStage = sql_CheckCondition.Is_stageManagement(product);/// check condition have stage management.
                         demandQuantity = GetQuantityDemandPlan(PO);
                         bool statusWeight;

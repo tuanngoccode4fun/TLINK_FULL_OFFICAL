@@ -1319,30 +1319,6 @@
     </Compile>
     <Content Include="MySql.Data.dll" />
     <None Include="Resources\20160719024359.jpg" />
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\00_no stage_no lot_no location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\01_no stage_no lot_manage location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\02_no stage_manage lot_no location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\03_no stage_manage lot_manage location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\04_manage stage_no lot_no location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\05_manage stage_no lot_manage location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\06_manage stage_manage lot_no location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="NewQRcode\FileQuerySQL_CHECK\07_manage stage_manage lot_ manage location.sql">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1367,16 +1343,40 @@
     <Content Include="NewQRcode\FileQuerySQL\07_manage stage_manage lot_ manage location.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="NewQRcode\FileQuerySQL\not_stageManagement_LotManagement.sql">
+    <Content Include="NewQRcode\FileQuerySQL_backup\00_no stage_no lot_no location.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="NewQRcode\FileQuerySQL\not_stageManagement_NoLotManagement.sql">
+    <Content Include="NewQRcode\FileQuerySQL_backup\01_no stage_no lot_manage location.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="NewQRcode\FileQuerySQL\StageManagement_LotManagement.sql">
+    <Content Include="NewQRcode\FileQuerySQL_backup\02_no stage_manage lot_no location.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="NewQRcode\FileQuerySQL\StageManagement_NotLotManagement.sql">
+    <Content Include="NewQRcode\FileQuerySQL_backup\03_no stage_manage lot_manage location.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\04_manage stage_no lot_no location.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\05_manage stage_no lot_manage location.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\06_manage stage_manage lot_no location.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\07_manage stage_manage lot_ manage location.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\not_stageManagement_LotManagement.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\not_stageManagement_NoLotManagement.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\StageManagement_LotManagement.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NewQRcode\FileQuerySQL_backup\StageManagement_NotLotManagement.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\AttendanceDaily.xlsx">
