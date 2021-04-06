@@ -9,7 +9,7 @@ namespace WindowsFormsApplication1
 {
     class DBUtils
     {
-        public static bool TLINK = true;
+        public static bool TLINK = false;// [True]: Test TechLink  [False]: Test LOCAL PC
         public static SqlConnection GetDBConnection()
         {
 

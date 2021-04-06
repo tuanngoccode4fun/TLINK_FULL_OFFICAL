@@ -244,6 +244,7 @@ namespace WindowsFormsApplication1.NewQRcode
                     {
                         ttReturn = QueryResult.Exception;
                         SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Please check IsMOCTA_TA013_CONFIRM_Y");
+                        UI_mesage.ClassMessageBoxUI.Show("[Không quản lý công đoạn] Vui lòng kiểm tra TA03 trong bảng MOCTA có giá trị khác \"Y\"", false,3000);
                         break;
 
                     }
