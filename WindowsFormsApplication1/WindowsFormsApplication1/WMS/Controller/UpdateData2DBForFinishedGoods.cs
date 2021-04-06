@@ -318,6 +318,11 @@ namespace WindowsFormsApplication1.WMS.Controller
 						ttReturn = sql_CheckCondition.QueryResult.Exception;
 
 					}
+					////
+					if (ttReturn != sql_CheckCondition.QueryResult.Exception)// Add for call trigger for check status product.
+					{
+						sql_QueryFromFileSQL.Updatestatus_Product(productOrder);
+					}
 				}
 				ERPDoc = TB002;
 			}

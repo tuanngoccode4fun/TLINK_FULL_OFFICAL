@@ -233,10 +233,11 @@ namespace WindowsFormsApplication1.NewQRcode
                             }
                         }
                     }
-                    if (Is_stageManagement(product)==QueryResult.OK &&SFCTA.IsSFCTA_TA010_NULL_ZERO(PO) == false)
+                    if (Is_stageManagement(product)==QueryResult.OK &&SFCTA.Is_SFCTA_TA010_NO_HAVE_NULL_ZERO(PO) == false)
                     {
                         ttReturn = QueryResult.Exception;
                         SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Please check TA010 value of SFCTA is null or ZERO");
+                        UI_mesage.ClassMessageBoxUI.Show("[Quản lý công đoạn] Vui lòng kiểm tra TA10 trong bảng SFCTA có giá trị là NULL hoặc \"0\"", false, 2000);
                         break;
 
                     }
@@ -244,7 +245,7 @@ namespace WindowsFormsApplication1.NewQRcode
                     {
                         ttReturn = QueryResult.Exception;
                         SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Please check IsMOCTA_TA013_CONFIRM_Y");
-                        UI_mesage.ClassMessageBoxUI.Show("[Không quản lý công đoạn] Vui lòng kiểm tra TA03 trong bảng MOCTA có giá trị khác \"Y\"", false,3000);
+                        UI_mesage.ClassMessageBoxUI.Show("[Không quản lý công đoạn] Vui lòng kiểm tra TA03 trong bảng MOCTA có giá trị khác \"Y\"", false,2000);
                         break;
 
                     }

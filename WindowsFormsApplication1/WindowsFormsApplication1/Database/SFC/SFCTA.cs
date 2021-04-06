@@ -206,7 +206,7 @@ namespace WindowsFormsApplication1.Database.SFC
             }
             return true;
         }
-        public static bool IsSFCTA_TA010_NULL_ZERO(string productCode)
+        public static bool Is_SFCTA_TA010_NO_HAVE_NULL_ZERO(string productCode)
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append("select ISNULL(TA010,0) as TA10 from SFCTA where 1=1 and TA003 = '0020'");

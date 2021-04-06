@@ -146,6 +146,39 @@ namespace WindowsFormsApplication1.NewQRcode
             }
             return _listReturn;
         }
+        /// <summary>
+        /// 06042021 Cho trang thái hoàn công.
+        /// </summary>
+        /// <param name="PO"></param>
+        /// <returns></returns>
+        static public sql_CheckCondition.QueryResult Updatestatus_Product(string PO)
+        {
+            try
+            {
+                string fullText = File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + @"\NewQRcode\FileQuerySQL\Update_status_product.sql");
+                string script = null;
+                script = fullText.Replace("$VALUE_PO_NUMBER", PO);
+                SqlTLVN2 sqlTLVN2 = new SqlTLVN2();
+                string status = sqlTLVN2.sqlExecuteScalarString(script.ToString());
+                if (status == "End script with sucessful")
+                {
+                    return sql_CheckCondition.QueryResult.OK;
+                }
+                else
+                {
+                    return sql_CheckCondition.QueryResult.Exception;
+                }
+            }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "Updatestatus_Product", "NameFile: " + "Update_status_product.sql" + "\n" + ex.Message);
+                return sql_CheckCondition.QueryResult.Exception;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
         static sql_CheckCondition.QueryResult InsertFunction(DataRow ERPPQC, int i, string TF002, bool IsCheckQuantity_Weight, string nameFile)
         {
             try

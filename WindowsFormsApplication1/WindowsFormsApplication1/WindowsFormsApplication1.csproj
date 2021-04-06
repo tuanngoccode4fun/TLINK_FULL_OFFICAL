@@ -1319,6 +1319,9 @@
     </Compile>
     <Content Include="MySql.Data.dll" />
     <None Include="Resources\20160719024359.jpg" />
+    <Content Include="NewQRcode\FileQuerySQL\Update_status_product.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="NewQRcode\FileQuerySQL\00_no stage_no lot_no location.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
