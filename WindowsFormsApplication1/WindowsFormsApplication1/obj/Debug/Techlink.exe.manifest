@@ -295,14 +295,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Techlink.exe" size="21332992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Techlink.exe" size="21334016">
       <assemblyIdentity name="Techlink" version="1.0.0.21" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4xF01SNSCDTirXp+ukByB1NLOLeSsX8PBHuvFm2Xr4k=</dsig:DigestValue>
+        <dsig:DigestValue>byx43LaFwfiun0xM0K4IPr48T4LZXgcYgYHUxRIJGyE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -460,6 +460,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>4SBPiMECaiHogfwIUse3nuVdaBR/kmdoTKG/I80UVfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NewQRcode\FileQuerySQL\Update_status_product.sql" size="123">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ufzg2jlkMSgpeaCc6IXFtTOCCO3d+ET3JvnCI3mS6pM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NewQRcode\FileQuerySQL_backup\00_no stage_no lot_no location.sql" size="8390">

@@ -1,1 +1,6 @@
 21:20:40.593 ------------Start-----------   : FinishedGoodsUI
+22:08:16.770 ------------Start-----------   : FinishedGoodsUI
+22:08:49.378 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+22:08:53.410 ReceiveQR : Có công đoạn nhưng không tạo được phiếu có giá trị A-02
+22:08:59.495 [ReceiveQR Success]  : s;B51221010025;JMH9413S01;JMH1439413S01;31;10/11/2020;;20201110;;JO2020110745;*e
+22:09:16.486 [ReceiveQR Success]  : s;B51221010025;JMH9413S01;JMH1439413S01;31;10/11/2020;;20201110;;JO2020110745;*e

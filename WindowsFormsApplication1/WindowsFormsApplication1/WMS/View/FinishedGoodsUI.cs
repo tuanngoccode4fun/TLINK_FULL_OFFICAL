@@ -177,15 +177,17 @@ namespace WindowsFormsApplication1.WMS.View
                         txt_QRImport.Focus();
                         return;
                     }
-                    if (sql_QueryFromFileSQL.IsExistQR(valueTem.TransactionID)) 
+                    if (sql_QueryFromFileSQL.IsExistQR(valueTem.TransactionID))
                     {
                         //sql_QueryFromFileSQL.InsertQRcode(valueTem.TransactionID);
+                        ClassMessageBoxUI.Show("Mã QR này đã được nhập. Bạn không thể nhập lại. Vui lòng liên hệ admin để xóa.", false,1500);
                         txt_QRImport.Text = null;
                         txt_QRImport.Focus();
                         return;
                     }
                     if (sql_CheckCondition.Is_stageManagement(valueTem.Product) == sql_CheckCondition.QueryResult.Exception_A_02)//Exception of have stage management
                     {
+                        ClassMessageBoxUI.Show("Có công đoạn nhưng không tạo được phiếu có giá trị A-02.", false, 1500);
                         SystemLog.Output(SystemLog.MSG_TYPE.Err, "ReceiveQR", "Có công đoạn nhưng không tạo được phiếu có giá trị A-02");
                         txt_QRImport.Text = null;
                         txt_QRImport.Focus();
@@ -200,14 +202,14 @@ namespace WindowsFormsApplication1.WMS.View
                         ///////
                         valueGet.Id = (uint)ListImportFG.Count() + 1;
                         ListImportFG.Add(valueGet);
-                        SystemLog.Output(SystemLog.MSG_TYPE.Nor, "[ReceiveQR Success] " , valueGet.TransactionID);
+                        SystemLog.Output(SystemLog.MSG_TYPE.Nor, "[ReceiveQR Success] ", valueGet.TransactionID);
                         txt_QRImport.Text = null;
                         txt_QRLocationImport.Text = "";
                         //txt_QRImport.Focus();
                     }
                     else
                     {
-                        ClassMessageBoxUI.Show("QR code have already added in your list!", false);
+                        ClassMessageBoxUI.Show("QR code này đã tồn tại trong danh sách nhập.", false);
                         txt_QRImport.Text = null;
                         txt_QRImport.Focus();
                         return;
@@ -226,7 +228,13 @@ namespace WindowsFormsApplication1.WMS.View
                         lb_indicate.Text = GetListDocNo.GetDescribeDocNo(Class.valiballecommon.GetStorage().DocNo.Trim());
 
                     }
-       
+                    else if (sql_CheckCondition.Is_stageManagement(valueTem.Product) == sql_CheckCondition.QueryResult.OK)//Have ManagmentStage Auto select "D301"
+                    {
+                        cmboxDocNo.SelectedItem = "D301";
+                        Class.valiballecommon.GetStorage().DocNo = "D301";
+                        SaveObject.Save_data(LoginFr.PathSaveConfig, Class.valiballecommon.GetStorage());
+                        lb_indicate.Text = GetListDocNo.GetDescribeDocNo(Class.valiballecommon.GetStorage().DocNo.Trim());
+                    }
                 }
                 dtgv_import.DataSource = null;
                 dtgv_import.DataSource = ListImportFG;

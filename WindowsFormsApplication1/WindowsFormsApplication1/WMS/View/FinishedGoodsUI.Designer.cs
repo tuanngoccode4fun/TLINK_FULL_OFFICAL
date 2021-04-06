@@ -555,7 +555,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent,99.9F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 99.9F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.1F));
             this.tableLayoutPanel6.Controls.Add(this.dtgv_import, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel7, 1, 0);
@@ -582,7 +582,7 @@
             this.dtgv_import.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dtgv_import.RowTemplate.Height = 24;
             this.dtgv_import.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgv_import.Size = new System.Drawing.Size(845, 255);
+            this.dtgv_import.Size = new System.Drawing.Size(1154, 255);
             this.dtgv_import.TabIndex = 3;
             this.dtgv_import.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_import_CellContentClick);
             // 
@@ -595,13 +595,13 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.Controls.Add(this.richTextLog, 0, 1);
             this.tableLayoutPanel7.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(845, 0);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(1154, 0);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.2921F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 91.7079F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(311, 255);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(2, 255);
             this.tableLayoutPanel7.TabIndex = 4;
             // 
             // richTextLog
@@ -612,7 +612,7 @@
             this.richTextLog.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.richTextLog.Location = new System.Drawing.Point(3, 24);
             this.richTextLog.Name = "richTextLog";
-            this.richTextLog.Size = new System.Drawing.Size(305, 228);
+            this.richTextLog.Size = new System.Drawing.Size(1, 228);
             this.richTextLog.TabIndex = 5;
             this.richTextLog.Text = "";
             // 
@@ -626,7 +626,7 @@
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(311, 21);
+            this.button1.Size = new System.Drawing.Size(2, 21);
             this.button1.TabIndex = 0;
             this.button1.Text = "Log View";
             this.button1.UseVisualStyleBackColor = false;
@@ -1571,11 +1571,11 @@
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(1073, 89);
+            this.label11.Location = new System.Drawing.Point(1031, 89);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 13);
+            this.label11.Size = new System.Drawing.Size(127, 13);
             this.label11.TabIndex = 9;
-            this.label11.Text = "Version: 120.21";
+            this.label11.Text = "Version: 06_04_2021";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // FinishedGoodsUI

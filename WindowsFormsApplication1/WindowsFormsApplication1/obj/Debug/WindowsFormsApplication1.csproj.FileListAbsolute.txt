@@ -679,7 +679,6 @@ C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsA
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\LiveCharts.Wpf.xml
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.xml
-C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CommonForm.resources
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CommonFormMetro.resources
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CrisisReportShow.resources
@@ -801,3 +800,4 @@ C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsA
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\not_stageManagement_NoLotManagement.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\StageManagement_LotManagement.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\StageManagement_NotLotManagement.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\Update_status_product.sql
