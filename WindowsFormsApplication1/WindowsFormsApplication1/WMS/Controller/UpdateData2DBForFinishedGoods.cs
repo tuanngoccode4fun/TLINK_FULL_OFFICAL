@@ -201,7 +201,7 @@ namespace WindowsFormsApplication1.WMS.Controller
 					string product = dtERPPQC.Rows[i]["Product"].ToString().Trim();
 					if (!Database.SFC.SFCTA.IsExistSFCTA(productOrder) && sql_CheckCondition.Is_stageManagement(product) == sql_CheckCondition.QueryResult.OK)
 					{
-						MessageBox.Show("Please check not exist this product in SFCTA: "+ productOrder, "Warning", MessageBoxButtons.OK);/// Consider 
+						MessageBox.Show("Vui lòng kiểm tra không tồn tại mã sản phẩm này trong bảng SFCTA: "+ productOrder, "Warning", MessageBoxButtons.OK);/// Consider 
 						break;
 					}
 					

@@ -380,7 +380,7 @@ namespace WindowsFormsApplication1.WMS.View
             {
                 if (confirm)
                 {
-                    MessageBoxResult = MessageBox.Show("Are you sure want to import finished goods into warehouse ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    MessageBoxResult = MessageBox.Show("Bạn muốn nhập list QR code này vào kho không?", "Thông tin", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 }
                 if (MessageBoxResult == DialogResult.Yes)
                 {
@@ -394,13 +394,13 @@ namespace WindowsFormsApplication1.WMS.View
                     {
                         if (Class.valiballecommon.GetStorage().DocNo == null)
                         {
-                            ClassMessageBoxUI.Show("Plese choose DocNo ?", false);
+                            ClassMessageBoxUI.Show("Vui lòng chọn mã phiếu DocNo?", false);
                             txt_QRImport.Focus();
                             return;
                         }
                         if (dtgv_import.Rows.Count == 0)
                         {
-                            ClassMessageBoxUI.Show("Please add new item barcode ?", false);
+                            ClassMessageBoxUI.Show("Vui lòng thêm vào QR code ?", false);
                             txt_QRImport.Focus();
                             return;
                         }

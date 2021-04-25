@@ -191,7 +191,7 @@ namespace WindowsFormsApplication1.NewQRcode
                             if (!statusWeight)
                             {
                                 ttReturn = QueryResult.NG;
-                                UI_mesage.ClassMessageBoxUI.Show("Please check weight validation failed.", false);                               
+                                UI_mesage.ClassMessageBoxUI.Show("[Quản lí công đoạn] Vui lòng kiểm tra lỗi nhập vượt trọng lượng", false);                               
                             }
                         }
                         else 
@@ -201,7 +201,7 @@ namespace WindowsFormsApplication1.NewQRcode
                             {
                                 ttReturn = QueryResult.Exception;
                                 SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Mã không quản lý công đoạn bị lỗi nhập vượt trọng lượng.");/// Không tạo phiếu và bị lỗi nhập vượt trọng lượng
-                                UI_mesage.ClassMessageBoxUI.Show("Please check weight validation failed.", false);
+                                UI_mesage.ClassMessageBoxUI.Show("[Không quản lí công đoạn] Vui lòng kiểm tra lỗi nhập vượt trọng lượng ", false);
                                 break;
                             }
                         }
@@ -214,7 +214,7 @@ namespace WindowsFormsApplication1.NewQRcode
                                 if (demandQuantity - (notConfirmQuantity + sum32Int) < 0)
                                 {
                                     ttReturn = QueryResult.NG;
-                                    UI_mesage.ClassMessageBoxUI.Show("Please check quality over demandQuality at stage management", false);
+                                    UI_mesage.ClassMessageBoxUI.Show("[Quản lí công đoạn] Vui lòng kiểm tra lỗi nhập vượt số lượng ", false);
                                 }
                             }
                         }
@@ -227,7 +227,7 @@ namespace WindowsFormsApplication1.NewQRcode
                                 {
                                     ttReturn = QueryResult.Exception;
                                     SystemLog.Output(SystemLog.MSG_TYPE.Err, "CheckConditionAllItemQRCodeInsert", "Mã không quản lý công đoạn bị lỗi nhập vượt số lượng");// Lỗi không quả l
-                                    UI_mesage.ClassMessageBoxUI.Show("Please check  quality over demandQuality at No stage Management", false);
+                                    UI_mesage.ClassMessageBoxUI.Show("[Không quản lí công đoạn] Vui lòng kiểm tra lỗi nhập vượt số lượng ", false);
                                     break;
                                 }
                             }
@@ -401,7 +401,7 @@ namespace WindowsFormsApplication1.NewQRcode
             }
             catch (Exception ex)
             {
-                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetQuantityDemandPlan", ex.Message);
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetWeightDemandPlan", ex.Message);
             }
             finally
             {
@@ -440,7 +440,7 @@ from MOCTA  where TA001 = @P and TA002 = @O"; //
             }
             catch (Exception ex)
             {
-                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetQuantityDemandPlan", ex.Message);
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetWeightDemandPlan_NoStageManagement", ex.Message);
             }
             finally
             {
