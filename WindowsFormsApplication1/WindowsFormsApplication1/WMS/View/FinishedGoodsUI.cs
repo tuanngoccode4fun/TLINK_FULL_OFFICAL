@@ -1848,14 +1848,28 @@ namespace WindowsFormsApplication1.WMS.View
 
         private void BT_DELETE_Click(object sender, EventArgs e)
         {
-            foreach (DataGridViewRow row in GRIDVIEW_DATABASE.Rows)// all rows
+            var MessageBoxResult = DialogResult.Yes;
+            try
             {
-                sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
+                MessageBoxResult = MessageBox.Show("Bạn có muốn cho phép nhập lại tất cả các QR code này không?", "Thông tin", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (MessageBoxResult == DialogResult.Yes)
+                {
+                    foreach (DataGridViewRow row in GRIDVIEW_DATABASE.Rows)// all rows
+                    {
+                        sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
 
+                    }
+                    ListForEnableInsert = new List<QRImportClass>();
+                    GRIDVIEW_DATABASE.DataSource = null;
+                    GRIDVIEW_DATABASE.DataSource = new List<QRImportClass>();
+                }
             }
-            ListForEnableInsert = new List<QRImportClass>();
-            GRIDVIEW_DATABASE.DataSource = null;
-            GRIDVIEW_DATABASE.DataSource = new List<QRImportClass>();
+            catch (Exception ex)
+            {
+                ClassMessageBoxUI.Show(ex.Message, false);
+            }
+
+        
         }
 
         private void BT_ADD_Click(object sender, EventArgs e)
