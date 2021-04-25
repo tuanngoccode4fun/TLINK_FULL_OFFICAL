@@ -101,7 +101,7 @@ namespace WindowsFormsApplication1.mainUI
             string user = Class.valiballecommon.GetStorage().UserName;
 
 
-            if (Database.ADMMFUpdate.IsHavePermisionUser(user))
+            if (Database.ADMMFUpdate.IsHavePermisionUser(user) || Class.valiballecommon.GetStorage().Permission=="admin")
             {
                 WMS.View.FinishedGoodsUI finishedGoodsUI = new WMS.View.FinishedGoodsUI();
                 finishedGoodsUI.WindowState = FormWindowState.Maximized;
@@ -109,7 +109,7 @@ namespace WindowsFormsApplication1.mainUI
             }
             else
             {
-                MessageBox.Show("You don't have permission to use this function ", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Bạn không có quyền cho chức năng này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

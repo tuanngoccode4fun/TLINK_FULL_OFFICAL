@@ -118,7 +118,7 @@
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.dtgv_QRimportData = new System.Windows.Forms.DataGridView();
             this.dtgvExportFGs = new System.Windows.Forms.DataGridView();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage1_EnableQR_Code = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
@@ -157,7 +157,7 @@
             this.tableLayoutPanel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_QRimportData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvExportFGs)).BeginInit();
-            this.tabPage1.SuspendLayout();
+            this.tabPage1_EnableQR_Code.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -174,7 +174,7 @@
             this.tabPage_FinishedGood.Controls.Add(this.tabPage1_Import);
             this.tabPage_FinishedGood.Controls.Add(this.tabPage_Export);
             this.tabPage_FinishedGood.Controls.Add(this.tabPage2);
-            this.tabPage_FinishedGood.Controls.Add(this.tabPage1);
+            this.tabPage_FinishedGood.Controls.Add(this.tabPage1_EnableQR_Code);
             this.tabPage_FinishedGood.Location = new System.Drawing.Point(6, 104);
             this.tabPage_FinishedGood.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage_FinishedGood.Name = "tabPage_FinishedGood";
@@ -194,6 +194,7 @@
             this.tabPage1_Import.TabIndex = 0;
             this.tabPage1_Import.Text = "FINISHED GOODS IMPORT";
             this.tabPage1_Import.UseVisualStyleBackColor = true;
+            this.tabPage1_Import.Click += new System.EventHandler(this.tabPage1_Import_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -1407,16 +1408,16 @@
             this.dtgvExportFGs.TabIndex = 0;
             this.dtgvExportFGs.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dtgvExportFGs_DataBindingComplete);
             // 
-            // tabPage1
+            // tabPage1_EnableQR_Code
             // 
-            this.tabPage1.Controls.Add(this.tableLayoutPanel8);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1160, 512);
-            this.tabPage1.TabIndex = 4;
-            this.tabPage1.Text = "QR DATABASE";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1_EnableQR_Code.Controls.Add(this.tableLayoutPanel8);
+            this.tabPage1_EnableQR_Code.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1_EnableQR_Code.Name = "tabPage1_EnableQR_Code";
+            this.tabPage1_EnableQR_Code.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1_EnableQR_Code.Size = new System.Drawing.Size(1160, 512);
+            this.tabPage1_EnableQR_Code.TabIndex = 4;
+            this.tabPage1_EnableQR_Code.Text = "QR DATABASE";
+            this.tabPage1_EnableQR_Code.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel8
             // 
@@ -1647,7 +1648,7 @@
             this.tableLayoutPanel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_QRimportData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvExportFGs)).EndInit();
-            this.tabPage1.ResumeLayout(false);
+            this.tabPage1_EnableQR_Code.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
             this.tableLayoutPanel12.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
@@ -1754,7 +1755,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.RichTextBox richTextLog;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage1_EnableQR_Code;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         private System.Windows.Forms.GroupBox groupBox6;

@@ -72,7 +72,9 @@ namespace WindowsFormsApplication1.WMS.View
             lbl_Header.Text = "FINISHED GOODS IMPORT/ EXPORT";
             InitializeTimer_Total();
             InitializeTimer_Min();
+
         }
+
         private void InitializeTimer_Total()
         {
             timerGetQR_Total = new Timer();
@@ -1848,6 +1850,11 @@ namespace WindowsFormsApplication1.WMS.View
 
         private void BT_DELETE_Click(object sender, EventArgs e)
         {
+            if (Class.valiballecommon.GetStorage().Permission != "admin")
+            {
+                ClassMessageBoxUI.Show("Bạn không có quyền thực hiện chức năng này! Vui lòng liên hệ admin.", false);
+                return;
+            }
             var MessageBoxResult = DialogResult.Yes;
             try
             {
@@ -1894,6 +1901,11 @@ namespace WindowsFormsApplication1.WMS.View
                 ClassMessageBoxUI.Show("Gía trị QR code này không tồn tại trong database", false);
                 TXT_SEARCH.Text = null;
             }
+        }
+
+        private void tabPage1_Import_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
