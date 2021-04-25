@@ -43,6 +43,7 @@ namespace WindowsFormsApplication1.WMS.View
         int m_maxLine = 200;
         EventBroker.EventObserver m_observerLog = null;
         List<DocNoClass> listDocNoStageManagement = new List<DocNoClass>();
+        List<QRImportClass> ListForEnableInsert = new List<QRImportClass>();
         bool showLog = false;
         public FinishedGoodsUI()
         {
@@ -1779,10 +1780,7 @@ namespace WindowsFormsApplication1.WMS.View
 
         }
 
-        private void BT_SEARCH_Click(object sender, EventArgs e)
-        {
-            GRIDVIEW_DATABASE.DataSource= sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
-        }
+
 
         private void dtgv_import_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -1801,7 +1799,7 @@ namespace WindowsFormsApplication1.WMS.View
                     ContextMenu m = new ContextMenu();
                     //m.MenuItems.Add(new MenuItem("Cut"));
                     //m.MenuItems.Add(new MenuItem("Copy"));
-                    MenuItem Enable = new MenuItem("Enable " + allID);
+                    MenuItem Enable = new MenuItem("Remove " + allID);
                     Enable.Click += Enable_Click; ;
                     m.MenuItems.Add(Enable);
                     m.Show(GRIDVIEW_DATABASE, new Point(e.X+10, e.Y));
@@ -1817,11 +1815,16 @@ namespace WindowsFormsApplication1.WMS.View
             {
                 foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
                 {
-                    sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
+                    // sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
+                    ListForEnableInsert.RemoveAll(X => X.QRCODE == row.Cells[1].Value.ToString());
 
                 }
             }
-            GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
+            if (ListForEnableInsert.Count == 0)
+                ListForEnableInsert = new List<QRImportClass>();
+            // GRIDVIEW_DATABASE.DataSource = sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim());
+            GRIDVIEW_DATABASE.DataSource = null;
+            GRIDVIEW_DATABASE.DataSource = ListForEnableInsert;
         }
 
         private void bt_show_log_Click(object sender, EventArgs e)
@@ -1841,6 +1844,42 @@ namespace WindowsFormsApplication1.WMS.View
                 showLog = false;
             }
             this.tableLayoutPanel6.Show();
+        }
+
+        private void BT_DELETE_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in GRIDVIEW_DATABASE.Rows)// all rows
+            {
+                sql_QueryFromFileSQL.UpdateQRcodeByID(row.Cells[0].Value.ToString());
+
+            }
+            ListForEnableInsert = new List<QRImportClass>();
+            GRIDVIEW_DATABASE.DataSource = null;
+            GRIDVIEW_DATABASE.DataSource = new List<QRImportClass>();
+        }
+
+        private void BT_ADD_Click(object sender, EventArgs e)
+        {
+            if (sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim()).Count > 0)
+            {
+                if (ListForEnableInsert.FindAll(x => x.QRCODE == TXT_SEARCH.Text.Trim()).Count == 0)
+                {
+                    ListForEnableInsert.Add(sql_QueryFromFileSQL.SelectQRCode(TXT_SEARCH.Text.Trim())[0]);
+                    GRIDVIEW_DATABASE.DataSource = null;
+                    GRIDVIEW_DATABASE.DataSource = ListForEnableInsert;
+                    TXT_SEARCH.Text = null;
+                }
+                else
+                {
+                    ClassMessageBoxUI.Show("Gía trị QR code này đã được nhập vào danh sách", false);
+                    TXT_SEARCH.Text = null;
+                }
+            }
+            else
+            {
+                ClassMessageBoxUI.Show("Gía trị QR code này không tồn tại trong database", false);
+                TXT_SEARCH.Text = null;
+            }
         }
     }
 }

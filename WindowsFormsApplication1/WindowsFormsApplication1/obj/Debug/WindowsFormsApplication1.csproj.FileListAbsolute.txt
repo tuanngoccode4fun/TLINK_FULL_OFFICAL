@@ -801,3 +801,4 @@ C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsA
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\StageManagement_LotManagement.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL_backup\StageManagement_NotLotManagement.sql
 C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NewQRcode\FileQuerySQL\Update_status_product.sql
+C:\Users\Admin\Desktop\TLINK_FULL_OFFICAL\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache

@@ -122,9 +122,10 @@
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.BT_DELETE = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.TXT_SEARCH = new System.Windows.Forms.TextBox();
-            this.BT_SEARCH = new System.Windows.Forms.Button();
+            this.BT_ADD = new System.Windows.Forms.Button();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.GRIDVIEW_DATABASE = new System.Windows.Forms.DataGridView();
             this.lbl_Header = new System.Windows.Forms.Label();
@@ -1456,9 +1457,10 @@
             this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox6.Controls.Add(this.BT_DELETE);
             this.groupBox6.Controls.Add(this.label18);
             this.groupBox6.Controls.Add(this.TXT_SEARCH);
-            this.groupBox6.Controls.Add(this.BT_SEARCH);
+            this.groupBox6.Controls.Add(this.BT_ADD);
             this.groupBox6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(2, 2);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
@@ -1468,10 +1470,28 @@
             this.groupBox6.TabIndex = 1;
             this.groupBox6.TabStop = false;
             // 
+            // BT_DELETE
+            // 
+            this.BT_DELETE.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BT_DELETE.BackColor = System.Drawing.Color.White;
+            this.BT_DELETE.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.BT_DELETE.Image = global::WindowsFormsApplication1.Properties.Resources.delete_32;
+            this.BT_DELETE.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BT_DELETE.Location = new System.Drawing.Point(1003, 15);
+            this.BT_DELETE.Margin = new System.Windows.Forms.Padding(2);
+            this.BT_DELETE.Name = "BT_DELETE";
+            this.BT_DELETE.Size = new System.Drawing.Size(138, 41);
+            this.BT_DELETE.TabIndex = 15;
+            this.BT_DELETE.Text = "DELETE";
+            this.BT_DELETE.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BT_DELETE.UseVisualStyleBackColor = false;
+            this.BT_DELETE.Click += new System.EventHandler(this.BT_DELETE_Click);
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(34, 30);
+            this.label18.Location = new System.Drawing.Point(10, 26);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(76, 17);
             this.label18.TabIndex = 14;
@@ -1482,28 +1502,28 @@
             // 
             this.TXT_SEARCH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.TXT_SEARCH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TXT_SEARCH.Location = new System.Drawing.Point(135, 22);
+            this.TXT_SEARCH.Location = new System.Drawing.Point(92, 22);
             this.TXT_SEARCH.Name = "TXT_SEARCH";
-            this.TXT_SEARCH.Size = new System.Drawing.Size(809, 26);
+            this.TXT_SEARCH.Size = new System.Drawing.Size(755, 26);
             this.TXT_SEARCH.TabIndex = 13;
             // 
-            // BT_SEARCH
+            // BT_ADD
             // 
-            this.BT_SEARCH.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.BT_ADD.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.BT_SEARCH.BackColor = System.Drawing.Color.White;
-            this.BT_SEARCH.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.BT_SEARCH.Image = global::WindowsFormsApplication1.Properties.Resources.ProductionPlan;
-            this.BT_SEARCH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BT_SEARCH.Location = new System.Drawing.Point(990, 15);
-            this.BT_SEARCH.Margin = new System.Windows.Forms.Padding(2);
-            this.BT_SEARCH.Name = "BT_SEARCH";
-            this.BT_SEARCH.Size = new System.Drawing.Size(152, 41);
-            this.BT_SEARCH.TabIndex = 12;
-            this.BT_SEARCH.Text = "SEARCH";
-            this.BT_SEARCH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BT_SEARCH.UseVisualStyleBackColor = false;
-            this.BT_SEARCH.Click += new System.EventHandler(this.BT_SEARCH_Click);
+            this.BT_ADD.BackColor = System.Drawing.Color.White;
+            this.BT_ADD.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.BT_ADD.Image = global::WindowsFormsApplication1.Properties.Resources.Add_32_2;
+            this.BT_ADD.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BT_ADD.Location = new System.Drawing.Point(852, 15);
+            this.BT_ADD.Margin = new System.Windows.Forms.Padding(2);
+            this.BT_ADD.Name = "BT_ADD";
+            this.BT_ADD.Size = new System.Drawing.Size(144, 41);
+            this.BT_ADD.TabIndex = 12;
+            this.BT_ADD.Text = "ADD";
+            this.BT_ADD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BT_ADD.UseVisualStyleBackColor = false;
+            this.BT_ADD.Click += new System.EventHandler(this.BT_ADD_Click);
             // 
             // tableLayoutPanel13
             // 
@@ -1575,7 +1595,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(127, 13);
             this.label11.TabIndex = 9;
-            this.label11.Text = "Version: 06_04_2021";
+            this.label11.Text = "Version: 25_04_2021";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // FinishedGoodsUI
@@ -1738,11 +1758,12 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Button BT_SEARCH;
+        private System.Windows.Forms.Button BT_ADD;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
         private System.Windows.Forms.DataGridView GRIDVIEW_DATABASE;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox TXT_SEARCH;
         private System.Windows.Forms.Button bt_show_log;
+        private System.Windows.Forms.Button BT_DELETE;
     }
 }
