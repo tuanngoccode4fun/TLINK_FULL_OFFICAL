@@ -20,7 +20,7 @@ namespace WindowsFormsApplication1.NewQRcode.UI_mesage
         {
             InitializeComponent();
             m_Timer.Enabled = true;
-            m_Timer.Interval = 1000;
+            m_Timer.Interval = 2000;
             m_Timer.Tick += M_Timer_Tick;
             m_Timer.Start();
         }

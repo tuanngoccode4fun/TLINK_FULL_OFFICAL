@@ -21,22 +21,22 @@ namespace WindowsFormsApplication1.NewQRcode
             string[] ListCurrentItem = System.Text.RegularExpressions.Regex.Replace(txtInput, " ", "").Split(';');
             if (txtInput.Trim().StartsWith("s")!=true)
             {
-              ClassMessageBoxUI.Show ("QR code not start with \"s\" ", false);
+              ClassMessageBoxUI.Show ("QR code phải bắt đầu bằng kí tự \"s\" ", false);
                 return false;
             }
             if (txtInput.Trim().EndsWith("e") != true)
             {
-                ClassMessageBoxUI.Show("QR code not end with \"e\" ",false);
+                ClassMessageBoxUI.Show("QR code phải kết thúc bằng kí tự \"e\" ",false);
                 return false;
             }
             if (ListCurrentItem[ListCurrentItem.Count() - 1].Trim() != "*e")
             {
-                ClassMessageBoxUI.Show("You can't use this QR code. Please contact your admin!", false);
+                ClassMessageBoxUI.Show("Bạn không thể sử dụng mã QR code này. Vui lòng liên hệ admin để kiểm tra lại.", false);
                 return false;
             }
             if (ListCurrentItem.Count() < countItem)
             {
-                ClassMessageBoxUI.Show(string.Format("QR input not enough item spec > {0}, current {1}",countItem, ListCurrentItem.Count()),false);
+                ClassMessageBoxUI.Show(string.Format("QR code không đủ thông tin , chiều phải > {0}, chiều dài hiện tại là {1}",countItem, ListCurrentItem.Count()),false);
                 return false;    
             }
             return true;

@@ -150,7 +150,7 @@ namespace WindowsFormsApplication1.WMS.View
                 {
                     if (timerGetQR_Total.Enabled == false)/// after total finish, We have to message, other situation not display.
                     {
-                        ClassMessageBoxUI.Show("Your QR must be include char START: \"s\" and STOP: \"e\" ", false);
+                        ClassMessageBoxUI.Show("QR code của bạn phải bắt đầu với kí tự: \"s\" và kết thúc: \"e\" ", false);
                         txt_QRImport.Text = null;
                         txt_QRImport.Focus();
                     }
@@ -158,7 +158,7 @@ namespace WindowsFormsApplication1.WMS.View
                 }
                 if (status_IsInput)
                 {
-                    ClassMessageBoxUI.Show("Please scan your location for add new item!", false);
+                    ClassMessageBoxUI.Show("Đã nhận được QR code. Vui lòng scan vị trí để nhập vào bảng!", false);
                     txt_QRImport.Focus();
                     return;
                 }
@@ -167,7 +167,7 @@ namespace WindowsFormsApplication1.WMS.View
                 {
                     if (valueTem.Warehouse.Trim() != cmboxWareHouse.SelectedItem.ToString().Trim())
                     {
-                        ClassMessageBoxUI.Show(string.Format("It's different item WareHouse between your warehouse {0} and {1}", cmboxWareHouse.SelectedItem.ToString().Trim(), valueTem.Warehouse), false);
+                        ClassMessageBoxUI.Show(string.Format("Có lỗi kho nhập không đúng với cài đặt trước kho đã chọn là {0} và kho scan để nhập là {1}", cmboxWareHouse.SelectedItem.ToString().Trim(), valueTem.Warehouse), false);
                         txt_QRImport.Text = null;
                         txt_QRImport.Focus();
                         return;
@@ -175,7 +175,7 @@ namespace WindowsFormsApplication1.WMS.View
                     /// check all data same warehouse or not
                     if (IdentifyQR.IsWrongWareHouse(ListImportFG, valueTem) && ListImportFG.Count > 0)
                     {
-                        ClassMessageBoxUI.Show(string.Format("It's different item WareHouse between {0} and {1}", ListImportFG[0].Warehouse, valueTem.Warehouse), false);
+                        ClassMessageBoxUI.Show(string.Format("Có lỗi kho nhập khác với những hàng đã nhập trước đó là {0} và kho scan để nhập là {1}", ListImportFG[0].Warehouse, valueTem.Warehouse), false);
                         txt_QRImport.Text = null;
                         txt_QRImport.Focus();
                         return;
@@ -1791,23 +1791,32 @@ namespace WindowsFormsApplication1.WMS.View
 
         private void GRIDVIEW_DATABASE_MouseClick(object sender, MouseEventArgs e)
         {
-            string allID = null;
-            if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
-            {
-                foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
-                { allID = allID + " [" + row.Cells[0].Value.ToString() + "] "; }
-                if (e.Button == MouseButtons.Left)
-                {
-                    ContextMenu m = new ContextMenu();
-                    //m.MenuItems.Add(new MenuItem("Cut"));
-                    //m.MenuItems.Add(new MenuItem("Copy"));
-                    MenuItem Enable = new MenuItem("Remove " + allID);
-                    Enable.Click += Enable_Click; ;
-                    m.MenuItems.Add(Enable);
-                    m.Show(GRIDVIEW_DATABASE, new Point(e.X+10, e.Y));
 
+            string allID = null;
+            try
+            {
+                if (GRIDVIEW_DATABASE.SelectedRows.Count > 0)
+                {
+                    foreach (DataGridViewRow row in GRIDVIEW_DATABASE.SelectedRows)
+                    { allID = allID + " [" + row.Cells[0].Value.ToString() + "] "; }
+                    if (e.Button == MouseButtons.Left)
+                    {
+                        ContextMenu m = new ContextMenu();
+                        //m.MenuItems.Add(new MenuItem("Cut"));
+                        //m.MenuItems.Add(new MenuItem("Copy"));
+                        MenuItem Enable = new MenuItem("Remove " + allID);
+                        Enable.Click += Enable_Click; ;
+                        m.MenuItems.Add(Enable);
+                        m.Show(GRIDVIEW_DATABASE, new Point(e.X + 10, e.Y));
+
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GRIDVIEW_DATABASE_MouseClick", ex.Message);
+            }
+
  
         }
 
