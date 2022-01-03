@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using UploadDataToDatabase.Log;
+using UploadDataToDatabase;
+
 
 namespace UploadDataToDatabase.BackLogReport
 {
@@ -47,7 +49,7 @@ namespace UploadDataToDatabase.BackLogReport
 
                 gridView.DataSource = listBackLog;
 
-                    return exportExcel.ExportToTemplate(path, gridView, DateTime.Now.ToString("yyyy-MM-dd"), strUser, version, DateTime.Now.ToString("yyyy"));
+                    return exportExcel.ExportToTemplate(path, gridView, pathSave, DateTime.Now.ToString("yyyy-MM-dd"), strUser, version, DateTime.Now.ToString("yyyy"));
 
                 }
                 catch (Exception ex)
@@ -84,7 +86,8 @@ coptds.TD008 as Order_Quantity,
 coptds.TD009 as Shipped_Quantity,
 coptds.TD016 as StatusOFCode,
 invmbs.MB064 as Stock_Qty,
-coptds.TD003 as STT
+coptds.TD003 as STT,
+coptcs.TC003 as orderDate
  from COPTC coptcs
 left join COPTD  coptds on coptcs.TC002 = coptds.TD002  and coptcs.TC001 = coptds.TD001 -- cong doan tao don
 inner join COPMA copmas on copmas.MA001 = coptcs.TC004
@@ -95,7 +98,7 @@ and  coptcs.TC027 = 'Y'
  ");
         
 
-          //  sql.Append(" and CONVERT(date,coptds.TD013)  >= '" + datefrom + "' ");
+            sql.Append(" and CONVERT(date,coptds.TD013)  >= '" + dateto.AddYears(-2).ToString("yyyyMMdd") + "' ");
             sql.Append(" and CONVERT(date,coptds.TD013) <= '" + dateto.ToString("yyyyMMdd") + "' ");
 
             sql.Append("order by coptds.TD013");
@@ -105,7 +108,7 @@ and  coptcs.TC027 = 'Y'
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error,"GetDataProductionOrder() : " + ex.Message);
+                Logfile.Output(StatusLog.Error,"GetDataProductionOrder() : " + ex.Message);
             }
         }
 
@@ -172,13 +175,12 @@ TH016
                     inf.OrderCode = Order.OrderCode;
                     inf.Product = Order.Product_Code;
                     inf.Clients = Order.ClientsName;
+                    inf.OrderCreateDate = Order.DateOrder;
                     inf.ClientsRequestDate = Order.Client_Request_Date;
                     inf.Clients_OrderCode = Order.Clients_Order_Code;
                     inf.Quantity = Order.Order_Quantity;
                     inf.Stock_Quantity = Order.Fisnished_Goods;
 
-
-                   
                     listSemi = GetSemibyNameProduct(inf.Product);
                     if (listSemi.Count > 0)
                     {
@@ -200,7 +202,7 @@ TH016
                         }
                     }
                    
-                        inf.OverDueDate = (DateTime.Now.DayOfYear - inf.ClientsRequestDate.DayOfYear);
+                        inf.OverDueDate = (DateTime.Now.Date - inf.ClientsRequestDate.Date).Days;
                     var ListProduct = ListShipping
                         .Where(w => w.OrderCode.Trim() == inf.OrderCode.Trim() && w.Product_Code.Trim() == inf.Product.Trim() && w.STT.Trim() == Order.STT.Trim())
                         .Select(d => new { d.Shipped_Quantity, d.Shipped_Date }).Distinct().ToArray();
@@ -337,7 +339,8 @@ TH016
 
                     OrderData or = new OrderData();
                     or.OrderCode = (string)dta.Rows[i][0] + "-" + (string)dta.Rows[i][1];
-
+                    string DATE = (string)dta.Rows[i]["orderDate"].ToString();
+                    or.DateOrder = ((string)dta.Rows[i]["orderDate"].ToString() == "") ?  DateTime.MinValue : DateTime.ParseExact(dta.Rows[i]["orderDate"].ToString(), "yyyyMMdd", CultureInfo.InvariantCulture) ;
                     or.Departments_code = (dta.Rows[i][2] != null && dta.Rows[i][2].ToString() !="") ?  dta.Rows[i][2].ToString().Trim(): "N/A";
                     or.ClientsName = (string)dta.Rows[i][3].ToString().Trim();
                     or.Clients_Order_Code = (string)dta.Rows[i][4].ToString().Trim();
@@ -345,7 +348,7 @@ TH016
                     or.Product_Name = (string)dta.Rows[i][6].ToString().Trim();
                     or.unit = (string)dta.Rows[i][7].ToString().Trim();
                     or.Departments = (string)dta.Rows[i][8].ToString().Trim();
-                    or.Client_Request_Date = ((string)dta.Rows[i][9].ToString() == "") ? DateTime.MinValue : DateTime.Parse(dta.Rows[i][9].ToString().Trim().Insert(4, "-").Insert(7, "-"));
+                    or.Client_Request_Date = ((string)dta.Rows[i][9].ToString() == "") ? DateTime.MinValue : DateTime.ParseExact(dta.Rows[i][9].ToString(), "yyyyMMdd", CultureInfo.InvariantCulture);
                     or.Order_Quantity = (string)dta.Rows[i][10].ToString() == "" ? 0 : Math.Round(double.Parse(dta.Rows[i][10].ToString().Trim()), 2);
                     or.Shipped_Quantity = (string)dta.Rows[i][11].ToString() == "" ? 0 : Math.Round(double.Parse(dta.Rows[i][11].ToString().Trim()), 2);
                     
@@ -512,6 +515,7 @@ TH016
         public string Clients_OrderCode { get; set; }
         public string Product { get; set; }
         public double Quantity { get; set; }
+        public DateTime OrderCreateDate { get; set; }
         public DateTime ClientsRequestDate { get; set; }
         public double Shipped_Quantity { get; set; }
         public DateTime DeliveryDate { get; set; }

@@ -40,8 +40,8 @@
             this.lbl_hours = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_test_emailTL = new System.Windows.Forms.Button();
+            this.btn_testGmail = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cb_Backlog2Excel = new System.Windows.Forms.CheckBox();
             this.dgv_export = new System.Windows.Forms.DataGridView();
@@ -200,8 +200,8 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btn_test_emailTL);
+            this.panel1.Controls.Add(this.btn_testGmail);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.btn_Start);
             this.panel1.Controls.Add(this.groupBox3);
@@ -211,25 +211,26 @@
             this.panel1.Size = new System.Drawing.Size(444, 383);
             this.panel1.TabIndex = 0;
             // 
-            // button2
+            // btn_test_emailTL
             // 
-            this.button2.Location = new System.Drawing.Point(342, 248);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 28);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.btn_test_emailTL.Location = new System.Drawing.Point(6, 253);
+            this.btn_test_emailTL.Name = "btn_test_emailTL";
+            this.btn_test_emailTL.Size = new System.Drawing.Size(180, 23);
+            this.btn_test_emailTL.TabIndex = 37;
+            this.btn_test_emailTL.Text = "Send by TL email";
+            this.btn_test_emailTL.UseVisualStyleBackColor = true;
+            this.btn_test_emailTL.Click += new System.EventHandler(this.btn_test_emailTL_Click);
             // 
-            // button1
+            // btn_testGmail
             // 
-            this.button1.Location = new System.Drawing.Point(321, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 55);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "MQC Report";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click_2);
+            this.btn_testGmail.Location = new System.Drawing.Point(7, 223);
+            this.btn_testGmail.Name = "btn_testGmail";
+            this.btn_testGmail.Size = new System.Drawing.Size(180, 23);
+            this.btn_testGmail.TabIndex = 36;
+            this.btn_testGmail.Text = "Send BackLogReport";
+            this.btn_testGmail.UseVisualStyleBackColor = true;
+            this.btn_testGmail.Visible = false;
+            this.btn_testGmail.Click += new System.EventHandler(this.btn_testGmail_Click);
             // 
             // groupBox1
             // 
@@ -240,7 +241,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 124);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(441, 118);
+            this.groupBox1.Size = new System.Drawing.Size(441, 93);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Task Run";
@@ -492,8 +493,8 @@
         private System.Windows.Forms.DataGridView dgv_export;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox cb_Backlog2Excel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_test_emailTL;
+        private System.Windows.Forms.Button btn_testGmail;
     }
 }
 

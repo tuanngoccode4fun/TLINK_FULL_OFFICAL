@@ -14,12 +14,11 @@ namespace UploadDataToDatabase.MQC.Report
         public string pathMonth = Environment.CurrentDirectory + @"\Resources\Month.xls";
         public string pathDaily = Environment.CurrentDirectory + @"\Resources\FORM_MQC_DAILY.xlsx";
         public string pathSaveProduction = @"\\172.16.0.5\Program\ProductionData\";
-        private string Pathsave = @"C:\ERP_Temp\MQC_Daily_Report" + "" + " - " + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx";
-        public bool ExportReportProductionFromTo(DateTime from, DateTime To)
+        public bool ExportReportProductionFromTo(string folderAttached,DateTime from, DateTime To)
         {
             try
             {
-
+               var pathSave = folderAttached+  @"\MQC_Daily_Report" + "" + " - " + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx";
                 DefectRateReport defectRateReport = new DefectRateReport();
 
                 List<DefectRateData> defectRateDatas = new List<DefectRateData>();
@@ -30,7 +29,7 @@ namespace UploadDataToDatabase.MQC.Report
                 SelectTopDefectItems selectTopDefect = new SelectTopDefectItems();
                 List<string> listHeaderRW25 = selectTopDefect.GetListStringHeaderReworkTop25();
                 ExportExcelTool exportExcel = new ExportExcelTool();
-                exportExcel.ExportToTemplateMQCDefectDaily(pathDaily, Pathsave, listHeaderRW25, defectRateDatas, from, To);
+                exportExcel.ExportToTemplateMQCDefectDaily(pathDaily, pathSave, listHeaderRW25, defectRateDatas, from, To);
                 return true;
             }
             catch (Exception ex)

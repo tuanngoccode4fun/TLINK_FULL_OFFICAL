@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using UploadDataToDatabase.Log;
+using UploadDataToDatabase;
 
 
 namespace UploadDataToDatabase
@@ -28,7 +28,7 @@ namespace UploadDataToDatabase
             }
             catch (Exception ex)
             {
-                Logfile.Output(StatusLog.Error, "sqlExecuteScalarString", ex.Message);
+                Logfile.Output(StatusLog.Error, "sqlExecuteScalarString", ex.StackTrace);
                 conn.Close();
                 return String.Empty;
             }
@@ -58,7 +58,7 @@ namespace UploadDataToDatabase
             }
             catch (Exception ex)
             {
-                Logfile.Output(StatusLog.Error, "Database Responce", ex.Message);
+                Logfile.Output(StatusLog.Error, "Database Responce", ex.StackTrace);
             
 
             }
@@ -90,7 +90,7 @@ namespace UploadDataToDatabase
             }
             catch (Exception ex)
             {
-                Logfile.Output(StatusLog.Error, "Database Responce", ex.Message);
+                Logfile.Output(StatusLog.Error, "Database Responce", ex.StackTrace);
                
 
             }
@@ -111,7 +111,7 @@ namespace UploadDataToDatabase
             }
             catch (Exception ex)
             {
-                Logfile.Output(StatusLog.Error, "Database Responce", ex.Message);
+                Logfile.Output(StatusLog.Error, "Database Responce", ex.StackTrace);
                
 
             }
@@ -143,7 +143,7 @@ namespace UploadDataToDatabase
             }
             catch (Exception ex)
             {
-                Logfile.Output(StatusLog.Error, "Not successful!" + " Database Responce", ex.Message);
+                Logfile.Output(StatusLog.Error, "Not successful!" + " Database Responce", ex.StackTrace);
             
                 conn.Close();
                 return false;
@@ -177,7 +177,7 @@ namespace UploadDataToDatabase
             }
             catch (Exception ex)
             {
-                Logfile.Output(StatusLog.Error, "Database Responce", ex.Message);
+                Logfile.Output(StatusLog.Error, "Database Responce", ex.StackTrace);
               
 
             }

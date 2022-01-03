@@ -63,6 +63,26 @@ namespace UploadDataToDatabase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] AbsenceForm_v1 {
+            get {
+                object obj = ResourceManager.GetObject("AbsenceForm_v1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] AttendanceDaily {
+            get {
+                object obj = ResourceManager.GetObject("AttendanceDaily", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] BackLogForm {
             get {
                 object obj = ResourceManager.GetObject("BackLogForm", resourceCulture);
@@ -97,6 +117,16 @@ namespace UploadDataToDatabase.Properties {
             get {
                 object obj = ResourceManager.GetObject("excel_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] FORM_MQC_DAILY {
+            get {
+                object obj = ResourceManager.GetObject("FORM_MQC_DAILY", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -147,6 +177,16 @@ namespace UploadDataToDatabase.Properties {
             get {
                 object obj = ResourceManager.GetObject("picture_Search", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Reliability {
+            get {
+                object obj = ResourceManager.GetObject("Reliability", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

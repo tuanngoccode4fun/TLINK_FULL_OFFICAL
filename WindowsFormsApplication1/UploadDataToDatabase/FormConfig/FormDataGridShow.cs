@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UploadDataToDatabase.BackLogReport;
-using UploadDataToDatabase.Log;
+using UploadDataToDatabase;
 
 namespace UploadDataToDatabase.FormConfig
 {
@@ -52,20 +52,24 @@ namespace UploadDataToDatabase.FormConfig
             DateTime to = dtPickerTo.Value;
             //  realability.GetDataBackLogToExport(out listShipingResult);
             List<RawReliability> realabilityItems = realability.GetDataRawReliability(from, to);
-            //Dictionary<string, Dictionary<string, List<ReliabilitySummary>>>
-            //    GetdataGroupByClient = realability.SortbyClientRealitykeyValuePairs(realabilityItems);
-            //List<ReliabilitySummary> listReliabilityToShow = new List<ReliabilitySummary>();
-            //foreach (var ClientsGroup in GetdataGroupByClient)
+            List<RawReliability> realabilityItemsAdding7Days = realability.GetDataRawReliabilityAdding7Days(realabilityItems);
+            //List<RawReliability> raws = new List<RawReliability>();
+            
+            //foreach (var item in realabilityItems)
             //{
-            //    foreach (var DeptGroup in ClientsGroup.Value)
-            //    {
-            //        foreach (var item in DeptGroup.Value)
-            //        {
-            //            listReliabilityToShow.Add(item);
-            //        }
-            //    }
+            //    raws.Add(item);
             //}
-            dataGridView1.DataSource = realabilityItems;
+           dataGridView1.DataSource = realabilityItemsAdding7Days;
+
+
+
+            //int count = realabilityItems.Where(d => d.Evaluation == "Late").Count();
+            // List<RawReliability> realabilityItemsAdding7Days = realability.GetDataRawReliabilityAdding7Days(realabilityItems);
+            //    int count3 = realabilityItems.Where(d => d.Evaluation == "Late").Count();
+            // raws = null;
+            // int count2 = realabilityItemsAdding7Days.Where(d => d.Evaluation == "Late").Count();
+            // dtgv_adding7days.DataSource = realabilityItemsAdding7Days;
+            // realabilityItems = null;
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -73,6 +77,8 @@ namespace UploadDataToDatabase.FormConfig
             ExportExcelTool exportExcelTool = new ExportExcelTool();
             string path = @"C:\ERP_Temp\Reliability Raw_" + DateTime.Now.ToString("ddMMyy HHmmss") + ".xls";
             exportExcelTool.dtgvExport2Excel(dataGridView1, path);
+            //path = @"C:\ERP_Temp\Reliability Raw_" + DateTime.Now.ToString("ddMMyy HHmmss") + ".xls";
+            //exportExcelTool.dtgvExport2Excel(dataGridView1, dtgv_adding7days, path);
         }
 
         private void Button4_Click(object sender, EventArgs e)
@@ -89,8 +95,12 @@ namespace UploadDataToDatabase.FormConfig
             //   realabilityReport.SendMailReliabilityReportWeekly();
             List<ReliabilitySummary> ListReliability = new List<ReliabilitySummary>();
             List<ReliabilitySummary> ListReliabilityDept = new List<ReliabilitySummary>();
-            ListReliability = realabilityReport.GetDataForReliability(from, to, out ListReliabilityDept);
-            exportExcelTool.ExportToReliabilityReport(pathTemplate, path, ListReliability, ListReliabilityDept, from, to);
+            List<ReliabilitySummary> ListReliabilityClient7Days = new List<ReliabilitySummary>();
+            List<ReliabilitySummary> ListReliabilityDept7Days = new List<ReliabilitySummary>();
+            List<RawReliability> rawReliabilities = realabilityReport.GetDataRawReliability(from, to);
+            ListReliability = realabilityReport.GetDataForReliability(from, to, rawReliabilities, out ListReliabilityDept, out ListReliabilityClient7Days, out ListReliabilityDept7Days);
+       //     ListReliability = realabilityReport.GetDataForReliability(from, to, out ListReliabilityDept);
+            exportExcelTool.ExportToReliabilityReportAdding7DaysAddingRawData(pathTemplate, path, ListReliability, ListReliabilityDept, ListReliabilityClient7Days, ListReliabilityDept7Days, rawReliabilities, from, to);
 
 
 

@@ -72,10 +72,13 @@ namespace UploadDataToDatabase.MQC
         public double OutputQty { get; set; }
         public double NGQty { get; set; }
         public double DefectRate { get; set; }
+        public double ReworkQty { get; set; }
+        public double ReworkRate { get; set; }
         public string Remark { get; set; }
         public string Lot { get; set; }
+        public string Line { get; set; }
         public List<DefectItem> defectItems { get; set; }
-
+        public List<DefectItem> ReworkItems { get; set; }
     }
 
     public class DefectItem
@@ -104,8 +107,12 @@ namespace UploadDataToDatabase.MQC
         public double TotalQuantity { get; set; }
         public double OutputQuantity { get; set; }
         public double DefectQuantity { get; set; }
+        public double ReworkQuantity { get; set; }
+        public double ReworkRate { get; set; }
         public double DefectRate { get; set; }
+        public string Line { get; set; }
         public List<DefectItem> defectItems { get; set; }//top 5 + khac
+        public List<DefectItem> ReworkItems { get; set; }
         public TargetMQC TargetMQC { get; set; }
 
     }

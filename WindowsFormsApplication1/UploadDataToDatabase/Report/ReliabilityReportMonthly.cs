@@ -23,7 +23,7 @@ namespace UploadDataToDatabase.Report
         {
             string ReportName = "Reliability_Report";
             GetDataEmail getDataEmail = new GetDataEmail();
-            List<ScheduleReportItems> scheduleReportItems = getDataEmail.GetScheduleReportCommon(ReportName);
+            List<ScheduleReportItems> scheduleReportItems = getDataEmail.GetScheduleReportCommon(ReportName,"Monthly");
             List<EmailNeedSend> emailNeedSends = getDataEmail.GetEmailNeedSends(ReportName);
 
             if (scheduleReportItems != null && scheduleReportItems.Count == 1)

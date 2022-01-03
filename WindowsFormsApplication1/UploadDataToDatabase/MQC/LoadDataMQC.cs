@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using UploadDataToDatabase.Class;
 
 namespace UploadDataToDatabase.MQC
 {
@@ -115,7 +116,7 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "GetQCCItemOK", ex.Message);
+                Logfile.Output(StatusLog.Error, "GetQCCItemOK", ex.Message);
             }
             // sql.Append()
             return mQCItem;
@@ -195,7 +196,7 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "listMQCItemsOfDept()", ex.Message);
+                Logfile.Output(StatusLog.Error, "listMQCItemsOfDept()", ex.Message);
             }
             return listMQCReturn;
 
@@ -214,8 +215,10 @@ namespace UploadDataToDatabase.MQC
             sql.Append("and lot like '%" + lot + "%' ");
             sql.Append("and site = '" + site + "' ");
             sql.Append("and process = '" + process + "' ");
-                sql.Append("and inspectdate > '" + from + "' ");
-                //sql.Append("and inspecttime > '" + to.TimeOfDay + "' ");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+
+                sql.Append(" order by inspectdate, inspecttime ");
                 sqlCON sql12 = new sqlCON();
             DataTable dt = new DataTable();
             sql12.sqlDataAdapterFillDatatable(sql.ToString(), ref dt);
@@ -242,7 +245,7 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "listMQCDataItems()", ex.Message);
+                Logfile.Output(StatusLog.Error, "listMQCDataItems()", ex.Message);
             }
             return listMQCDataItems;
         }
@@ -260,8 +263,10 @@ namespace UploadDataToDatabase.MQC
                 sql.Append("where 1=1  and data  != '0' ");
                 sql.Append("and site = '" + site + "' ");
             sql.Append("and process = '" + process + "' ");
-            sql.Append(" and ((inspectdate = '"+ from.ToString("yyyy-MM-dd") +"' and inspecttime >= '" + from.ToString("HH:mm:ss") + "' )");
-            sql.Append(" or (inspectdate = '" + to.ToString("yyyy-MM-dd") + "' and inspecttime <= '" + to.ToString("HH:mm:ss") + "' ))");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+
+                sql.Append(" order by inspectdate, inspecttime ");
                 sqlCON sql12 = new sqlCON();
             DataTable dt = new DataTable();
             sql12.sqlDataAdapterFillDatatable(sql.ToString(), ref dt);
@@ -288,7 +293,7 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "listMQCDataItemsbySite()", ex.Message);
+                Logfile.Output(StatusLog.Error, "listMQCDataItemsbySite()", ex.Message);
             }
 
             return listMQCDataItems;
@@ -307,8 +312,10 @@ namespace UploadDataToDatabase.MQC
                    sql.Append("where 1=1  and data  != '0' ");
                 sql.Append("and site = '" + site + "' ");
                 sql.Append("and process = '" + process + "' ");
-                sql.Append(" and  inspectdate >= '" + from.ToString("yyyy-MM-dd") + "'  ");
-                sql.Append(" and  inspectdate <= '" + to.ToString("yyyy-MM-dd") + "'  ");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+
+                sql.Append(" order by inspectdate, inspecttime ");
                 sqlCON sql12 = new sqlCON();
                 DataTable dt = new DataTable();
                 sql12.sqlDataAdapterFillDatatable(sql.ToString(), ref dt);
@@ -335,12 +342,12 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "listMQCDataItemsbySite()", ex.Message);
+                Logfile.Output(StatusLog.Error, "listMQCDataItemsbySite()", ex.Message);
             }
 
             return listMQCDataItems;
         }
-        public List<MQCDataItems> listMQCDataItemsbylot(DateTime from, TimeSpan time_from, DateTime to, TimeSpan time_to, string site, string process, string lot)
+        public List<MQCDataItems> listMQCDataItemsbylot(DateTime from, DateTime to,  string site, string process, string lot)
         {
             List<MQCDataItems> listMQCDataItems = new List<MQCDataItems>();
             try
@@ -355,10 +362,10 @@ namespace UploadDataToDatabase.MQC
                 sql.Append("and site = '" + site + "' ");
                 sql.Append("and process = '" + process + "' ");
                 sql.Append("and lot = '" + lot + "' ");
-                sql.Append("and inspectdate >= '" + from.ToString("yyyy-MM-dd") + "' ");
-                sql.Append("and inspectdate <= '" + to.ToString("yyyy-MM-dd") + "' ");
-                sql.Append("and inspecttime >= '" + time_from+ "' ");
-                sql.Append("and inspecttime <= '" + time_to + "' ");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+                sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+
+                sql.Append(" order by inspectdate, inspecttime ");
                 sqlCON sql12 = new sqlCON();
                 DataTable dt = new DataTable();
                 sql12.sqlDataAdapterFillDatatable(sql.ToString(), ref dt);
@@ -385,7 +392,7 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "listMQCDataItemsbySite()", ex.Message);
+                Logfile.Output(StatusLog.Error, "listMQCDataItemsbySite()", ex.Message);
             }
 
             return listMQCDataItems;
@@ -405,9 +412,10 @@ namespace UploadDataToDatabase.MQC
             sql.Append("and lot like '%" + lot + "%' ");
             sql.Append("and site = '" + site + "' ");
             sql.Append("and process = '" + process + "' ");
-            sql.Append("and inspectdate >= '" + from + "' ");
-            sql.Append("and inspecttime >= '" + to.TimeOfDay + "' ");
-            sqlCON sql12 = new sqlCON();
+           sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+             sql.Append("and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+            sql.Append(" order by inspectdate, inspecttime ");
+                sqlCON sql12 = new sqlCON();
             DataTable dt = new DataTable();
             sql12.sqlDataAdapterFillDatatable(sql.ToString(), ref dt);
             listMQCDataItems = (from DataRow dr in dt.Rows
@@ -433,14 +441,124 @@ namespace UploadDataToDatabase.MQC
             catch (Exception ex)
             {
 
-                Log.Logfile.Output(Log.StatusLog.Error, "listMQCData_ErrorItems()", ex.Message);
+                Logfile.Output(StatusLog.Error, "listMQCData_ErrorItems()", ex.Message);
             }
 
             return listMQCDataItems;
         }
-       
-        
+        public List<MQCItemSummary> GetMQCItemSummaries(PeriodProduction period, string site, string process)
+        {
+            DateTime from = new DateTime(); DateTime to = new DateTime();
+            DateTimeControl.ReturnDateTimePeriodProduction(period, ref from, ref to);
+            string date = from.ToString("yyyy-MM-dd");
+            string time = from.ToString("HH:mm:ss");
+            List<MQCItemSummary> qCItemSummaries = new List<MQCItemSummary>();
 
+            try
+            {
+                LoadDataMQC dataMQC = new LoadDataMQC();
+                List<MQCDataItems> mQCDataItems = dataMQC.listMQCDataItemsbySite(from, to, site, process);
+                //Nhom theo san pham
+                var ListMQCbyProduct = mQCDataItems
+                    .OrderBy(d => d.line)
+                     .GroupBy(u => u.lot)
+                     .Select(grp => grp.ToList())
+                    .ToList();
+                foreach (var qCDataItems in ListMQCbyProduct)
+                {
+                    MQCItemSummary itemSummary = new MQCItemSummary();
+                    itemSummary.product = qCDataItems[0].model;
+                    itemSummary.defectItems = new List<DefectItem>();
+                    var ListItemsData = qCDataItems
+                 .GroupBy(u => u.item)
+                 .Select(grp => grp.ToList())
+                .ToList();
+
+                    var ListItemsDate = qCDataItems
+                .GroupBy(u => u.inspectdate)
+               .ToList();
+                    foreach (var itemDate in ListItemsDate)
+                    {
+                        var ListItemsTime = qCDataItems
+             .GroupBy(u => u.inspecttime)
+            .ToList();
+                        
+                            itemSummary.Time_from = dataMQC.GetMinTimeProductionOfProduct(itemSummary.product, from, to);
+                            itemSummary.Time_To = dataMQC.GetMaxTimeProductionOfProduct(itemSummary.product, from, to);
+                          
+                       
+                    }
+                    //Khi thay doi ngay can phai chinh lai thoi gian
+
+                    foreach (var itemData in ListItemsData)
+                    {
+                        itemSummary.product = itemData[0].model;
+                        itemSummary.Line = itemData[0].line;
+                        itemSummary.Lot = itemData[0].lot;
+
+                        if (itemData[0].remark == "OP")
+                        {
+                            itemSummary.OutputQty = itemData.Select(d => d.data).Sum();
+                        }
+                        else if (itemData[0].remark == "NG")
+                        {
+                            DefectItem item = new DefectItem();
+                            item.DefectCode = itemData[0].item;
+                            item.Quantity = itemData.Select(d => d.data).Sum();
+                            LoadDefectMapping defectMapping = new LoadDefectMapping();
+                            NGItemsMapping nGItemsMapping = defectMapping.GetNGMapping(site, process, item.DefectCode);
+                            item.DefectSFT = nGItemsMapping.NGCode_SFT;
+                            item.DefectSFTName = nGItemsMapping.NGCodeName_SFT;
+                            itemSummary.defectItems.Add(item);
+                            itemSummary.NGQty += item.Quantity;
+                        }
+                        else if (itemData[0].remark == "RW")
+                        {
+                            DefectItem item = new DefectItem();
+                            item.DefectCode = itemData[0].item;
+                            item.Quantity = itemData.Select(d => d.data).Sum();
+
+                            itemSummary.ReworkQty += item.Quantity;
+                        }
+                    }
+                    itemSummary.QuantityTotal = itemSummary.OutputQty + itemSummary.NGQty/*+ itemSummary.ReworkQty*/;
+                    itemSummary.DefectRate = (itemSummary.QuantityTotal != 0) ? (itemSummary.NGQty / itemSummary.QuantityTotal) : 0;
+                    itemSummary.ReworkRate = (itemSummary.QuantityTotal != 0) ? (itemSummary.ReworkQty / itemSummary.QuantityTotal) : 0;
+                    qCItemSummaries.Add(itemSummary);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Logfile.Output(StatusLog.Error, "GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)", ex.Message);
+            }
+            return qCItemSummaries;
+        }
+
+        public string GetMaxTimeProductionOfProduct(string model, DateTime from, DateTime to)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append(@"select max(cast(inspectdate as datetime) + CAST (inspecttime as datetime)) from m_ERPMQC_REALTIME
+where 1=1 and data != '0'   and site = 'B01' and process = 'MQC' 
+");
+            stringBuilder.Append(" and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+            stringBuilder.Append(" and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+            stringBuilder.Append(" and model = '" + model + "' ");
+            sqlCON sql12 = new sqlCON();
+            return sql12.sqlExecuteScalarString(stringBuilder.ToString());
+        }
+        public string GetMinTimeProductionOfProduct(string model, DateTime from, DateTime to)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append(@"select min(cast(inspectdate as datetime) + CAST (inspecttime as datetime)) from m_ERPMQC_REALTIME
+where 1=1 and data != '0'   and site = 'B01' and process = 'MQC' 
+");
+            stringBuilder.Append(" and cast(inspectdate as datetime) + CAST (inspecttime as datetime) >= '" + from.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+            stringBuilder.Append(" and cast(inspectdate as datetime) + CAST (inspecttime as datetime) <= '" + to.ToString("yyyy-MM-dd HH:mm:ss") + "'");
+            stringBuilder.Append(" and model = '" + model + "' ");
+            sqlCON sql12 = new sqlCON();
+            return sql12.sqlExecuteScalarString(stringBuilder.ToString());
+        }
 
     }
 }

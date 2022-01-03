@@ -43,10 +43,18 @@ namespace UploadDataToDatabase.Class
             dateTo = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + 7);
       
         }
+        public static void ReturnDateTimeFirstMonthToNow(ref DateTime dateFrom, ref DateTime dateTo)
+        {
+         //   int WeekNo = CultureInfo.InvariantCulture.Calendar.GetWeekOfYear(DateTime.Now, CalendarWeekRule.FirstDay, DayOfWeek.Monday);
+            dateFrom = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            dateTo = DateTime.Now.Date;
+
+        }
         public static void ReturnDateTimeForMonthly(ref DateTime dateFrom, ref DateTime dateTo)
         {
             DateTime date_From = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
             DateTime date_To = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month));
+            
             dateFrom = date_From;
             dateTo = date_To;
         }

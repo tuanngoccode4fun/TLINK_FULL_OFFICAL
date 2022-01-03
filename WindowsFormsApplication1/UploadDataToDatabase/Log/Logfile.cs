@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UploadDataToDatabase.Log
+namespace UploadDataToDatabase
 {
 
         public enum StatusLog { Normal, Warning, Error };

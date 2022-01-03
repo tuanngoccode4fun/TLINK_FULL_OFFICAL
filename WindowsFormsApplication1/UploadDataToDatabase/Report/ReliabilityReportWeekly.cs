@@ -22,7 +22,7 @@ namespace UploadDataToDatabase.Report
         private void ReliabilityReportWeekly_Load(object sender, EventArgs e)
         { string ReportName = "Reliability_Report";
             GetDataEmail getDataEmail = new GetDataEmail();
-            List<ScheduleReportItems> scheduleReportItems = getDataEmail.GetScheduleReportCommon(ReportName);
+            List<ScheduleReportItems> scheduleReportItems = getDataEmail.GetScheduleReportCommon(ReportName,"Weekly");
             List<EmailNeedSend> emailNeedSends = getDataEmail.GetEmailNeedSends(ReportName);
 
             if(scheduleReportItems != null && scheduleReportItems.Count ==1)
@@ -30,7 +30,7 @@ namespace UploadDataToDatabase.Report
                 if(emailNeedSends != null && emailNeedSends.Count > 0)
                 {
                     SendMailFunction sendmail = new SendMailFunction();
-                    sendmail.SendMailwithExportExceReliabilitybyCompanyMail(scheduleReportItems[0], emailNeedSends);
+                    sendmail.SendMailwithExportExceReliabilityAdding7daysbyCompanyMail(scheduleReportItems[0], emailNeedSends);
                 }
                     
             }

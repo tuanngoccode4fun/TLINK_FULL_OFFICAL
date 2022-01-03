@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using UploadDataToDatabase.Log;
+using UploadDataToDatabase;
 
 namespace UploadDataToDatabase
 {

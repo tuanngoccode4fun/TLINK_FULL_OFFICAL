@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using UploadDataToDatabase.Log;
+using UploadDataToDatabase;
 using System.IO;
 using System.Threading;
 
@@ -14,7 +14,8 @@ namespace UploadDataToDatabase.MQC
    
    public class MQCReport
     {
-        string PathFolder = @"\\172.16.0.5\Program\export\Done\";
+         string PathFolder = @"\\172.16.0.5\Program\export\Done\";
+      //  string PathFolder = @"D:\Done";
         public string MQCForm = Environment.CurrentDirectory + @"\Resources\MQC-PQC_Template.xlsx";
         public string pathMonth = Environment.CurrentDirectory + @"\Resources\Month.xls";
         public string pathDaily = Environment.CurrentDirectory + @"\Resources\MQC_Daily.xlsx";
@@ -52,21 +53,23 @@ namespace UploadDataToDatabase.MQC
                 try
                 {
 
-                Thread.Sleep(10000);
+            //    Thread.Sleep(10000);
                 DateTime StartDate = DateTime.Parse(Startdate).Date;
                 DateTime EndDate = DateTime.Parse(endDate).Date;
               
                 TimeSpan timeStart = TimeSpan.Parse(startTime);
                 TimeSpan timeEnd = TimeSpan.Parse(endTime);
 
-                DefectRateData defectRateData = new DefectRateData();
+                    DateTime from = StartDate + timeStart;
+                    DateTime To = EndDate + timeEnd;
+                    DefectRateData defectRateData = new DefectRateData();
                 DefectRateReport defectRateReport = new DefectRateReport();
-                defectRateData = defectRateReport.GetDefectRateReportByLot(StartDate, timeStart, EndDate, timeEnd, "B01", "0010", lot);
+                defectRateData = defectRateReport.GetDefectRateReportByLot(from, To,  "B01", "0010", lot);
                 if (defectRateData.TotalQuantity > 0)
                 {
-                    Log.ExportExcelTool exportExcel = new Log.ExportExcelTool();
-                    checkFolderSaveProduction(true);
-                    exportExcel.ExportToTemplateMQCDefectTop16(MQCForm, pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd") + "\\" + "MQC_" + lot + "" + "-" + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx", defectRateData);
+                    ExportExcelTool exportExcel = new ExportExcelTool();
+                    checkFolderSaveProduction( defectRateData.Line,true);
+                    exportExcel.ExportToTemplateMQCDefectTop16(MQCForm, pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd") + "\\"+defectRateData.Line + "\\" + "MQC_" + lot + "" + "-" + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx", defectRateData);;
                 }
                    
                 if (File.Exists(fileRead))
@@ -78,22 +81,24 @@ namespace UploadDataToDatabase.MQC
                     Logfile.Output(StatusLog.Normal, "ExportReportProduction()", ex.Message);
                     if (File.Exists(fileRead))
                     {
-                     //   string temp = PathErrorFiles + new FileInfo(fileRead).Name;
-                        File.Move(fileRead, PathErrorFiles + new FileInfo(fileRead).Name);
+                        //   string temp = PathErrorFiles + new FileInfo(fileRead).Name;
+                        if (File.Exists(PathErrorFiles + new FileInfo(fileRead).Name) == false)
+                            File.Move(fileRead, PathErrorFiles + new FileInfo(fileRead).Name);
+                        else File.Delete(fileRead);
                     }
                 }
             }
         }
-        private bool checkFolderSaveProduction(bool createFolder = true)
+        private bool checkFolderSaveProduction( string line, bool createFolder = true)
         {
             if (createFolder)
             {
-                if (Directory.Exists(pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd")) == false)
-                    Directory.CreateDirectory(pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd"));
+                if (Directory.Exists(pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd")+"\\" + line) == false)
+                    Directory.CreateDirectory(pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd") + "\\" + line);
             }
             else
             {
-                return Directory.Exists(pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd"));
+                return Directory.Exists(pathSaveProduction + DateTime.Now.ToString("yyyy-MM-dd") + "\\" + line);
             }
             return true;
         }
@@ -109,7 +114,7 @@ namespace UploadDataToDatabase.MQC
                 defectRateData = defectRateReport.GetDefectRateReportAmountOfTime(date_from, date_to, "B01", "0010");
                 if (defectRateData.TotalQuantity == 0)
                     return false;
-                Log.ExportExcelTool exportExcel = new Log.ExportExcelTool();
+                ExportExcelTool exportExcel = new ExportExcelTool();
                 exportExcel.ExportToTemplateMQCDefectAmountOfTime(date_from, date_to, pathMonth, @"C:\ERP_Temp\MQC_Monthly_Report" + "-" + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx", defectRateData);
                 return true;
             }
@@ -132,7 +137,7 @@ namespace UploadDataToDatabase.MQC
                 defectRateData = defectRateReport.GetDefectRateReportAmountOfTime(date_from, date_to, "B01", "0010");
                 if (defectRateData.TotalQuantity == 0)
                     return false;
-                Log.ExportExcelTool exportExcel = new Log.ExportExcelTool();
+                ExportExcelTool exportExcel = new ExportExcelTool();
                 exportExcel.ExportToTemplateMQCDefectAmountOfTime(date_from, date_to, pathMonth, @"C:\ERP_Temp\MQC_Weekly_Report" + "-" + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx", defectRateData);
                 return true;
             }
@@ -155,7 +160,7 @@ namespace UploadDataToDatabase.MQC
 
                 if (defectRateDatas.Count == 0)
                     return false;
-                Log.ExportExcelTool exportExcel = new Log.ExportExcelTool();
+                ExportExcelTool exportExcel = new ExportExcelTool();
             exportExcel.ExportToTemplateMQCDefectDaily(pathDaily, @"C:\ERP_Temp\MQC_Daily_Report" + "-" + DateTime.Now.ToString("yyyyMMdd hhmmss") + ".xlsx", defectRateDatas);
                 return true;
             }

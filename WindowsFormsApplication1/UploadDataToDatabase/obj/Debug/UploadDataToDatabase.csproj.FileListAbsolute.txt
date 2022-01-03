@@ -1,13 +1,180 @@
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.HR_Audit.HR_Audit.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
-C:\Users\fs125929\OneDrive - First Solar\AN Private\Freelancer\TLINK_FULL_OFFICAL\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Upload Data To Database.exe.config
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Upload Data To Database.exe
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Upload Data To Database.pdb
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\Upload Data To Database.exe
+G:\Backup\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\Upload Data To Database.pdb
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC_Daily.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Reliability.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Week.xls
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm2.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm3.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\EmailTemplate.html
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm.xls
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Month.xls
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC-PQC_Template.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.exe
+D:\AN\Project\Backup\TLMS\Version 1.0.39\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.pdb
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC_Daily.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Reliability.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Week.xls
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm2.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm3.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\EmailTemplate.html
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm.xls
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Month.xls
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC-PQC_Template.xlsx
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.exe
+D:\AN\Project\Backup\TLMS\Version 1.0.40\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.pdb
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC_Daily.xlsx
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Reliability.xlsx
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Week.xls
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm2.xlsx
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm3.xlsx
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\EmailTemplate.html
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm.xls
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Month.xls
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC-PQC_Template.xlsx
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.HR_Audit.HR_Audit.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.exe
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.pdb
+D:\AN\Project\TechLink_master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC_Daily.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Reliability.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Week.xls
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm2.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm3.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\EmailTemplate.html
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm.xls
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Month.xls
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC-PQC_Template.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.HR_Audit.HR_Audit.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.exe
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.pdb
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\FORM_MQC_DAILY.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\AbsenceForm_v1.xlsx
+D:\AN\Project\github_clone\Techlink-TLMS\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\AttendanceDaily.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\FORM_MQC_DAILY.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\AbsenceForm_v1.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\AttendanceDaily.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Reliability.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC_Daily.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Week.xls
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm2.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm3.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\EmailTemplate.html
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm.xls
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Month.xls
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC-PQC_Template.xlsx
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.HR_Audit.HR_Audit.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.exe
+D:\0.7 YEAR 2020\0.1 PROJECT OUTSOURE\0.2 Project\Source Release\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\FORM_MQC_DAILY.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\AbsenceForm_v1.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\AttendanceDaily.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Reliability.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC_Daily.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Week.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm2.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm3.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\EmailTemplate.html
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\BackLogForm.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\Month.xls
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\Resources\MQC-PQC_Template.xlsx
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.exe
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.FormDataGridShow.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.FormConfig.ReportSchechuleForm.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.HR_Audit.HR_Audit.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Properties.Resources.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.BacklogReport.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportMonthly.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Report.ReliabilityReportWeekly.resources
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.GenerateResource.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.CoreCompileInputs.cache
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.exe
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\TLMS Report.pdb
+C:\Users\fs125929\OneDrive - First Solar\AN Private\Techlink-TLMS-master\WindowsFormsApplication1\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csprojAssemblyReference.cache
